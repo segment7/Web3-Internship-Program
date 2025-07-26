@@ -18,12 +18,12 @@
 ## 报名时间
 
 - 报名开始时间：2025-07-28
-- 报名结束时间：2025-07-31
+- 报名结束时间：2025-08-01
 
 ## 共学时间
 
 - 共学开始时间：2025-08-01
-- 共学结束时间：2025-08-30
+- 共学结束时间：2025-08-31
 
 ## 发起人
 
@@ -36,7 +36,7 @@
 
   [ETHPanda](https://ethpanda.org/) <img alt="organization-logo" height="60px" width="60px" src="https://cdn.lxdao.io/10aed40b-4786-4c2b-aaaa-b7d8a119c00e.png" />
 
-  [LXDAO](https://lxdao.io/) <img alt="organization-logo" height="60px" width="60px" src="https://avatars.githubusercontent.com/u/167147327?s=200&v=4" />
+  [LXDAO](https://lxdao.io/) <img alt="organization-logo" height="60px" width="60px" src="https://web3logo.info/detail/LXDAO/1" />
 
 
 
