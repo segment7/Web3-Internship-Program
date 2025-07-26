@@ -18,12 +18,12 @@
 ## 报名时间
 
 - 报名开始时间：2025-07-28
-- 报名结束时间：2025-08-01
+- 报名结束时间：2025-07-31
 
 ## 共学时间
 
 - 共学开始时间：2025-08-01
-- 共学结束时间：2025-08-29
+- 共学结束时间：2025-08-30
 
 ## 发起人
 
@@ -34,9 +34,9 @@
 
 ## 发起组织
 
-  [ETHPanda](https://ethpanda.org/) <img alt="organization-logo" height="60px" width="60px" src="https://web3logo.info/detail/ETHPanda/969" />
+  [ETHPanda](https://ethpanda.org/) <img alt="organization-logo" height="60px" width="60px" src="https://cdn.lxdao.io/10aed40b-4786-4c2b-aaaa-b7d8a119c00e.png" />
 
-  [LXDAO](https://lxdao.io/) <img alt="organization-logo" height="60px" width="60px" src="https://web3logo.info/detail/LXDAO/1" />
+  [LXDAO](https://lxdao.io/) <img alt="organization-logo" height="60px" width="60px" src="https://avatars.githubusercontent.com/u/167147327?s=200&v=4" />
 
 
 
@@ -50,7 +50,8 @@ Telegram：
 
 ## 学习资料/课程安排
 
-学习内容
+Web3 实习手册
+https://web3intern.xyz/
 
 
 
