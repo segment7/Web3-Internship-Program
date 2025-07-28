@@ -17,20 +17,20 @@ Web3, Web3 实习
 
 ## 报名时间
 
-- 报名开始时间：2025-07-28
-- 报名结束时间：2025-08-01
+- 报名开始时间：2025-07-31
+- 报名结束时间：2025-07-31
 
 ## 共学时间
 
 - 共学开始时间：2025-08-01
-- 共学结束时间：2025-09-02
+- 共学结束时间：2025-08-29
 
 ## 发起人
 
-- 姓名：Vdel
-- GitHub ID：Vdell-sys
-- Telegram：Vdel_sys
-- Email：ukd@tuta.io
+- 姓名：Marcus
+- GitHub ID：MRzzz-cyber
+- Telegram：marcuszheng
+- Email：zqsanjingshou@gmail.com
 
 ## 发起组织
 
