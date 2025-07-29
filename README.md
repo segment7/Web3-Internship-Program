@@ -128,7 +128,9 @@ TODO 等待补充中
 | [evelive3](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/evelive3.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [gaharietzhang](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/gaharietzhang.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [brucexu-eth](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/brucexu-eth.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [jcsome](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/jcsome.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
