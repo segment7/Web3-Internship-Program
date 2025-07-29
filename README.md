@@ -98,7 +98,9 @@ TODO 等待补充中
 | [Ravenzhouzhou](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Ravenzhouzhou.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [MilesYam](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/MilesYam.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [hycnbbit](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/hycnbbit.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [jaredchao](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/jaredchao.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
