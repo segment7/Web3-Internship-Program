@@ -78,7 +78,9 @@ TODO 等待补充中
 | [qiwihui](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/qiwihui.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [ZephyrChen0754](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ZephyrChen0754.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [WanGzIxuAn-68](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/WanGzIxuAn-68.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [satalai](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/satalai.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
