@@ -139,7 +139,9 @@ TODO 等待补充中
 | [XiaoZhi2003](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/XiaoZhi2003.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [imxv](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/imxv.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [chenyllove001](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/chenyllove001.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [bassfuture](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/bassfuture.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
