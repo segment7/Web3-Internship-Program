@@ -136,7 +136,9 @@ TODO 等待补充中
 | [AshGreyG](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/AshGreyG.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [0xhha0](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/0xhha0.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [41surfer](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/41surfer.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [XiaoZhi2003](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/XiaoZhi2003.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
