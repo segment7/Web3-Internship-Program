@@ -102,7 +102,9 @@ TODO 等待补充中
 | [Waiting-Chai](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Waiting-Chai.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Wking900](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Wking900.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [franc2es](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/franc2es.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [claire0613](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/claire0613.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
