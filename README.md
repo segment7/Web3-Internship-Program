@@ -80,7 +80,9 @@ TODO 等待补充中
 | [WanGzIxuAn-68](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/WanGzIxuAn-68.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [satalai](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/satalai.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [mizuka822](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/mizuka822.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [farbegas9-Tim](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/farbegas9-Tim.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
