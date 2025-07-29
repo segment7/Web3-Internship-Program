@@ -34,11 +34,9 @@ Web3, Web3 实习
 
 ## 发起组织
 
-  [ETHPanda](https://ethpanda.org/) <img alt="organization-logo" height="60px" width="60px" src="https://cdn.lxdao.io/10aed40b-4786-4c2b-aaaa-b7d8a119c00e.png" />
+[ETHPanda](https://ethpanda.org/) <img alt="organization-logo" height="60px" width="60px" src="https://cdn.lxdao.io/10aed40b-4786-4c2b-aaaa-b7d8a119c00e.png" />
 
-  [LXDAO](https://lxdao.io/) <img alt="organization-logo" height="60px" width="60px" src="https://avatars.githubusercontent.com/u/167147327?s=200&v=4" />
-
-
+[LXDAO](https://lxdao.io/) <img alt="organization-logo" height="60px" width="60px" src="https://avatars.githubusercontent.com/u/103992730?v=4" />
 
 ## 请假规则
 
@@ -50,64 +48,43 @@ Telegram：
 
 ## 学习资料/课程安排
 
-Web3 实习手册
-https://web3intern.xyz/
-
-
+- Web3 实习手册 <https://web3intern.xyz/>
+- TODO 等待补充中
 
 ## 共学激励
 
-打卡成功者福利：https://www.notion.so/lxdao/3eab258b4df44c9cb97319452b2be13b
-
-
+TODO 等待补充中
 
 ## 更多信息
 
-更多信息内容
-
-
+TODO 等待补充中
 
 ## 报名和打卡规则
 
-- 报名：https://www.notion.so/lxdao/232dceffe40b8030993ad26f2eb6bed2
-
-- 打卡：https://www.notion.so/lxdao/232dceffe40b80508330c5ee936d4dab
+- 报名：<https://www.notion.so/lxdao/232dceffe40b8030993ad26f2eb6bed2>
+- 打卡：<https://www.notion.so/lxdao/232dceffe40b80508330c5ee936d4dab>
 
 ## 残酷共学打卡记录表
 
 ✅ = Done ⭕️ = Missed ❌ = Failed
 
 <!-- START_COMMIT_TABLE -->
-| Name | 8.01 | 8.02 | 8.03 | 8.04 | 8.05 | 8.06 | 8.07 | 8.08 | 8.09 | 8.10 | 8.11 | 8.12 | 8.13 | 8.14 | 8.15 | 8.16 | 8.17 | 8.18 | 8.19 | 8.20 | 8.21 | 8.22 | 8.23 | 8.24 | 8.25 | 8.26 | 8.27 | 8.28 | 8.29 |
-| ------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| [SIGNUP_AUTOMATION](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/SIGNUP_AUTOMATION.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+
+| Name                                                                                                               | 8.01 | 8.02 | 8.03 | 8.04 | 8.05 | 8.06 | 8.07 | 8.08 | 8.09 | 8.10 | 8.11 | 8.12 | 8.13 | 8.14 | 8.15 | 8.16 | 8.17 | 8.18 | 8.19 | 8.20 | 8.21 | 8.22 | 8.23 | 8.24 | 8.25 | 8.26 | 8.27 | 8.28 | 8.29 |
+| ------------------------------------------------------------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| [SIGNUP_AUTOMATION](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/SIGNUP_AUTOMATION.md) |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
+
 <!-- END_COMMIT_TABLE -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- STATISTICALDATA_START -->
+
 ## 统计数据
 
 - 总参与人数: 0
 - 完成人数: 0
-- 完成用户: 
-- 全勤用户: 
+- 完成用户:
+- 全勤用户:
 - 淘汰人数: 0
 - 淘汰率: 0.00%
-- Fork人数: 0
+- Fork 人数: 0
 <!-- STATISTICALDATA_END -->
