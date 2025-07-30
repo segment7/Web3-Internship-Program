@@ -382,7 +382,9 @@ TODO 等待补充中
 | [Tunnelai](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Tunnelai.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [FaustBai](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/FaustBai.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [kimberley-myx](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kimberley-myx.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [0xClareYang](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/0xClareYang.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
