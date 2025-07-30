@@ -367,7 +367,9 @@ TODO 等待补充中
 | [Ariko77](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Ariko77.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [yuyinws](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/yuyinws.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Wyatt-cuhk](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Wyatt-cuhk.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [Tristan-He](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Tristan-He.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
