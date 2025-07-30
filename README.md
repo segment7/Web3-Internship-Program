@@ -324,7 +324,9 @@ TODO 等待补充中
 | [0xWeakSheep](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/0xWeakSheep.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [zlp528](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/zlp528.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [zhenghaoailimiao](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/zhenghaoailimiao.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [DarrickLi](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/DarrickLi.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
