@@ -1,0 +1,22 @@
+---
+timezone: UTC+8
+---
+
+# 尹金玉
+
+**GitHub ID:** Jinyu-yin
+
+**Telegram:** @none
+
+## Self-introduction
+
+我本科来自上海交通大学，现就读于北京大学，地点深圳。目前主要希望在实习的过程中了解和学习，与大家共同交流
+
+## Notes
+
+<!-- Content_START -->
+
+# 2025.07.30
+
+
+<!-- Content_END -->
