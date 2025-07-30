@@ -311,7 +311,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [quentinawu](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/quentinawu.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Sy711](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Sy711.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [machiwachi](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/machiwachi.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [LareinaLong](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/LareinaLong.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
