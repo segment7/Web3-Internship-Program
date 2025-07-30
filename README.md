@@ -340,7 +340,9 @@ TODO 等待补充中
 | [Lemonadeccc](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Lemonadeccc.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [A-cookie01](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/A-cookie01.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Soldier-Hacker](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Soldier-Hacker.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [sorichtt](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/sorichtt.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
