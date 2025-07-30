@@ -320,7 +320,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [wanghaozewhz](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/wanghaozewhz.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [lanjiu33](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lanjiu33.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [WebberZhang](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/WebberZhang.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [word520](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/word520.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
