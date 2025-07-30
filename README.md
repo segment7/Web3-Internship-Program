@@ -364,7 +364,9 @@ TODO 等待补充中
 | [jiahui-Lau-Luna](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/jiahui-Lau-Luna.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [leahistyping](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/leahistyping.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [8211310](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/8211310.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [Ariko77](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Ariko77.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
