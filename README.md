@@ -378,7 +378,9 @@ TODO 等待补充中
 | [TJYALPY](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/TJYALPY.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [brent-0330](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/brent-0330.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [lansun888](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lansun888.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [Kazaf109](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Kazaf109.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
