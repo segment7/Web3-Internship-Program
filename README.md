@@ -331,7 +331,10 @@ TODO 等待补充中
 | [Jinyu-yin](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Jinyu-yin.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [delu543](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/delu543.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [qingoba](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/qingoba.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [BrKDDD](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/BrKDDD.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [wjy0921](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/wjy0921.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
