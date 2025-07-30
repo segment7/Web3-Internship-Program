@@ -307,7 +307,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [jasonrale](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/jasonrale.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [look-new](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/look-new.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [big-dudu-mosty](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/big-dudu-mosty.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [Young-coding-co](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Young-coding-co.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
