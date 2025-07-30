@@ -302,7 +302,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [henryhello](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/henryhello.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [hthia](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/hthia.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Amazingpeggy](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Amazingpeggy.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [Gloriabbz](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Gloriabbz.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
