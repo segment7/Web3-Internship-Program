@@ -376,7 +376,9 @@ TODO 等待补充中
 | [Martyr404](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Martyr404.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Aydenchange](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Aydenchange.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [TJYALPY](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/TJYALPY.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [brent-0330](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/brent-0330.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
