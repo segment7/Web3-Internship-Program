@@ -328,7 +328,9 @@ TODO 等待补充中
 | [Cmingqiu](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Cmingqiu.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [diyu45](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/diyu45.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [xoyuz](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/xoyuz.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [Jinyu-yin](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Jinyu-yin.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
