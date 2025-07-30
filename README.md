@@ -314,7 +314,9 @@ TODO 等待补充中
 | [leonking00123](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/leonking00123.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [skysyseth](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/skysyseth.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [sztyuyeshen](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/sztyuyeshen.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [Yanxing-chen](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Yanxing-chen.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
