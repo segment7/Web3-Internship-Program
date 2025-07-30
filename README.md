@@ -305,7 +305,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Gloriabbz](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Gloriabbz.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [kzz133](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kzz133.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [jasonrale](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/jasonrale.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [look-new](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/look-new.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
