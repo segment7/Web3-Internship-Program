@@ -149,11 +149,9 @@ jobs:
                 issue_number,
                 body: `✅ Signup processed successfully!
 
-                - ✅ @${githubId} has been invited as a collaborator with write permissions
                 - ✅ User file \`${githubId}.md\` has been created
-                - 📧 Please check your email for the collaboration invitation
 
-                Welcome to the project! 🎉`
+                Welcome to this Intensive CoLearning! 🎉`
               });
               console.log(`Comment posted on issue #${issue_number}`);
             } catch (error) {
