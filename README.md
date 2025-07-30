@@ -427,7 +427,9 @@ TODO 等待补充中
 | [robert-yanze-jiang](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/robert-yanze-jiang.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Tracy-Youming](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Tracy-Youming.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [lzx-ALT](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lzx-ALT.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [0xMiloAI](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/0xMiloAI.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
