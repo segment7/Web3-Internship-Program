@@ -343,7 +343,9 @@ TODO 等待补充中
 | [sorichtt](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/sorichtt.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [xmhhmx](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/xmhhmx.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [JesseAtSZ](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/JesseAtSZ.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [lalal45678](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lalal45678.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
