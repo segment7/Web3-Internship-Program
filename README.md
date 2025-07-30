@@ -352,7 +352,9 @@ TODO 等待补充中
 | [erfect2020](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/erfect2020.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [771012](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/771012.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [JP3000](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/JP3000.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [XXXJCSAMA](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/XXXJCSAMA.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
