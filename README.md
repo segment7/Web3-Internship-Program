@@ -433,7 +433,9 @@ TODO 等待补充中
 | [nghdavid](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/nghdavid.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [ljn06](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ljn06.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Alwyn-Tan](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Alwyn-Tan.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [ChenziqiAdam](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ChenziqiAdam.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
