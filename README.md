@@ -346,7 +346,9 @@ TODO 等待补充中
 | [lalal45678](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lalal45678.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [lishiqian2333](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lishiqian2333.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [guucat](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/guucat.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [wty-bot](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/wty-bot.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
