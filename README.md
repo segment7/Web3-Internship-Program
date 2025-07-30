@@ -143,7 +143,9 @@ TODO 等待补充中
 | [looooloooo](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/looooloooo.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [jorgenlou](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/jorgenlou.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Satafor](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Satafor.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [nanakodesuu](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/nanakodesuu.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
