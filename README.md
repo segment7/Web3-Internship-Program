@@ -293,7 +293,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Tengfei-Ma13206](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Tengfei-Ma13206.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [hezhaoqian1](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/hezhaoqian1.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [weiyuddd](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/weiyuddd.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [lisaite](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lisaite.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
