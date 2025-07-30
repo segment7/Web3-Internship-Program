@@ -370,7 +370,9 @@ TODO 等待补充中
 | [Tristan-He](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Tristan-He.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [kiwifruits686](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kiwifruits686.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Vesper-Gu](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Vesper-Gu.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [arknova11](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/arknova11.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
