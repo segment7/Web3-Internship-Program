@@ -385,7 +385,9 @@ TODO 等待补充中
 | [0xClareYang](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/0xClareYang.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [iilldkk](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/iilldkk.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [kdovey](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kdovey.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [MRzzz-cyber](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/MRzzz-cyber.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
