@@ -414,7 +414,9 @@ TODO 等待补充中
 | [Fancy-sudo907](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Fancy-sudo907.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [WendyYang-825](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/WendyYang-825.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [bzhwdeddbzsh](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/bzhwdeddbzsh.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [alexsupa597](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/alexsupa597.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
