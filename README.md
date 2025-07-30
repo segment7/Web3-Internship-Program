@@ -300,7 +300,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [john-zhaoyuanzhen](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/john-zhaoyuanzhen.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Linnea0425](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Linnea0425.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [henryhello](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/henryhello.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [hthia](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/hthia.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
