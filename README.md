@@ -365,7 +365,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [an-egg15](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/an-egg15.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Beavnvvv](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Beavnvvv.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [lucas1968](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lucas1968.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [cs5463](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/cs5463.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
