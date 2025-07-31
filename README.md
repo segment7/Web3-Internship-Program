@@ -419,7 +419,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [ngokyiu](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ngokyiu.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Golven2899](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Golven2899.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [hyr0ky](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/hyr0ky.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [cmu-ruoyan-lgl](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/cmu-ruoyan-lgl.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
