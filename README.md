@@ -334,7 +334,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Luisafiona](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Luisafiona.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [jzb1006](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/jzb1006.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [luyu-0409](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/luyu-0409.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [lynn-000-cccc](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lynn-000-cccc.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
