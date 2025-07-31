@@ -387,7 +387,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [atomsi7](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/atomsi7.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Sid-Jiang](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Sid-Jiang.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Jokervicky07](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Jokervicky07.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [Carl7702](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Carl7702.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
