@@ -371,7 +371,10 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [buzhidaoa8848-hash](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/buzhidaoa8848-hash.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [ty698](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ty698.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [web3cyberobserve](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/web3cyberobserve.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [xiaoxiang0000](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/xiaoxiang0000.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [chenxi888999](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/chenxi888999.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
