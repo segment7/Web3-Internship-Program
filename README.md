@@ -403,7 +403,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [kdqq-77](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kdqq-77.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [AR307](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/AR307.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [liuyunchong](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/liuyunchong.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [AAAmeng594](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/AAAmeng594.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
