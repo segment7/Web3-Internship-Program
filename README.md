@@ -385,7 +385,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [rexwaitlove](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/rexwaitlove.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Travis-Zhang19](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Travis-Zhang19.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [atomsi7](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/atomsi7.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [Sid-Jiang](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Sid-Jiang.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
