@@ -340,7 +340,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Yvaine1125](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Yvaine1125.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Suvie277](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Suvie277.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [carmen09-0ss](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/carmen09-0ss.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [yageanny](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/yageanny.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
