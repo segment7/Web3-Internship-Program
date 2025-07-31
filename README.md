@@ -356,7 +356,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [bellawanger](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/bellawanger.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [chaosuper2025](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/chaosuper2025.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [LambertAlpha](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/LambertAlpha.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [langjiyunmie](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/langjiyunmie.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
