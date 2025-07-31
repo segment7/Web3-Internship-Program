@@ -337,7 +337,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [lynn-000-cccc](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lynn-000-cccc.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Jadeel00](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Jadeel00.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Failover97](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Failover97.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [Yvaine1125](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Yvaine1125.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
