@@ -382,7 +382,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [2416649967](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/2416649967.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [WeirdStar0](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/WeirdStar0.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [Lion-Leporidae](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Lion-Leporidae.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [rexwaitlove](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/rexwaitlove.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
