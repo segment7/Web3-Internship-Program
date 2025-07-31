@@ -361,7 +361,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [javens0601](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/javens0601.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [historicer](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/historicer.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [huangyw22](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/huangyw22.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [CoCoon370](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/CoCoon370.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
