@@ -412,7 +412,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [aruna0820](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/aruna0820.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [bcyb1122-liu](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/bcyb1122-liu.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [rosefortina](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/rosefortina.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [bokthfish](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/bokthfish.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
