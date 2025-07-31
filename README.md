@@ -329,7 +329,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [lilith998](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lilith998.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [boneyao](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/boneyao.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [hphunhundaodi](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/hphunhundaodi.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [liuyuhuai3](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/liuyuhuai3.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
