@@ -380,7 +380,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Crocs77](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Crocs77.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [edwardqin-creator](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/edwardqin-creator.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | [2416649967](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/2416649967.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [WeirdStar0](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/WeirdStar0.md) |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
