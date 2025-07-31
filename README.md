@@ -399,7 +399,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [ShawnWangyin](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ShawnWangyin.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ashenone125](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ashenone125.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [hollyhongever](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/hollyhongever.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Alpha8795](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Alpha8795.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
