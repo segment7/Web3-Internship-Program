@@ -481,7 +481,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [xavierso6676-cmyk](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/xavierso6676-cmyk.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [dinglei135](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/dinglei135.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [lovmov](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lovmov.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [midleser](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/midleser.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
