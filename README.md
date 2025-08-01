@@ -484,7 +484,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [midleser](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/midleser.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [leopc999](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/leopc999.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [mega16](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/mega16.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Carolhola](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Carolhola.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
