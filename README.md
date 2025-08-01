@@ -437,7 +437,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Zlcaj](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Zlcaj.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [kaixiang-uoa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kaixiang-uoa.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [PolarTechJordan](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/PolarTechJordan.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [cuichang](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/cuichang.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
