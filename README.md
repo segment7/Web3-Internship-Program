@@ -489,7 +489,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [slucifersz](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/slucifersz.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [kradmm](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kradmm.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [gaia-1456](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/gaia-1456.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Easton25](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Easton25.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
