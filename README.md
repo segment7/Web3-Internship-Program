@@ -430,7 +430,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [fnkt635](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/fnkt635.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [linye1015](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/linye1015.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [IVEN034](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/IVEN034.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [PriestIthas](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/PriestIthas.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 <!-- STATISTICALDATA_START -->
