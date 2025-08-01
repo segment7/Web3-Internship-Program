@@ -432,7 +432,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [IVEN034](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/IVEN034.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [PriestIthas](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/PriestIthas.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [DawnBlackA](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/DawnBlackA.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [SuBCweb3](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/SuBCweb3.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
