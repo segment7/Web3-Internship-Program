@@ -464,7 +464,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [chenxianxu](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/chenxianxu.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Ghw2066](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Ghw2066.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Xxwjh1314](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Xxwjh1314.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Rin-yzl](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Rin-yzl.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
