@@ -452,7 +452,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [swdeseed](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/swdeseed.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [zhao-si-yi](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/zhao-si-yi.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [jxa124](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/jxa124.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [csy143](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/csy143.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
