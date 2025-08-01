@@ -462,7 +462,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [caonima112](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/caonima112.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [tommyjqliu](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/tommyjqliu.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [chenxianxu](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/chenxianxu.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Ghw2066](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Ghw2066.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
