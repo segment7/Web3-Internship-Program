@@ -7,10 +7,8 @@ import pytz
 import logging
 
 # Constants
-START_DATE = datetime.fromisoformat(os.environ.get(
-    'START_DATE', '2025-03-31T00:00:00+00:00')).replace(tzinfo=pytz.UTC)
-END_DATE = datetime.fromisoformat(os.environ.get(
-    'END_DATE', '2025-04-12T23:59:59+00:00')).replace(tzinfo=pytz.UTC)
+START_DATE = datetime.fromisoformat(os.environ['START_DATE']).replace(tzinfo=pytz.UTC)
+END_DATE = datetime.fromisoformat(os.environ['END_DATE']).replace(tzinfo=pytz.UTC)
 DEFAULT_TIMEZONE = 'Asia/Shanghai'
 FILE_SUFFIX = '.md'
 README_FILE = 'README.md'
@@ -101,6 +99,9 @@ def find_date_in_content(content, local_date):
         r'#\s*' + local_date.strftime("%m/%d").lstrip('0').replace('/0', '/'),
         r'##\s*' + local_date.strftime("%m/%d").lstrip('0').replace('/0', '/'),
         r'###\s*' + local_date.strftime("%m/%d").lstrip('0').replace('/0', '/'),
+        r'#\s*' + local_date.strftime("%Y-%m-%d"),
+        r'##\s*' + local_date.strftime("%Y-%m-%d"),
+        r'###\s*' + local_date.strftime("%Y-%m-%d"),
         r'#\s*' + local_date.strftime("%m.%d").zfill(5),
         r'##\s*' + local_date.strftime("%m.%d").zfill(5),
         r'###\s*' + local_date.strftime("%m.%d").zfill(5)
@@ -109,7 +110,7 @@ def find_date_in_content(content, local_date):
     return re.search(combined_pattern, content)
 
 def get_content_for_date(content, start_pos):
-    next_date_pattern = r'###\s*(\d{4}\.)?(\d{1,2}[\.\/]\d{1,2})'
+    next_date_pattern = r'#+\s*(\d{4}[\.\/\-])?(\d{1,2}[\.\/\-]\d{1,2})'
     next_date_match = re.search(next_date_pattern, content[start_pos:])
     if next_date_match:
         return content[start_pos:start_pos + next_date_match.start()]
@@ -145,12 +146,12 @@ def get_user_study_status(nickname):
 
         for date in get_date_range():
             local_date = date.astimezone(user_tz).replace(hour=0, minute=0, second=0, microsecond=0)
-            if date.day == current_date.day:
-                user_status[date] = "✅" if check_md_content(file_content, date, pytz.UTC) else " "
-            elif date > current_date:
+            if local_date.date() == current_date.date():
+                user_status[date] = "✅" if check_md_content(file_content, date, user_tz) else " "
+            elif local_date > current_date:
                 user_status[date] = " "
             else:
-                user_status[date] = "✅" if check_md_content(file_content, date, pytz.UTC) else "⭕️"
+                user_status[date] = "✅" if check_md_content(file_content, date, user_tz) else "⭕️"
         logging.info(f"Successfully processed file for user: {nickname}")
     except FileNotFoundError:
         logging.error(f"Error: Could not find file {file_name}")
@@ -249,8 +250,6 @@ def generate_user_row(user):
     user_link = f"[{user}]({repo_url})"
     new_row = f"| {user_link} |"
     is_eliminated = False
-    absent_count = 0
-    current_week = None
 
     file_name_to_open = f"{user}{FILE_SUFFIX}"
     try:
@@ -262,26 +261,51 @@ def generate_user_row(user):
 
     user_tz = get_user_timezone(file_content)
     user_current_day = datetime.now(user_tz).replace(hour=0, minute=0, second=0, microsecond=0)
-    for date in get_date_range():
+    date_range = get_date_range()
+    
+    for i, date in enumerate(date_range):
         user_datetime = date.astimezone(pytz.UTC).replace(hour=0, minute=0, second=0, microsecond=0)
-        if is_eliminated or (user_datetime > user_current_day and user_datetime.day > user_current_day.day):
+        
+        # 如果已经被淘汰，后续所有天数都显示空
+        if is_eliminated:
             new_row += " |"
+            continue
+            
+        # 如果是未来的日期，显示空
+        local_datetime = user_datetime.astimezone(user_tz).replace(hour=0, minute=0, second=0, microsecond=0)
+        if local_datetime > user_current_day:
+            new_row += " |"
+            continue
+            
+        # 计算当前日期属于第几个7天周期
+        days_from_start = (user_datetime.date() - START_DATE.date()).days
+        week_number = days_from_start // 7
+        
+        # 计算当前周期的开始和结束日期
+        cycle_start_day = week_number * 7
+        cycle_end_day = min(cycle_start_day + 6, len(date_range) - 1)
+        
+        # 统计当前周期内到今天为止的缺席天数
+        absent_count = 0
+        for day_idx in range(cycle_start_day, min(cycle_end_day + 1, i + 1)):
+            if day_idx < len(date_range):
+                check_date = date_range[day_idx].astimezone(pytz.UTC).replace(hour=0, minute=0, second=0, microsecond=0)
+                check_date_local = check_date.astimezone(user_tz).replace(hour=0, minute=0, second=0, microsecond=0)
+                if check_date_local <= user_current_day:
+                    status = user_status.get(check_date, "⭕️")
+                    if status == "⭕️":
+                        absent_count += 1
+        
+        # 获取当前日期的状态
+        current_status = user_status.get(user_datetime, "⭕️")
+        
+        # 如果当前周期缺席超过2天，标记为失败
+        if absent_count > 2:
+            is_eliminated = True
+            new_row += " ❌ |"
         else:
-            user_date = user_datetime
-            week = user_date.isocalendar()[1]
-            if week != current_week:
-                current_week = week
-                absent_count = 0
-            status = user_status.get(user_date, "")
-            if status == "⭕️":
-                absent_count += 1
-                if absent_count > 2:
-                    is_eliminated = True
-                    new_row += " ❌ |"
-                else:
-                    new_row += " ⭕️ |"
-            else:
-                new_row += f" {status} |"
+            new_row += f" {current_status} |"
+            
     return new_row + '\n'
 
 def get_repo_info():
