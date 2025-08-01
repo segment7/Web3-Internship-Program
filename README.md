@@ -435,7 +435,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [SuBCweb3](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/SuBCweb3.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Kao-111](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Kao-111.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Zlcaj](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Zlcaj.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [kaixiang-uoa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kaixiang-uoa.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
