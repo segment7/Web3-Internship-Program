@@ -476,7 +476,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [flokimine](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/flokimine.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [yujianshiguang1993](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/yujianshiguang1993.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [silver-x](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/silver-x.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [xsx13](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/xsx13.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
