@@ -475,7 +475,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [btcabc2025](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/btcabc2025.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [flokimine](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/flokimine.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [yujianshiguang1993](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/yujianshiguang1993.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [silver-x](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/silver-x.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
