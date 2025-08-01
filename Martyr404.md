@@ -6,11 +6,11 @@ timezone: UTC+8
 
 **GitHub ID:** Martyr404
 
-**Telegram:** @13817216224
+**Telegram:** @laixiang404
 
 ## Self-introduction
 
-来自上海交通大学的在读本科生一枚，想要入门web3故来 参加这个共学营<img onload=alert("test")>test</img>
+来自上海交通大学的在读本科生一枚，想要入门web3，故来参加这个共学营
 
 ## Notes
 
