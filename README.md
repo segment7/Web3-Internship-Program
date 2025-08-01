@@ -449,7 +449,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [tumiao233](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/tumiao233.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [minava1230-prog](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/minava1230-prog.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [yyue567](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/yyue567.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [swdeseed](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/swdeseed.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
