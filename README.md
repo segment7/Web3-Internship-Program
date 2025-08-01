@@ -445,7 +445,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [YingzhiYee](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/YingzhiYee.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Raphael-LEI](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Raphael-LEI.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [kyriez11](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kyriez11.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Jianrenming](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Jianrenming.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
