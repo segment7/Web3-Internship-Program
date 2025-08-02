@@ -494,7 +494,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [chenrouying292](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/chenrouying292.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Weipi666](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Weipi666.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [linjjjjjjjjjjjj](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/linjjjjjjjjjjjj.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Thomas-YHS](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Thomas-YHS.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
