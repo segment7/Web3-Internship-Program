@@ -497,7 +497,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Thomas-YHS](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Thomas-YHS.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Dotscan](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Dotscan.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [JacksonStack](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/JacksonStack.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [KarlLeen](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/KarlLeen.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
