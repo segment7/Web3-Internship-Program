@@ -503,7 +503,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Metanora1009](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Metanora1009.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [wushengdi1008](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/wushengdi1008.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [OxEli](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/OxEli.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [hotoo](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/hotoo.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
