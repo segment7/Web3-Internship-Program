@@ -516,7 +516,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Darkells](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Darkells.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [stone4518](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/stone4518.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [2025maweiba](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/2025maweiba.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [shouyu-zhang](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/shouyu-zhang.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
