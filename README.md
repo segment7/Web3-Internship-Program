@@ -535,7 +535,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [2050578823h](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/2050578823h.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [lifendou-gh](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lifendou-gh.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ChaseFISHzzzzzz](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ChaseFISHzzzzzz.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [BoyageZhou](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/BoyageZhou.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
