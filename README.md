@@ -530,7 +530,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [spongebob-hash](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/spongebob-hash.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [JOY010127](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/JOY010127.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [fDu-Xia](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/fDu-Xia.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [SeanTong11](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/SeanTong11.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
