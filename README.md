@@ -538,7 +538,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [BoyageZhou](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/BoyageZhou.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [EllaArgent](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/EllaArgent.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [juhuayexinjun](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/juhuayexinjun.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [erinqgordonh13-cyber](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/erinqgordonh13-cyber.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
