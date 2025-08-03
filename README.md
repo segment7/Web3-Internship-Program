@@ -532,7 +532,9 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [fDu-Xia](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/fDu-Xia.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [SeanTong11](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/SeanTong11.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [EvanSHI888](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/EvanSHI888.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [2050578823h](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/2050578823h.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
