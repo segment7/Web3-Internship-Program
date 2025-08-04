@@ -15,6 +15,11 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-04
+
+https://github.com/SuBCweb3/Sonic-Whitepaper-_-Where-Builders-Come-First
+翻译了sonic的白皮书
+
 
 # 2025.08.01
 
