@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-04
+
+了解了Metamask和公链的基础知识，如何使用Meta mask转账，领取测试币
+
 
 # 2025.07.29
 
