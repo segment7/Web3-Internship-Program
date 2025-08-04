@@ -17,7 +17,7 @@ rust solana
 <!-- Content_START -->
 # 2025-08-04
 
-区块链基础知识
+区块链基础知识：
 https://x.com/jessiewang0914/status/1952239481773514932
 a blockchain is a distributed database
 区块：存储交易记录     链：存储上一个区块的哈希
