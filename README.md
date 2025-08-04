@@ -295,7 +295,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [yanchengsi](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/yanchengsi.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [GU4617](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/GU4617.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [janebirkey](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/janebirkey.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [Kai-forza](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Kai-forza.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Kai-forza](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Kai-forza.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [littlebossgrowth](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/littlebossgrowth.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Tengfei-Ma13206](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Tengfei-Ma13206.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [hezhaoqian1](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/hezhaoqian1.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -545,6 +545,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [slwyts](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/slwyts.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ssaaaaaaaaaaaaaaaaaaaaaaaaaaa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ssaaaaaaaaaaaaaaaaaaaaaaaaaaa.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
