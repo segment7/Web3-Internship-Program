@@ -19,9 +19,8 @@ Freelance
 
 打卡
 
-参加以太坊中文周会，了解最新行业动态
-Gather Town自习。学习Uniswap V3
-
+参加以太坊中文周会，了解最新行业动态；
+Gather Town自习，学习Uniswap V3
 
 # 2025.07.31
 
