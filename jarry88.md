@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-04
+
+了解以太坊概念，尝试智能合约ide
+
 
 # 2025.07.31
 
