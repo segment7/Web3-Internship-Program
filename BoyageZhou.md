@@ -15,6 +15,10 @@ Hey! I’m an ENTP/J-A navigating the Web3 world with curiosity and an open mind
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-04
+
+今天听了以太坊中文峰会。并完成了入门导读的阅读，收获颇深。在完成阅读后还观看了纪录片Banking on Bitcoin
+
 
 # 2025.08.03
 
