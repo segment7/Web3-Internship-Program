@@ -15,6 +15,14 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-04
+
+今天完成了基本工具的安装和入门导读部分
+
+以太坊的成功让人影响深刻
+
+Code is Law, code impact the world
+
 
 # 2025.07.31
 
