@@ -308,7 +308,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Linnea0425](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Linnea0425.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [henryhello](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/henryhello.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [hthia](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/hthia.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [Amazingpeggy](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Amazingpeggy.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Amazingpeggy](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Amazingpeggy.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Gloriabbz](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Gloriabbz.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [kzz133](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kzz133.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [jasonrale](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/jasonrale.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -545,6 +545,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [slwyts](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/slwyts.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ssaaaaaaaaaaaaaaaaaaaaaaaaaaa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ssaaaaaaaaaaaaaaaaaaaaaaaaaaa.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
