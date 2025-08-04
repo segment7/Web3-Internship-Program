@@ -15,6 +15,11 @@ crypto native
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-04
+
+今天学习一下https://web3intern.xyz/zh/julie-community-growth-expert/这篇文章
+听了以太坊周会
+
 
 # 2025.07.31
 
