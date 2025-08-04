@@ -137,7 +137,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [brucexu-eth](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/brucexu-eth.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [jcsome](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/jcsome.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [jingedawang](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/jingedawang.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [Nancy0209](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Nancy0209.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Nancy0209](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Nancy0209.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [mutekikk](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/mutekikk.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ZenX404](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ZenX404.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [AshGreyG](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/AshGreyG.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -145,7 +145,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [41surfer](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/41surfer.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [XiaoZhi2003](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/XiaoZhi2003.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [imxv](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/imxv.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [chenyllove001](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/chenyllove001.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [chenyllove001](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/chenyllove001.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [bassfuture](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/bassfuture.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [looooloooo](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/looooloooo.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [jorgenlou](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/jorgenlou.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -310,7 +310,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [hthia](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/hthia.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Amazingpeggy](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Amazingpeggy.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Gloriabbz](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Gloriabbz.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [kzz133](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kzz133.md) | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [kzz133](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kzz133.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [jasonrale](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/jasonrale.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [look-new](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/look-new.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [big-dudu-mosty](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/big-dudu-mosty.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -543,6 +543,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Turbo-Yu](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Turbo-Yu.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Franciee-creator](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Franciee-creator.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
