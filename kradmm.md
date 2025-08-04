@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-04
+
+完成入门导读，学习了Web3 工作方式，根据教程下载了discord、Twitter、Telegram、狐狸钱包、LinkedIn、notion、zoom等远程办公软件
+
 
 # 2025.08.01
 
