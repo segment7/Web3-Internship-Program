@@ -506,7 +506,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [hotoo](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/hotoo.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [kayulito](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kayulito.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [webfamer](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/webfamer.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [abbott68](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/abbott68.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [abbott68](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/abbott68.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [duchaos](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/duchaos.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [sdggr2000](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/sdggr2000.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [llllIIIIllllIIII](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/llllIIIIllllIIII.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -543,6 +543,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Turbo-Yu](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Turbo-Yu.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Franciee-creator](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Franciee-creator.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
