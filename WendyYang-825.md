@@ -15,6 +15,11 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-04
+
+1.完成了Gather Town自习室的Claim和装修，很好玩，感觉很有意思哈哈
+2.搞定了Twitter、Discord、telegram的注册和登录##
+
 
 # 2025.07.30
 
