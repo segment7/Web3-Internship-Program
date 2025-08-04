@@ -188,7 +188,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Soldier-Hacker](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Soldier-Hacker.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [sorichtt](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/sorichtt.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [xmhhmx](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/xmhhmx.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [JesseAtSZ](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/JesseAtSZ.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [JesseAtSZ](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/JesseAtSZ.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [lalal45678](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lalal45678.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [lishiqian2333](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lishiqian2333.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [guucat](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/guucat.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -545,6 +545,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [slwyts](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/slwyts.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ssaaaaaaaaaaaaaaaaaaaaaaaaaaa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ssaaaaaaaaaaaaaaaaaaaaaaaaaaa.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
