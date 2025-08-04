@@ -90,7 +90,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [farbegas9-Tim](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/farbegas9-Tim.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Link-990](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Link-990.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [FinnTew](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/FinnTew.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [kaka666111](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kaka666111.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [kaka666111](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kaka666111.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ZK5uuu](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ZK5uuu.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [adureychloe](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/adureychloe.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [kuove](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kuove.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -545,6 +545,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [slwyts](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/slwyts.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ssaaaaaaaaaaaaaaaaaaaaaaaaaaa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ssaaaaaaaaaaaaaaaaaaaaaaaaaaa.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
