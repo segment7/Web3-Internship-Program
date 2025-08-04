@@ -17,6 +17,7 @@ timezone: UTC+8
 <!-- Content_START -->
 # 2025-08-04
 
+## 8:00
 今天把工具都安装完了
 · Zoom
 · Telegram
@@ -26,6 +27,8 @@ timezone: UTC+8
 · Metamask
 另外我根据ChainLink学习了一下链上发布合约的开发方法，还学习了一下如何接水等内容。相关测试代码： https://github.com/Turbo-Yu/blockchain_chainlink#
 
+## 21:00
+了解了一下区块链的基础概念，新的收获是Web3 和Web 3.0 竟然不是一个东西，进一步明确了Web 3.0的学习方向（React + Ethers.js + Solidity + IPFS） 。同时要辩证的结合Web2和Web 3.0，工具以及技术的根本还是要解决具体的问题。
 
 # 2025.08.03
 
