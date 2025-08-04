@@ -15,6 +15,11 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-04
+
+1. 学习solidity语法完结done；
+2. 寻找sepolia的测试水龙头：  https://cloud.google.com/application/web3/faucet/ethereum/sepolia
+
 
 # 2025.07.29
 
