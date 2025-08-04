@@ -229,7 +229,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [FaustBai](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/FaustBai.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [kimberley-myx](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kimberley-myx.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [0xClareYang](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/0xClareYang.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [iilldkk](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/iilldkk.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [iilldkk](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/iilldkk.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [kdovey](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kdovey.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [MRzzz-cyber](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/MRzzz-cyber.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Wenrui0319](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Wenrui0319.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -543,6 +543,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Turbo-Yu](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Turbo-Yu.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Franciee-creator](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Franciee-creator.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
