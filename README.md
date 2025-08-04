@@ -151,7 +151,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [jorgenlou](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/jorgenlou.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Satafor](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Satafor.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [nanakodesuu](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/nanakodesuu.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [wjim19950618](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/wjim19950618.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [wjim19950618](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/wjim19950618.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [EchoZheng2333](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/EchoZheng2333.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Muyun](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Muyun.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [chenmochaos](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/chenmochaos.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -544,6 +544,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Franciee-creator](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Franciee-creator.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [slwyts](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/slwyts.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
