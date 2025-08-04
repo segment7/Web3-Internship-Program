@@ -121,7 +121,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [naya-cat-1](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/naya-cat-1.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Konglol](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Konglol.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [dayaocc](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/dayaocc.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [RowanWang6](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/RowanWang6.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [RowanWang6](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/RowanWang6.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [BurningCloud](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/BurningCloud.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [tnt11003](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/tnt11003.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Splashingturtle](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Splashingturtle.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -517,7 +517,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [stone4518](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/stone4518.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [2025maweiba](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/2025maweiba.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [shouyu-zhang](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/shouyu-zhang.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [yangchaolin2025-arch](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/yangchaolin2025-arch.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [yangchaolin2025-arch](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/yangchaolin2025-arch.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Molly-0803](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Molly-0803.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [fayeWJsW](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/fayeWJsW.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [dagehetao](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/dagehetao.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -545,6 +545,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [slwyts](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/slwyts.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ssaaaaaaaaaaaaaaaaaaaaaaaaaaa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ssaaaaaaaaaaaaaaaaaaaaaaaaaaa.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
