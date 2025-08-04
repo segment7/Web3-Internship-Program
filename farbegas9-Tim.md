@@ -15,6 +15,13 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-04
+
+# 补8月2-3日的内容
+完成安装常用 Web3 工具 → https://web3intern.xyz/zh/remote-work-guide/
+大部分工具以前均有注册和使用，tg因验证码的问题暂时未注册。
+并发布了X关于实习计划的内容，立了个flag。
+
 
 # 2025.07.29
 
