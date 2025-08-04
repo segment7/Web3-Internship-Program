@@ -15,6 +15,17 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-04
+
+今天把工具都安装完了
+· Zoom
+· Telegram
+· Discord
+· Notion
+· X
+· Metamask
+另外我根据ChainLink学习了一下链上发布合约的开发方法，还学习了一下如何接水等内容。相关测试代码： https://github.com/Turbo-Yu/blockchain_chainlink#
+
 
 # 2025.08.03
 
