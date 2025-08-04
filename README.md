@@ -191,7 +191,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [JesseAtSZ](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/JesseAtSZ.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [lalal45678](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lalal45678.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [lishiqian2333](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lishiqian2333.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [guucat](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/guucat.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [guucat](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/guucat.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [wty-bot](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/wty-bot.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Chenweb3](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Chenweb3.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [SJW1111011](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/SJW1111011.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -545,6 +545,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [slwyts](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/slwyts.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ssaaaaaaaaaaaaaaaaaaaaaaaaaaa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ssaaaaaaaaaaaaaaaaaaaaaaaaaaa.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
