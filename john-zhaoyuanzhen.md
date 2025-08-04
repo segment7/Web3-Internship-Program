@@ -2,7 +2,7 @@
 timezone: UTC+8
 ---
 
-# 赵元祯
+# incognito.
 
 **GitHub ID:** john-zhaoyuanzhen
 
@@ -10,7 +10,11 @@ timezone: UTC+8
 
 ## Self-introduction
 
-我是赵元祯，毕业于剑桥大学，居住于上海，目前对web3技术和产品方面很感兴趣，想借助这次机会进一步学习了解相关知识。
+UCL 本科 Cambridge 硕士
+
+Theo Physics → AI/ML/DS → Web3
+
+**X: [0xIncognito_](https://x.com/0xIncognito_)**
 
 ## Notes
 
