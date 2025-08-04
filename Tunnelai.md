@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-04
+
+今天安装了一些常用的工具， tg，x等
+
 
 # 2025.07.30
 
