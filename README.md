@@ -501,7 +501,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [ARZER-TW](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ARZER-TW.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [yau8627](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/yau8627.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Metanora1009](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Metanora1009.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
-| [wushengdi1008](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/wushengdi1008.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
+| [wushengdi1008](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/wushengdi1008.md) | ⭕️ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
 | [OxEli](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/OxEli.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [hotoo](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/hotoo.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [kayulito](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kayulito.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -545,6 +545,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [slwyts](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/slwyts.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ssaaaaaaaaaaaaaaaaaaaaaaaaaaa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ssaaaaaaaaaaaaaaaaaaaaaaaaaaa.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
