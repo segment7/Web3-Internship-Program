@@ -200,7 +200,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [JP3000](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/JP3000.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [XXXJCSAMA](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/XXXJCSAMA.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [XiaoHai67890](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/XiaoHai67890.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [Kgzsgod](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Kgzsgod.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Kgzsgod](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Kgzsgod.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [chareice](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/chareice.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ippq](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ippq.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [TerenceWang196](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/TerenceWang196.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -545,6 +545,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [slwyts](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/slwyts.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ssaaaaaaaaaaaaaaaaaaaaaaaaaaa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ssaaaaaaaaaaaaaaaaaaaaaaaaaaa.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
