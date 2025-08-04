@@ -15,6 +15,10 @@ hello，我是Nascar，来自ZUEL，想要学习web3技术以及运营 + 意向�
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-04
+
+web3最新动态
+
 
 # 2025.07.30
 
