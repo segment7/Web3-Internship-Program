@@ -454,7 +454,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [jxa124](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/jxa124.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [csy143](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/csy143.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [22jiaqin-cpu](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/22jiaqin-cpu.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [xiaosong2028](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/xiaosong2028.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [xiaosong2028](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/xiaosong2028.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [one-sweet96](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/one-sweet96.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Aster-amellus](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Aster-amellus.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Danger3333](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Danger3333.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -543,6 +543,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Turbo-Yu](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Turbo-Yu.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Franciee-creator](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Franciee-creator.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
