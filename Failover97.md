@@ -15,6 +15,12 @@ nus 研一 web3小白 通过blockchain 课程接触web3概念  究极P人努力�
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-04
+
+区块链    区块链+分布式网络 =去中心化、公开透明、不可篡改  通过消耗算力（proof of work）来获得区块奖励  ---比特币
+以太坊转向proof of stake,支持DApp开发、智能合约执行、NFT、DeFi.Gas是以太坊的燃料
+OKA objective  key result ;以目标导向代替工作量导向；以实际进度为导向；明确性和量化是团队远程工作的重要特点；
+
 
 # 2025.07.31
 
