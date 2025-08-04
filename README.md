@@ -156,7 +156,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Muyun](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Muyun.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [chenmochaos](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/chenmochaos.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [cole123466](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/cole123466.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [Zyuhui008](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Zyuhui008.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Zyuhui008](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Zyuhui008.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [leonking00123](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/leonking00123.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [skysyseth](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/skysyseth.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [sztyuyeshen](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/sztyuyeshen.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -544,6 +544,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Franciee-creator](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Franciee-creator.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [slwyts](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/slwyts.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
