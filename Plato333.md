@@ -15,6 +15,12 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-04
+
+https://www.notion.so/web3-245ee8f5eaa180dd8125f6e52079ae79?source=copy_link
+https://postimg.cc/gallery/WTXkbJJ
+上面第一个链接是Notion笔记链接复制，不知道能不能访问，如果不能的话第二个可以直接看(大概率是不能的吧我也不清楚hh)
+
 
 # 2025.07.30
 
