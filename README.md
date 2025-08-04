@@ -389,7 +389,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [2416649967](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/2416649967.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [WeirdStar0](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/WeirdStar0.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Lion-Leporidae](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Lion-Leporidae.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [rexwaitlove](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/rexwaitlove.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [rexwaitlove](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/rexwaitlove.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Travis-Zhang19](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Travis-Zhang19.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [atomsi7](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/atomsi7.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Sid-Jiang](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Sid-Jiang.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -545,6 +545,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [slwyts](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/slwyts.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ssaaaaaaaaaaaaaaaaaaaaaaaaaaa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ssaaaaaaaaaaaaaaaaaaaaaaaaaaa.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
