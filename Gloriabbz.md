@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-04
+
+学会了blockchain的基本概念，尝试使用了metamask
+
 
 # 2025.07.30
 
