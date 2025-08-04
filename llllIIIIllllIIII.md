@@ -15,6 +15,14 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-04
+
+今天由於時間關係錯過了 以太坊中文周会（了解最新行业动态）
+紀錄一下連結 之後補上 : https://youtu.be/LXZADRorvyU
+另外已經從sepolia上領取了測試用 ETH 代幣
+也創建好Twitter /TG / Zoom帳號
+目前從閱讀實習手冊中的區塊鏈基礎概念開始一步一步往下
+
 
 # 2025.08.03
 
