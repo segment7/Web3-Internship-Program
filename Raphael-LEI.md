@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-04
+
+第一次进入Gather 像游戏像素画风，还需要继续摸索
+
 
 # 2025.08.01
 
