@@ -226,7 +226,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [lansun888](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lansun888.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Kazaf109](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Kazaf109.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Tunnelai](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Tunnelai.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [FaustBai](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/FaustBai.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [FaustBai](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/FaustBai.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [kimberley-myx](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kimberley-myx.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [0xClareYang](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/0xClareYang.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [iilldkk](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/iilldkk.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -545,6 +545,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [slwyts](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/slwyts.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ssaaaaaaaaaaaaaaaaaaaaaaaaaaa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ssaaaaaaaaaaaaaaaaaaaaaaaaaaa.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
