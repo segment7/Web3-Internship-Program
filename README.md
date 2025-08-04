@@ -126,7 +126,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [tnt11003](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/tnt11003.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Splashingturtle](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Splashingturtle.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [awaqawaqawaq](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/awaqawaqawaq.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [flora2030](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/flora2030.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [flora2030](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/flora2030.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Azhan1431](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Azhan1431.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [hahaslighthouse](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/hahaslighthouse.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [serenwei](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/serenwei.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -545,6 +545,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [slwyts](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/slwyts.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ssaaaaaaaaaaaaaaaaaaaaaaaaaaa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ssaaaaaaaaaaaaaaaaaaaaaaaaaaa.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
