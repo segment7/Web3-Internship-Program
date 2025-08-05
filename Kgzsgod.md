@@ -15,6 +15,21 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+# ethers.js
+
+https://www.wtf.academy/zh/course/ethers101/ReadContract
+
+基于wtf的学习网站，使用ethers.js学习了以下内容
+
+- 查询链上的基本信息
+- provider
+- 读取合约信息
+- 发送eth
+
+同时还复习了会javascript，做了两道算法题
+
 # 2025-08-04
 
 # 区块链基础概念
