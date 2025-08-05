@@ -15,6 +15,13 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+1.参与Web3 安全分享和答疑会议
+2.领取了Sepolia 测试币
+3.日常晚自习
+4.正在学习 https://unphishable.io/ 钓鱼攻防挑战
+
 # 2025-08-04
 
 1.参加了以太坊中文周会（中午2点开始的）
