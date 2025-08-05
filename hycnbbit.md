@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+今天学习了如何通过域名来判断钓鱼网站，还有通过chainlink添加测试网节点
+
 # 2025-08-04
 
 了解了Metamask和公链的基础知识，如何使用Meta mask转账，领取测试币
