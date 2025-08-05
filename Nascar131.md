@@ -15,6 +15,17 @@ hello，我是Nascar，来自ZUEL，想要学习web3技术以及运营 + 意向�
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+学习web3安全常识，测试接受发送Sepolia测试币
+
+大额 100w+
+
+学习了web3行业赛道
+
+收获工具
+Delphi Digital - 加密市场研究
+
 # 2025-08-04
 
 web3最新动态 融资：Subzero labs, GAIB, Billions, Stable, 圆币科技
