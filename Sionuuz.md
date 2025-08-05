@@ -15,6 +15,11 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+https://x.com/Sion_nagi/status/1952729210205908992
+参加20:00 - 21:00的安全分享与答疑
+
 # 2025-08-04
 
 https://x.com/Sion_nagi/status/1952382367244665100
