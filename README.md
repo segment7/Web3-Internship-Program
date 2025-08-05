@@ -180,7 +180,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [BrKDDD](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/BrKDDD.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [wjy0921](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/wjy0921.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [segment7](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/segment7.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
-| [SparrowHuang1994](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/SparrowHuang1994.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
+| [SparrowHuang1994](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/SparrowHuang1994.md) | ⭕️ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
 | [yoyos12138](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/yoyos12138.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ka-mi08](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ka-mi08.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Lemonadeccc](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Lemonadeccc.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -545,6 +545,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [slwyts](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/slwyts.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ssaaaaaaaaaaaaaaaaaaaaaaaaaaa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ssaaaaaaaaaaaaaaaaaaaaaaaaaaa.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
