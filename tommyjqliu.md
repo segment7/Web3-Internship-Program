@@ -15,6 +15,24 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+# Token Approval
+
+Check token approvals to revoke unwanted one
+
+[Token Approvals | Etherscan](https://etherscan.io/tokenapprovalchecker) 
+
+[Token Approvals | Arbitrum One](https://arbiscan.io/tokenapprovalchecker?search=0xafd35749459860f490325858cd7b3ad3606b07cc)
+
+## Special cases
+
+Permit2 (used by Uniswap) manages a internal approval table, and the approvals on it can not be revoke through normal scan.
+
+# Sign Contract
+
+• Always verify the actual function call and parameters of transactions
+
 # 2025-08-04
 
 # Wallet Security Best Practices
