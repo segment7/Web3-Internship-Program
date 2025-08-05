@@ -18,6 +18,8 @@ Web2 转 Web3 新手
 # 2025-08-05
 
 - 学习了 NFT 知识 https://nft.myfirst.io/ ，并铸造了一枚 NFT https://sepolia.etherscan.io/tx/0x43cc39147362997dcd278bfb7ec5b55fc2e6ecb4403c597551e094a7e5abd4ac
+- 学习了安全与合规相关知识 https://web3intern.xyz/zh/security/
+- 参加了《Web3 安全分享和答疑》分享和互动
 
 # 2025-08-04
 
