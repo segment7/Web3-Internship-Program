@@ -17,8 +17,11 @@ timezone: UTC+8
 <!-- Content_START -->
 # 2025-08-05
 
-完成MetaMask转账操作
-https://sepolia.etherscan.io/tx/0x471f6ec4419a42b6be8c0e5bea2ed69659ed7276e7fbfdca3447393779a3f70a
+## 完成MetaMask转账操作  
+https://sepolia.etherscan.io/tx/0x471f6ec4419a42b6be8c0e5bea2ed69659ed7276e7fbfdca3447393779a3f70a  
+
+## 了解NFT相关知识  
+https://www.notion.so/Web3-NFT-246cba8d667980869760d2b27c4e5c3a?source=copy_link
 
 # 2025-08-04
 
