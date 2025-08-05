@@ -473,7 +473,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [WEEDZA](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/WEEDZA.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [amber16305-netizen](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/amber16305-netizen.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [btcabc2025](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/btcabc2025.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
-| [flokimine](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/flokimine.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
+| [flokimine](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/flokimine.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
 | [yujianshiguang1993](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/yujianshiguang1993.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [silver-x](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/silver-x.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [xsx13](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/xsx13.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -545,6 +545,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [slwyts](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/slwyts.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ssaaaaaaaaaaaaaaaaaaaaaaaaaaa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ssaaaaaaaaaaaaaaaaaaaaaaaaaaa.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
