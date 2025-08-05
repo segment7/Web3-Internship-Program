@@ -15,6 +15,23 @@ Incoming CSE year-three student from CUHK. Eager to learn. Potential digital nom
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+### [**PoS 机制详解](https://web3intern.xyz/zh/overview-of-ethereum/#pos-%E6%9C%BA%E5%88%B6%E8%AF%A6%E8%A7%A3)（从PoW到PoS）**
+
+**验证者如何工作**：
+
+- **准入门槛**：质押 32 ETH 成为验证者
+- **工作方式**：系统随机选择验证者来提议和验证区块
+- **奖励机制**：验证者获得新发行的 ETH + 交易费用
+- **惩罚机制**：作恶者质押的 ETH 被销毁（Slashing）
+
+**相比 PoW 的优势**：
+
+- **能耗降低 99.95%**：无需大量电力和硬件
+- **经济安全性**：攻击成本约需控制全网 67% 的质押 ETH（价值数百亿美元）
+- **最终确定性**：区块确认更快、更可靠
+
 # 2025-08-04
 
 区块链及其特性
