@@ -15,6 +15,58 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+- #### 以太坊
+		- 和比特币的区别：
+			- 比特币是区块链1.0，货币属性
+			- 以太坊是2.0，智能合约和可编程性
+				- Solidity开发智能合约
+			- 区块时间由10min -> 12sec
+			- ==通胀 -> 通缩==
+			- The Merge：PoW -> PoS
+				- PoW 依靠计算机算力挖矿，消耗电力
+				- PoS   32ETH - 质押 - 验证者
+		- 特点：灵活
+		- 升级方向：
+			- 分片
+				- Layer2扩容 - 数据分片 - EIP-4844
+					- L2使用常规交易，**EIP-4844引入Blob交易类型**，数据存储成本降低
+				- 全面分片预计 **2025-2026 年** 启动，重点是 Proto-Danksharding
+			- ZK-Rollup
+				- 证明
+			- 其他：
+				- Verkle树技术：优化状态存储结构，减少节点同步所需的数据量
+				- 执行环境优化：提升 EVM 性能，支持更复杂的智能合约应用
+					- EVM 以太坊虚拟机
+		- 生态概览：
+			- 应用层 Application Layer
+				- 用户直接交互
+				- **DeFi 应用**：Uniswap（去中心化交易所）、Aave（借贷协议）、Compound（借贷协议）
+				- **NFT 平台**：OpenSea、Foundation、SuperRare
+				- **钱包应用**：MetaMask、Coinbase Wallet、Rainbow
+				- **DAO 工具**：Snapshot、Aragon、Colony
+			- 协议层 Protocol Layer
+				- **共识层客户端**：Prysm、Lighthouse、Nimbus、Teku
+				- **执行层客户端**：Geth、Nethermind、Erigon、Besu
+				- **核心协议**：EVM、状态管理、Gas 机制
+			- 扩展层 Scaling Layer  
+				- 提升性能、降低成本
+					- **Layer 2 Rollups**：Arbitrum、Optimism、Polygon zkEVM、zkSync Era
+					- **侧链**：Polygon PoS、xDAI（Gnosis Chain）
+					- **状态通道**：Lightning Network for Ethereum
+		- 核心机制
+			- 账户系统
+				- 私钥控制 EOA
+				- 智能合约控制 CA
+			- Gas 模型
+				- 激励矿工/验证者
+				- ==矿工就是验证者吗？==
+				- 基础费用用来帮助ETH通缩，会消失
+				- ==怎么理解通缩？==
+			- 以太坊虚拟机 EVM
+				- 运行智能合约的虚拟计算机
+
 # 2025-08-04
 
 # 学习内容：
