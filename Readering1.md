@@ -19,7 +19,7 @@ timezone: UTC+8
 
 https://icngtqy4q8ii.feishu.cn/wiki/Dgi6wagCjiEEQSku4yQccEbfnXc
 
-今天主要学习了安全知识，后面将练习防钓鱼网站的课程，更新笔记，希望可以坚持下去
+今天主要学习了安全知识，加入了Discord，后面将练习防钓鱼网站的课程，更新笔记，希望可以坚持下去
 
 # 2025-08-04
 
