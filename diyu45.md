@@ -15,6 +15,10 @@ the moon
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+参加安全会议，并下载Remix Desktop Insiders 准备学习solidity语法
+
 # 2025-08-04
 
 学习比特币白皮书，以及测试发币收币，下载社群用具
