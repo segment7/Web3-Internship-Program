@@ -15,6 +15,11 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+阅读了实习手册的安全与合规部分，参与了今晚的安全专家来给我们分享区块链里面的安全事件的会议
+web3钓鱼事件非常多,做了几个unphishable上面的反诈小挑战
+
 # 2025-08-04
 
 创建小狐狸钱包并测试完成，注册了推特，转发了推文，领到了测试币，0.05SepoliaETH，成功转发给朋友，https://sepolia.etherscan.io/tx/0xcabd0dc8c9ee92ae19707a242b67cac85fea2e3d0633ca4c69a057d0f4e22549，这是交易记录的网址，https://i.postimg.cc/qvh6nCDB/5b26e616-9e57-4a49-84de-a328ffc62d44.png
