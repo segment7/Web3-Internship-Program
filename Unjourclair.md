@@ -15,6 +15,21 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+Web3防诈骗笔记
+1.钱包复制陷阱
+2.广告诈骗
+3.恶意RPC商
+工具：chainlist.org
+chainlist上没有的RPC千万不要连！
+4.恶意插件提供
+假冒metamask
+deepfake假zoom线上会议
+5.虚拟交易（一般要进入钓鱼网站才会被诈骗）
+学习以太坊概览：https://postimg.cc/94cYpM6C
+下载Scam Sniffer
+
 # 2025-08-04
 
 今日份学习笔记：区块链基本内容+比特币的概念，笔记整理+二次复习
