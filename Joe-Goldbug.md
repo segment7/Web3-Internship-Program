@@ -15,6 +15,75 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+## 1. 基础设施层 (Infrastructure Layer)
+* **区块链 (Blockchain)**:  
+  作为去中心化的、不可篡改的分布式账本，是所有 Web3 资产和交互的**信任根 (Root of Trust)**。  
+  文章以比特币 (Bitcoin) 和以太坊 (Ethereum) 为例，阐述了其作为：
+  - 价值存储
+  - 智能合约平台  
+  的典型应用场景。
+
+* **加密货币 (Cryptocurrency)**:  
+  作为协议的**原生代币 (Native Token)**，是访问和使用区块链网络资源的经济媒介。  
+  例如，以太币 (ETH) 不仅是：
+  - 价值载体
+  - 执行交易和部署智能合约所需的 **Gas Fee**
+
+---
+
+## 2. 账户与安全 (Account & Security)
+* **加密钱包 (Crypto Wallet)**:  
+  作为用户与区块链交互的**入口 (Gateway)**，是管理公私钥对和链上资产的核心工具。  
+  主要类型：
+  - 热钱包（如 MetaMask，便于交互但风险较高）
+  - 冷钱包（如 Ledger，隔离存储以增强安全性）
+
+* **助记词/私钥 (Seed Phrase / Private Key)**:  
+  用户对其链上资产拥有**绝对所有权的唯一凭证**。  
+  核心原则：  
+  > "Not your keys, not your crypto"  
+  
+  安全实践：
+  - 物理备份
+  - 避免数字存储
+  - 防范网络钓鱼 (Phishing) 和社会工程学攻击
+
+---
+
+## 3. 核心应用层 (Application Layer)
+* **非同质化代币 (NFT - Non-Fungible Token)**:
+  * **定义**:  
+    基于特定代币标准（如以太坊的 ERC-721 或 ERC-1155）创建的：
+    - 具有唯一性
+    - 不可分割性  
+    的链上数字资产。  
+    每个 NFT 的**元数据 (Metadata)** 和 **Token ID** 都是独一无二的，记录在区块链上，从而保证：
+    - 可验证的所有权
+    - 稀缺性
+    
+  * **价值捕获 (Value Capture)**:  
+    NFT 的价值来源于其内在属性：
+    - 社区共识
+    - 文化相关性
+    - 功能性效用 (Utility)
+    - 特定生态系统中的可组合性 (Composability)
+
+* **铸造 (Minting)**:  
+  指在区块链上**创建（或“发行”）** 新 NFT 的过程。  
+  本质：
+  - 调用智能合约的**写操作 (Write Operation)**
+  - 将代币与用户钱包地址绑定
+  - 消耗 **Gas Fee**
+
+* **DYOR (Do Your Own Research)**:  
+  参与 NFT 项目或 dApp 交互前的**关键风险管理行为**，包括：
+  - 审查项目方背景
+  - 审计智能合约代码
+  - 评估社区活跃度
+  - 分析链上数据
+
 # 2025-08-04
 
 # 以太坊未来十年的三大核心趋势
