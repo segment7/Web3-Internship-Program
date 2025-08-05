@@ -15,6 +15,11 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+1. 学习solidity
+2. 参加web3安全分享会
+
 # 2025-08-04
 
 1. 补听开营仪式
