@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+今日通过wtf学习solidily基本内容。
+
 # 2025-08-04
 
 了解区块链，web3，下载使用相关app，webseit
