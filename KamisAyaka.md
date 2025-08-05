@@ -15,6 +15,12 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+今天在https://unphishable.io/ 上完成了所有的初级安全挑战，并在https://www.rustfinity.com/ 网站上完成了19个基础的练习，熟悉了rust的基本语法。看完了实习手册的入门导读和行业知识，在合规上面学到很多，对一些攻击手段和诈骗项目有了一定的认知。
+
+让 ai 帮我把之前跟着在 b 站上做的 rust 借贷项目做了完全的注释，未来几天打算在该基础上做进一步的开发，目前还没想好该怎么进行改进，完成该项目有助于进一步提升我有关 rust 的技能，同时也得分出时间来完成 rust 的练习和安全挑战。项目的链接为https://github.com/KamisAyaka/rust_leading
+
 
 # 2025.08.04
 
