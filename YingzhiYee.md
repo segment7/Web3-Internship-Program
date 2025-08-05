@@ -15,6 +15,27 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+# 2025/08/05
+
+## 安全会议
+
+1. 背景
+    1. 2025年 35millions 美元
+    2. 手法：假帐号/交易/助记词诈骗/USDT授权钓鱼/Google广告钓鱼攻击/恶意RPC商/恶意插件提供/DeepFake假Zoom线上会议（面试，要求你安装一些软件，盗取资产）/模拟交易诈骗/线下交U…
+    3. web3 Phishing：偷资产；无法逆转交易；资金难以追回
+    4. 攻击的基础模式：建立信任→制造状况→诱导操作（恢复网站/助记网站）→窃取资产
+    5. 
+2. 反钓鱼训练平台：Unphishable，https://unphishable.io/
+    1. 做了什么：社区贡献→手法模拟→教育→社区贡献
+    2. 贡献：看图，https://defihacklabs.io/#join
+    3. 建议要装安全软件，
+        
+        mac：https://objective-see.org/products/blockblock.html
+        
+        win：https://chromewebstore.google.com/detail/scam-sniffer/mnkbccinkbalkmmnmbcicdobcmgggmfc(https://chromewebstore.google.com/detail/scam-sniffer/mnkbccinkbalkmmnmbcicdobcmgggmfc)
+
 # 2025-08-04
 
 # 2025/08/04
