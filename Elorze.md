@@ -15,6 +15,11 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+今天阅读了手册的 【行业全览】和【工作方式】。在远程协作习惯这节收获颇多。
+在 https://cloud.google.com/application/web3/faucet/ethereum/sepolia 上领取了测试币，部署了safe account，向同学转账，[userOperation hash]: 0x10136f27b999df74536d31e55cf9860a09e8dff9108c7fc1542185d55b8d365a。
+
 # 2025-08-04
 
 今天看了文档的第一第二篇。
