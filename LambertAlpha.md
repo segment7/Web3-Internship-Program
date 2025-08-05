@@ -15,6 +15,144 @@ Bloackchian Full-stack dev
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+耗時：1h45min
+
+由於今天是第一天學習，大部分時間耗在了找合適的視頻進度和看視頻中，說實話這個教學視頻過於基礎，教你甚至從VS Code和命令行開始。我的學習方法是快速過視頻（兩倍速），根據標題跳過已掌握的知識，然後遇到問題讓claude快速幫我總結。用ai輔助學習效果很好，它還會幫你**適當**拓展很多知識，讓視頻或者其他學習資料佐ai輔助是很高效的學習方法。通過今天1h45min的學習我已經基本學會Foundry框架並且能夠上手寫Solidity合約了。
+
+[學習視頻](https://www.youtube.com/watch?v=i22RLgAu51g)
+
+幾個月前看過了這個系列的前四課，講的很基礎，關於blockchian和智能合約的基礎知識，以及如何在Remix IDE部署合約，示例是一個儲存的合約，還學習了怎麼在合約裡調用另一個合約，忘得差不多了，不過快速過了一下很快又理解，大概是因為我已經掌握了Move的緣故。
+
+今天的主要任務是學習Foundry框架。
+
+其他主流的框架：hardhat基於js，Foundry基於Solidity，Brownie基於Python，我們這裡先學習Foundry。
+
+### Solidity基礎語法
+
+感覺有點像javascript，加上之前學過move，所以基本無障礙，快速過一遍語法就好了。
+
+## Foundry
+
+[實踐項目連結](https://github.com/LambertAlpha/solidity_practice/tree/main/foundry_1)
+
+[文檔](https://getfoundry.sh/)
+
+[Foundry full tutorial](https://updraft.cyfrin.io/courses/foundry/foundry-simple-storage/development-environment-setup-mac-linux)
+
+**forge工具**
+
+初始化項目 forge init (project name) 編譯forge compile
+
+**anvil工具**
+
+foundry的內置本地以太坊節點
+
+### 如何在本地部署合約
+
+1. 運行anvil在本地跑以太坊節點，會給你127.0.0.1:8545端口和一堆帳戶和私鑰；
+2. 運行好本地節點後，通過forge命令來部署；
+
+Tips：注意，部署失敗連不上本地節點的原因很可能是因為vpn
+
+```jsx
+forge create Counter --rpc-url http://127.0.0.1:8545 --interactive
+```
+
+一次性交互
+
+```jsx
+forge create Counter \
+  --rpc-url http://127.0.0.1:8545 \
+  --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 \
+  --broadcast
+```
+
+部署成功輸出：
+
+```jsx
+No files changed, compilation skipped
+Deployer: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+Transaction hash: 0xca4ba3555dced7f00fe969b48f7e797e3a6dd11b517eae71cb9d39d66982e27b
+```
+
+1. 使用cast和合約交互：
+
+```jsx
+# 读取当前 number 值
+cast call <合約地址> "number()" --rpc-url http://127.0.0.1:8545
+
+# 调用 increment 函数
+cast send <合约地址> "increment()" \
+  --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 \
+  --rpc-url http://127.0.0.1:8545
+
+# 设置 number 为特定值
+cast send <合约地址> "setNumber(uint256)" 42 \
+  --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 \
+  --rpc-url http://127.0.0.1:8545
+```
+
+調用查詢number函數（只讀）
+
+```jsx
+cast call 0x5FbDB2315678afecb367f032d93F642f64180aa3 "number()" --rpc-url http://127.0.0.1:8545
+```
+
+返回
+
+```jsx
+0x0000000000000000000000000000000000000000000000000000000000000000
+```
+
+調用增加函數（交易 消耗gas）
+
+```jsx
+cast send 0x5FbDB2315678afecb367f032d93F642f64180aa3 "increment()" \
+  --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 \
+  --rpc-url http://127.0.0.1:8545
+```
+
+返回
+
+```jsx
+blockHash            0x1b9b83bffaa6ea77ced6508c3c261801fdcd59fe84b9d553fcc2b001f98b22e3
+blockNumber          2
+contractAddress      
+cumulativeGasUsed    43482
+effectiveGasPrice    876306676
+from                 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+gasUsed              43482
+logs                 []
+logsBloom            0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+root                 
+status               1 (success)
+transactionHash      0x3fbfbe28a96a0d896e88256592af6f2c34292fdf9086a5d09da8ec6890d27ef9
+transactionIndex     0
+type                 2
+blobGasPrice         1
+blobGasUsed          
+to                   0x5FbDB2315678afecb367f032d93F642f64180aa3
+```
+
+再調用查詢numbert函數（只讀）
+
+```jsx
+cast call 0x5FbDB2315678afecb367f032d93F642f64180aa3 "number()" --rpc-url http://127.0.0.1:8545
+```
+
+返回
+
+```jsx
+0x0000000000000000000000000000000000000000000000000000000000000001
+```
+
+### Foundry框架下script, src和test各司其職
+
+![螢幕截圖 2025-08-05 下午3.43.00.png](attachment:889eb4e0-f559-4555-939e-d8001d786fb7:螢幕截圖_2025-08-05_下午3.43.00.png)
+
 # 2025-08-04
 
 今天研究了ETH和纳斯达克指数的相关性，发现ETH可以简单分为三个阶段，第一个阶段主要是技术极客圈子，和NDX相关性近乎为0，第二个阶段是疫情时期宽松货币政策，使得ETH成为相对大众所知的风险资产，最后是24年ETF上线以及25年华尔街开始介入之后，和NDX的相关性越来越高。
