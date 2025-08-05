@@ -15,6 +15,12 @@ web3 开发工程师
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+今天整理 Morpho 协议文档（一）基本原理：，介绍借贷协议基本原理，以及Morpho 相对于aave, compound 的创新点：
+
+https://qiwihui.notion.site/Morpho-24591974afe580d4a9fafe287222ef33
+
 # 2025-08-04
 
 ## Morpho 借贷协议
