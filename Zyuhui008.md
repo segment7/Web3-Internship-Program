@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+今日web3安全讲座
+
 # 2025-08-04
 
 参加14-16点 ETH的腾讯会议
