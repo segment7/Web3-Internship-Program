@@ -15,6 +15,16 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+**DONE**
+- [x] 参加8月5号晚上安全分享会直播
+- [x] 学习完[入门导读]( https://web3intern.xyz/zh/blockchain-basic/)
+- [x] 学习完[扩展阅读My First NFT](https://nft.myfirst.io/)
+
+**TODO**
+- [ ] 现在是晚上23:40，笔记还没整理完。。。一会赶完在学分上打个卡
+
 # 2025-08-04
 
 **DONE**
