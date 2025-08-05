@@ -15,6 +15,11 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+# 今日学习 https://unphishable.io/ 钓鱼攻防挑战
+完成no.0001-no.0004
+
 # 2025-08-04
 
 # 补8月2-3日的内容
