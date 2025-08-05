@@ -433,7 +433,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [PriestIthas](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/PriestIthas.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [DawnBlackA](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/DawnBlackA.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [SuBCweb3](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/SuBCweb3.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
-| [Kao-111](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Kao-111.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Kao-111](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Kao-111.md) | ⭕️ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Zlcaj](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Zlcaj.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [kaixiang-uoa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kaixiang-uoa.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
 | [PolarTechJordan](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/PolarTechJordan.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -546,6 +546,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [ssaaaaaaaaaaaaaaaaaaaaaaaaaaa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ssaaaaaaaaaaaaaaaaaaaaaaaaaaa.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
 | [KamisAyaka](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/KamisAyaka.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
