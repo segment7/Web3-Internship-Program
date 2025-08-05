@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+学习测试网交互
+
 # 2025-08-04
 
 学习L2交互
