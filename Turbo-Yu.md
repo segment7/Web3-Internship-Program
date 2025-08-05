@@ -15,6 +15,11 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+## 12:00
+看了Web3.0 的行业赛道 ，整理笔记： https://postimg.cc/0zpjpb5F
+
 # 2025-08-04
 
 ## 8:00
