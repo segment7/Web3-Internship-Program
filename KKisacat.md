@@ -15,6 +15,39 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+## 以太坊概覽
+可以把 Ethereum 想成一台全球共享的「世界電腦」，每個節點都執行相同的區塊鏈資料和程式碼。
+
+### 名詞解釋
+
+| 組件名稱          | 功能說明                                         |
+| ------------- | -------------------------------------------- |
+| 區塊鏈層        | 儲存交易、區塊、狀態（帳戶餘額、合約資料）的資料庫                    |
+| EVM（虛擬機）   | Ethereum Virtual Machine，執行智能合約的虛擬環境         |
+| 智能合約       | 用 Solidity 編寫的程式，部署到鏈上自動執行，像區塊鏈 App          |
+| 帳戶模型       | Ethereum 有兩種帳戶：EOA（使用者帳戶）、CA（合約帳戶）           |
+| 狀態樹        | Ethereum 使用 Merkle Patricia Trie 儲存帳戶狀態與合約資料 |
+| 節點與 P2P 網路 | 所有節點互聯，共同同步區塊與狀態，維護網路運行                      |
+| 共識機制       | 目前是 PoS（權益證明），決定誰負責產區塊與驗證交易                  |
+
+### 架構
+1. 資料層 / 網路層 (Data + P2P)： 區塊資料、帳戶狀態、P2P 網路
+2. 共識層 (Consensus Layer)：PoS 共識機制、驗證者
+3. 執行層 (Execution Layer)：EVM、智能合約執行
+4. 協定層 (Protocol Layer)：Uniswap(自動做市協議)、Aave(借貸協議) 等 DeFi 協議規則
+5. 應用層 (Application Layer)：給使用者使用的 DApp(ex: MetaMask)
+
+#### 以太坊區塊練基礎架構
+1. Layer 1（主鏈）
+* 涵蓋上面架構的 第 1～3 層
+* 交易速度慢、手續費貴
+
+2. Layer 2（擴容層）
+* 架在 Layer 1 上的並行鏈，幫助它變快變便宜
+* 常見的類型：1. Rollup(Arbitrum, Optimism): 把多筆交易「打包」後一起送給主鏈。2. zk-Rollup	(zkSync, StarkNet)：使用零知識證明，保證正確性且隱私。
+
 # 2025-08-04
 
 ## 區塊鏈基礎概念
