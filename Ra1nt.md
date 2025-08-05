@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+完成了web3安全方面的学习，主要通过https://unphishable.io/challenges/google-spoofed-phishing上的练习
+
 # 2025-08-04
 
 安装好了相应的工具，完成了第一个我的nft
