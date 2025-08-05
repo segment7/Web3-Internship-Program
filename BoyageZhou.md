@@ -15,6 +15,23 @@ Hey! I’m an ENTP/J-A navigating the Web3 world with curiosity and an open mind
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+阅读 Web3 Intern 入门导读
+
+梳理区块链与以太坊基础概念
+
+初步了解 Web3 赛道图谱：DeFi、NFT、Infra、钱包、安全等
+
+学习了区块链的四大特征：去中心化、不可篡改、透明、可编程
+
+以太坊如何实现智能合约和去信任的交互
+
+不同赛道如何彼此协作构成完整生态
+
+
+体验 DApp（Uniswap Swap）
+
 # 2025-08-04
 
 今天听了以太坊中文峰会。并完成了入门导读的阅读，收获颇深。在完成阅读后还观看了纪录片Banking on Bitcoin
