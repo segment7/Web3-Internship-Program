@@ -15,6 +15,12 @@ Web2开发转型
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+1. 使用dapp opensea
+2. 互相发币
+https://sepolia.etherscan.io/address/0xAE3934037B013755AC76E0a78a671911BCbc7577
+
 # 2025-08-04
 
 1. DeFi（去中心化金融）
