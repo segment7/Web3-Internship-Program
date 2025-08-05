@@ -15,6 +15,13 @@ h. 大家好，我是hha0，居 住在佛山南海， 本身专业是设计 类�
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+今天参与了web3安全防护知识，也做了一些笔记
+[![IMG-20250805-211813.jpg](https://i.postimg.cc/bNsTD5SY/IMG-20250805-211813.jpg)](https://postimg.cc/zVYW40k4)
+也学习了资料库里的安全知识
+[![1754400030063.jpg](https://i.postimg.cc/Rh0TTsPR/1754400030063.jpg)](https://postimg.cc/tZLPq5GZ)
+
 # 2025-08-04
 
 今天准备下午的以太坊中文周会，挺期待的，会做相关的笔记
