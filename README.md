@@ -90,7 +90,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [farbegas9-Tim](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/farbegas9-Tim.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Link-990](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Link-990.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [FinnTew](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/FinnTew.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
-| [kaka666111](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kaka666111.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
+| [kaka666111](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kaka666111.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ZK5uuu](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ZK5uuu.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [adureychloe](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/adureychloe.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [kuove](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/kuove.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -343,7 +343,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [luyu-0409](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/luyu-0409.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [lynn-000-cccc](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/lynn-000-cccc.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Jadeel00](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Jadeel00.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
-| [Failover97](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Failover97.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Failover97](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Failover97.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Yvaine1125](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Yvaine1125.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Suvie277](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Suvie277.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [carmen09-0ss](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/carmen09-0ss.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -381,7 +381,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [xiaoxiang0000](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/xiaoxiang0000.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [chenxi888999](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/chenxi888999.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [silverwingsbird](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/silverwingsbird.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
-| [Ttllboy](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Ttllboy.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Ttllboy](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Ttllboy.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
 | [A2354FDS](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/A2354FDS.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [laurayt427](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/laurayt427.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Crocs77](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Crocs77.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -546,6 +546,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [ssaaaaaaaaaaaaaaaaaaaaaaaaaaa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ssaaaaaaaaaaaaaaaaaaaaaaaaaaa.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
 | [KamisAyaka](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/KamisAyaka.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
