@@ -15,6 +15,11 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+完成MetaMask转账操作
+https://sepolia.etherscan.io/tx/0x471f6ec4419a42b6be8c0e5bea2ed69659ed7276e7fbfdca3447393779a3f70a
+
 # 2025-08-04
 
 ## 学习内容  
