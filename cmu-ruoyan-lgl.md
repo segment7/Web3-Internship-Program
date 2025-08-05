@@ -15,6 +15,13 @@ web2游戏大厂工作两年
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+参加web3安全分享会
+写完solana monitor api代码
+开始deploy myfirstnft
+https://cmu-ruoyan-lgl.github.io/Web3_Internship_Program_Notes/StudyNotes/day4
+
 # 2025-08-04
 
 体验一次eth中文周会
