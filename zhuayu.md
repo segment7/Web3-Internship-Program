@@ -15,6 +15,12 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+- [ ]  体验一次 Dapp 交互，https://nft.myfirst.io/
+- [ ]  突破学习：稳定币类型、借贷协议收益模型、Uniswap V3 vs V4
+- [ ]  参加 Web3 安全会议
+
 # 2025-08-04
 
 Todo :
