@@ -15,6 +15,56 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+### 安全
+
+1. 重入攻击
+   利用外部合约在 fallback 中重新调用原函数。历史上最著名的 The Dao 事件便因重入漏洞导致合约 6000 万美元 ETH 被盗，最终造成以太坊社区分裂（形成 ETH/ETC 链）。
+   防护方法：先更新状态，在转账。
+
+```solidity
+function withdraw() public {
+    require(balance[msg.sender] > 0);
+    (bool sent,) = msg.sender.call{value: balance[msg.sender]}("");
+    require(sent);
+    balance[msg.sender] = 0;
+}
+
+
+// good
+function withdraw() public {
+    uint256 amount = balance[msg.sender];
+    balance[msg.sender] = 0;
+    (bool sent,) = msg.sender.call{value: amount}("");
+    require(sent);
+}
+```
+
+2. 预言机操纵
+   依赖外部价格源的不可信更新。
+   解决方法：
+
+   - 使用 Chainlink 等权威价格源。
+   - 增加时序约束和多源验证。
+   - 使用 twap 等加权算法。
+
+3. 整数溢出/下溢
+   使用 unchecked {} 时需要确保逻辑安全。
+   推荐使用 Solidity 0.8+ 的内建溢出检查或 SafeMath.
+
+4. 权限控制缺失
+   所有管理函数引用 onlyOwner 或 AccessControl 修饰符保护。
+5. 未初始化代理
+
+- 基于代理模式的合约未正确初始化函数，可能被任意人初始化并接管合约。
+- 著名的例子包括 Harvest Finance 其在使用 Uniswap V3 做市策略的 Vault 合约中存在未初始化漏铜，如果被利用攻击者可销毁实现合约。该团队曾为此漏洞支付高额赏金修复。
+
+6. 前置交易/三明治攻击
+
+- 攻击者在交易执行前后分别发送交易，以不利滑点或套利为目的。
+- 例如 2025 年 3 月，一名用户在 Uniswap V3 的稳定币兑换中遭遇三明治攻击，约 21.5 完美元的 USDC 兑换几乎被抢跑，损失 98%的资金。
+
 # 2025-08-04
 
 ## Dapp 架构
