@@ -15,6 +15,31 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+# Day-20250805
+
+## 安全知识
+
+钓鱼网站-应对操作一定要慢操作，谨慎
+
+## 领取**Sepolia测试币**&转账
+
+[水龙头](https://www.notion.so/Day-20250805-246a40f65dbf8030bf2dfbaeb2fbf13a?pvs=21)接水需要进行POW，在网络比较拥堵的时候会很慢
+
+从水龙头的网站去接水成功
+
+- [Google Cloud](https://cloud.google.com/application/web3/faucet/ethereum/sepolia)
+- 一天只能领一次
+
+```
+Each Google Account and wallet address gets one drip on Sepolia every 1 day. Try again after Aug 6, 2025, 6:08:28 PM.
+```
+
+[转账交易成功](https://sepolia.etherscan.io/tx/0xe7e14d2fff938b5c4d7a46d7b2b2c33f31c7c0551b99da85a6baf7cc6ab735d4)
+
+- 自己转自己的钱包地址成功了，这也行？
+
 # 2025-08-04
 
 # 【20250804】学习记录
