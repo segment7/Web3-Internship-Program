@@ -81,6 +81,7 @@ Transaction hash: 0xca4ba3555dced7f00fe969b48f7e797e3a6dd11b517eae71cb9d39d66982
 1. 使用cast和合約交互：
 
 ```jsx
+
 # 读取当前 number 值
 cast call <合約地址> "number()" --rpc-url http://127.0.0.1:8545
 
