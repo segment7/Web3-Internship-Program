@@ -15,6 +15,10 @@ artist
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+今天依旧在学全栈，react next.js tailwind的提示好垃圾，要学gsap了
+
 # 2025-08-04
 
 今天在学react 和next.js
