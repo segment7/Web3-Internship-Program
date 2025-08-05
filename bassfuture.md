@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-05
+
+学习web3安全知识 参加zoom会议
+
 # 2025-08-04
 
 完成基础工具安装zoom rabby x ，测试网获取代币 推特关注bruce ethpanda lxado
