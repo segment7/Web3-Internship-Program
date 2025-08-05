@@ -66,5 +66,10 @@ V3 流动性：
 LP 可选择仅在 1000-2000 USDC/ETH 区间提供 1 ETH + 1000 USDC。若价格在此区间内，资本效率是 V2 的 10 倍（因为 V2 需要 10 ETH 才能覆盖相同深度）。
 
 
+# 2025.08.05
+1. 听了一下晚上的安全分析课程，了解到了建立熟悉网络的攻击过程
+2. 做了明天故事会分享的 PPT，再次阅读了 DPOS 制度所带来的寻租卡特尔弊端
+https://docs.google.com/presentation/d/1dXkhUXQZG8BBFr8-_3GvKvlYIS3SIl7PP9eE-hWDPME/edit?slide=id.g375bec490fd_0_497#slide=id.g375bec490fd_0_497
+
 
 <!-- Content_END -->
