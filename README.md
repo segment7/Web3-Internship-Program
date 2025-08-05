@@ -105,7 +105,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Ravenzhouzhou](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Ravenzhouzhou.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [MilesYam](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/MilesYam.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [hycnbbit](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/hycnbbit.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
-| [jaredchao](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/jaredchao.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
+| [jaredchao](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/jaredchao.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Waiting-Chai](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Waiting-Chai.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Wking900](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Wking900.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [franc2es](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/franc2es.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -545,6 +545,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [slwyts](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/slwyts.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ssaaaaaaaaaaaaaaaaaaaaaaaaaaa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ssaaaaaaaaaaaaaaaaaaaaaaaaaaa.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
