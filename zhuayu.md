@@ -15,6 +15,11 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+- 学习岗位全景图 → https://web3intern.xyz/zh/position-introduction/
+- 学习安全与合规 → https://web3intern.xyz/zh/security/
+
 # 2025-08-05
 
 - [ ]  体验一次 Dapp 交互，https://nft.myfirst.io/
