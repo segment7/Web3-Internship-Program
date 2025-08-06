@@ -15,6 +15,50 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+- #### 行业赛道
+		- DeFi（decentralized finance）
+			- 协议
+				- 借贷
+					- Aave 
+				- DEX - 去中心化交易所
+					- Uniswap
+						- 代币定价 - 依赖恒定乘积公式
+					- Compound
+						- 借贷
+				- 衍生品
+					- dYdX
+				- RWA
+	- NFT
+		- OpenSea
+		- 社交、游戏资产，如 Axie
+	- Layer2扩容方案
+		- 烂大街 雪崩  空投
+	- 基础设施
+		- 跨链桥 Wormhole D。。
+	- 外部竞争/公链
+		- Solana
+		-  雪崩
+	- 稳定币
+		- USDT
+		- USDC
+		- DAI
+	- 去中心化金额
+		- 组池子，放贷，空投，链上测试LP，借贷
+	- 闪电贷
+		- ==很有意思，不成功就会回滚==
+	- uniswapp交互
+		- 推荐okx而不是metamask
+		-  闪电贷套利  
+			发布土狗合约  
+			闪兑
+		- v3和v4的差别
+			- v4提出brollprotical
+			- 所有流动性变成一个池子，
+		- 做测试网
+		- 熊链
+
 # 2025-08-05
 
 - #### 以太坊
