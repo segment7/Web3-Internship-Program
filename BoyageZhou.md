@@ -15,6 +15,10 @@ Hey! I’m an ENTP/J-A navigating the Web3 world with curiosity and an open mind
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+观看了youtube区块链安全事件分享回放
+
 # 2025-08-05
 
 阅读 Web3 Intern 入门导读
