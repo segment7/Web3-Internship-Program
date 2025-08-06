@@ -10,7 +10,7 @@ timezone: UTC+8
 
 ## Self-introduction
 
-来自重庆，后端和合约开发，也想学习下撸毛，更好的了解web3
+来自重庆，目前专注合约开发，也想学习运营等非技术岗位的知识，更好的了解web3，想多找几个remote，不然快被饿死了
 
 ## Notes
 
