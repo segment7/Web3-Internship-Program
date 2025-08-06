@@ -15,6 +15,16 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+**DONE**
+- [x] 参加8月6号晚上的web3故事会直播
+- [x] 梳理这几天学的知识，输出一篇[笔记](https://flypiggyyoyoyo.github.io/2025/08/06/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%88%9D%E6%8E%A2/)在自己的网站上
+- [x] 完成币安注册、认证
+
+**TODO**
+- [ ] 设计一个自己的NFT，正在做了
+
 # 2025-08-05
 
 **DONE**
