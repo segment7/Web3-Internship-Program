@@ -17,8 +17,7 @@ timezone: UTC+8
 <!-- Content_START -->
 # 2025-08-06
 
-理解学习了，
-Uniswap 是去中心化交易所（DEX）的代表，由 Hayden Adams 于 2018 年创立。其核心创新在于引入“自动做市商”（AMM）模式，通过“恒定乘积公式” 实现代币定价。用户通过存入流动性池（如 ETH 和 DAI）成为流动性提供者（LP），赚取交易手续费。
+今天学习了Web3的行业赛道,交由DeFi。 DeFi中主要包含了Uniswap, Compound, and MakerDAO, 然后其他的还有NFT, Mimi, DAO组织。 再其他就是这些行业赛道的交叉混合型。
 
 # 2025-08-05
 
