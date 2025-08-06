@@ -15,6 +15,54 @@ timezone: UTC+5
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+## Foundry框架
+
+状态: 进行中
+创建日期: 2025年8月4日
+标签: Foundry
+笔记类型: 技术笔记
+笔记目的: 日常学习
+
+Foundry 需要注意的问题总结
+
+## 什么是Foundry
+
+Foundry 是一个智能合约开发工具链。
+
+Foundry 管理您的依赖项，编译您的项目，运行测试，部署，并允许您通过命令行和 Solidity 脚本与链交互。
+
+```bash
+curl -L https://foundry.paradigm.xyz | bash
+
+# Install forge, cast, anvil, chisel
+foundryup
+```
+
+通过这个命令导入Foundry
+
+## **Foundry 的核心组件**
+
+### **1. Forge - 主要开发工具**
+
+- **编译合约**：forge build
+- **运行测试**：forge test
+- **部署合约**：forge script
+- **管理依赖**：forge install
+
+### **2. Cast - 合约交互工具**
+
+- 与已部署合约交互
+- 发送交易
+- 查询区块链数据
+
+### **3. Anvil - 本地测试网络**
+
+- 快速启动本地以太坊节点
+- 预配置的测试账户
+- 可配置的区块时间
+
 # 2025-08-05
 
 今天参加了，WEB3安全会议
