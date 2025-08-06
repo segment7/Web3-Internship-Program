@@ -15,6 +15,29 @@ web3 开发工程师
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+Morpho 的 Market 部署流程：
+1. 基础部署
+    a. 部署基础的 Morpho， AdaptiveCurveIrm合约，设置支持的 irm 和 lltv;
+    b. 部署 MorphoChainlinkOracleV2Factory 合约，支持不同资产对的价格预言机部署；
+2. 创建 Market
+    a. 确定抵押资产，借贷资产，irm，lltv 和 价格代币对，
+    b. 通过价格代币对，使用 MorphoChainlinkOracleV2Factory 部署预言机合约
+    c. 通过 Morpho 的 createMarket，创建市场；
+
+操作上：
+
+Earn 操作：
+1. 资产存入和提款
+
+Borrow操作：
+1. 存入和提取担保品
+2. 借款和偿还借款
+
+清算借贷仓位
+闪电贷
+
 # 2025-08-05
 
 今天整理 Morpho 协议文档（一）基本原理：，介绍借贷协议基本原理，以及Morpho 相对于aave, compound 的创新点：
