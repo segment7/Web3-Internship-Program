@@ -15,6 +15,57 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+行业赛道学习
+## 技术岗 (Technical Roles)##
+### 前端工程师 (Frontend Engineer)
+- 负责构建用户在 Web3 应用中直接交互的界面。
+- 核心职责: 使用现代前端技术（如 React、Vue）开发用户界面，并集成 Web3.js、Viem 等工具，以实现钱包连接、交易签名和链上数据展示等功能。
+- 必备技能: 扎实的 HTML、CSS、JavaScript 基础，精通至少一种前端框架（React 或 Vue），熟悉 Web3.js、Viem 等 Web3 库。 
+- 加分项: 具备 DApp（去中心化应用）开发经验，熟悉 Git，有 Web3 开源项目经验。
+- 常用技术栈:
+语言与框架: JavaScript (ES6+)、TypeScript、React / Vue、Next.js
+Web3 库: Ethers.js / Web3.js / Viem (主流)
+其他: HTML5、CSS3
+### 后端工程师 (Backend Engineer)
+为 Web3 应用提供稳定、高效的服务器端支持。
+- 核心职责: 开发和维护 DApp 的后端服务，处理链上数据交互、智能合约集成。需要构建高性能的 API 来连接前端和区块链网络。
+- 必备技能: 熟悉 Node.js、Go 或 Python 等后端语言，具备构建高并发系统的经验。熟悉 Viem、Web3.js 等 Web3 工具，能与智能合约交互。
+- 加分项: 熟悉 RESTful 或 GraphQL API 开发，掌握 Docker、Kubernetes 等容器技术，有 CI/CD 经验。
+- 常用技术栈:
+语言: Node.js / Go / Python
+Web3 库: Viem / Web3.js / Ethers.js
+数据库: MySQL / PostgreSQL
+其他: RESTful API / GraphQL、Docker / Kubernetes
+### 智能合约工程师 (Smart Contract Engineer)
+负责设计、开发和部署区块链上的核心业务逻辑。
+- 核心职责: 使用 Solidity 编写智能合约，并确保其安全、高效。需要进行代码审计和安全性测试，以防止常见的攻击。
+- 必备技能: 熟练使用 Solidity，有 3 年以上智能合约开发经验。熟悉以太坊、Polygon 等主流区块链平台。了解智能合约安全问题和攻击模式。
+- 加分项: 熟悉 Foundry、Hardhat 等开发框架，了解 ERC-20、ERC-721 等代币标准，熟悉 IPFS 等 Web3 技术。
+- 常用技术栈:
+开发语言: Solidity、Yul
+开发框架: Remix、Foundry / Hardhat
+安全工具: Phalcon / Tenderly
+## 非技术岗 (Non-Technical Roles)
+### 产品与运营 (Product & Operations)
+负责 Web3 产品的生命周期管理和增长策略。
+- 核心职责: 协调产品发布，收集用户反馈，执行用户增长策略。通过数据分析监控关键绩效指标（KPIs），并优化产品和运营策略。
+- 必备技能: 熟悉产品上线（Go-to-market）流程，具备扎实的数据分析能力。
+- 加分项: 能够使用 SQL、Excel 等工具进行数据统计和洞察提炼。
+###社区管理 (Community Management)
+- 负责构建和维护 Web3 项目的用户社区。
+- 核心职责: 在 Telegram、Twitter、Discord 等平台建立和管理社区，组织线上活动，提升用户活跃度和品牌粘性。
+- 必备技能: 具备 Web3、DAO 或 NFT 社区管理经验，有出色的文案和沟通能力。
+- 加分项: 熟悉社区数据分析工具，能够策划并执行线上线下活动。
+- 常用平台: Telegram、Twitter (X)、Discord
+### 研究分析 (Research & Analysis)
+负责为 Web3 项目提供数据驱动的战略洞察。
+- 核心职责: 分析 Web3 行业市场和用户数据，撰写研究报告。跟踪区块链技术演进，评估市场趋势，并为项目的加密经济模型设计提供支持。
+- 必备技能: 熟悉定量和定性研究方法，能够使用 Excel、Python 等工具进行数据分析。深入了解区块链生态、DeFi 协议和加密经济学原理。
+- 加分项: 精通链上数据分析工具，如 Glassnode、Token Terminal。
+- 常用工具: Excel、SPSS、Python、Glassnode、Token Terminal
+
 # 2025-08-05
 
 ## 三、合规
