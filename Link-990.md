@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+学习了区块链入门基础
+
 
 # 2025.07.29
 
