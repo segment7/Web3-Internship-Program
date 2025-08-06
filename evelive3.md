@@ -15,6 +15,151 @@ Web2从业者；全栈偏后端开发，主力语言Python、Golang，学习Rust
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+## 内容1：知识分享会
+
+- [Marcus@X](https://x.com/Bitzack_01)
+
+### V与BM
+
+- Satoshi Nakamoto[^1]
+- Vitalik buterin(V神)
+- Dan Larimer(ByteMaster)
+
+#### BM与BTS
+
+- 特点
+  - 第一个Dex
+  - DPOS[^2]治理
+- 失败原因
+  - 没有智能合约
+  - 订单簿？难以对抗传统交易所
+  - 稳定币是区块链的刚需
+
+#### BM与EOS
+
+- 特点
+    - 史上最大规模[^3]
+    - DPOS，21个超级节点，中心化程度过高
+- 失败原因
+    - 未兑现技术承诺
+    - DApp生态发展迟缓
+    - 治理机制设计失败
+    - 竞争压力大
+
+### 课后题
+
+> 去中心化和高性能，应该优先选择谁？
+- 个人认为应该优先考虑去中心化，参考EOS的失败经验，如果纯考虑高性能，那区块链永远也干不过Web2
+- 去中心化程度足够高的前提下，也应该重试优化性能
+
+> 公链的不同治理模型有哪些？对比异同
+- 因为之前只关注技术，不知道治理模型，AI了一下奇怪的知识又增加了🎉
+
+| 分类                            | 描述                          | 示例                    |
+| ----------------------------- | --------------------------- | --------------------- |
+| 🔹 链下治理（Off-chain Governance） | 治理活动在链下进行，由开发者、基金会、社区讨论达成共识 | Bitcoin、Ethereum      |
+| 🔸 链上治理（On-chain Governance）  | 所有提案与投票通过智能合约在链上执行，自动生效     | Tezos、Polkadot、Decred |
+| 🔹 委托治理（Delegated Governance） | 社区将治理权委托给代表，由代表负责表决与提案      | EOS（DPoS）、Cosmos（部分）  |
+| 🔸 混合治理（Hybrid Governance）    | 链上+链下结合，既有链上投票，又保留链下协调机制    | Ethereum 2.0、Polkadot |
+
+> 应该优先激活哪些生态用户
+- 先激活开发者，实现生态的建设，就像玩RTS游戏先造农民
+- 再激活中间层，即基础设施提供者
+- 然后激活内容创作者
+- 最后是终端用户
+
+> 公链如何管理资金来获取用户信任
+- 传统方式通过成立基金会进行管理，类似Blender Foundation, Apache Foundation等
+- Web3特色方式为链上国库 + DAO治理
+- 不论是传统还是链上，都需要透明、公开，让用户多参与
+
+## 内容2：尝试自行编写智能合约铸造NFT
+
+### 使用工具&网站
+
+- [foundry](https://github.com/foundry-rs/foundry) is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust. #Rust #Tools #Opensource #Web3
+- [bun](https://github.com/oven-sh/bun) is an ^^all-in-one^^ toolkit for JavaScript and ^^TypeScript^^ apps. It ships as ^^a single executable^^ called `bun`. #Zig #Opensource
+- [OpenSea](https://opensea.io/)
+- [etherscan](https://optimistic.etherscan.io)
+- [reth](https://reth.rs/)
+- [Pinata](https://pinata.cloud/)，使用IPFS技术的图床
+- [MetaMask](https://metamask.io/)，小狐狸钱包
+- WSL，由于在Windows下
+
+### 安装工具
+
+ ```sh
+ # 由于其它工具已经安装，此处仅记录Foundry的安装，记得先准备魔法
+ curl -L https://foundry.paradigm.xyz | bash
+ source ~/.zshenv
+ 
+ # It will automatically install the latest version of the precompiled binaries to system 
+ foundryup
+ ```
+
+### 编写智能合约
+
+#### 初始化智能合约项目
+
+```sh
+forge init sepolia-nft
+```
+
+- 非常方便，执行后即在当前目录创建了`sepolia-nft`目录，克隆好了[forge-std](https://github.com/foundry-rs/forge-std")仓库，组织好了项目文件
+- 打开`src/Counter.sol`文件，就可以看到默认生成的智能合约了
+
+#### 来都来了，先试试默认项目如何运行
+
+```sh
+# 本地测试
+forge test
+
+# 在reth网上测试
+forge test --fork-url https://reth-ethereum.ithaca.xyz/rpc
+```
+
+#### 运行本地开发节点
+
+```sh
+anvil
+# 如果运行正常，可以看到`Listening on 127.0.0.1:8545`的信息
+```
+
+#### 部署智能合约
+
+- 部署至某节点只需要更改`private key`与`rpc-url`，私钥来源于钱包
+
+```sh
+# 确认本地节点运行后，往上翻可以看到private key，取一个进行测试
+# **不建议将私钥写在命令行、代码中**
+export PRIVATE_KEY="0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"
+
+# 部署合约至本地节点
+forge script script/Counter.s.sol --rpc-url http://127.0.0.1:8545 --broadcast --private-key $PRIVATE_KEY
+```
+
+### 目前为止还没干正事儿
+
+- [ ] 再理解下Solidity和ERC提案，编写一个`ERC-721`的智能合约
+- [ ] 将`Mabinogi 2015年跨年线上音乐会游戏截图`铸造为NFT
+
+### 查看我所获得的NFT的铸造代码
+
+- OpenSea查看NFT详情，`Details` -> `Blockchain details`，可以看到`Contract Address`，点击后会跳转到etherscan
+- 点击`Contract`即可查看智能合约源码
+
+### 小收获
+
+NFT协议主要有两种
+- `ERC-721`，具有天然唯一性
+- `ERC-1155`，可以指定数量，可以批量铸造，我所获得的`Casual Hackathon`奖牌就是通过`ERC-1155`的智能合约铸造
+
+[^1]: Satoshi Nakamoto (中本聪)
+[^2]: DPOS (Delegated Proof-of-Stake) 委托权益证明
+[^3]: ICO (Initial Coin Offering) 首次代币发行
+
 # 2025-08-05
 
 # Day 2
