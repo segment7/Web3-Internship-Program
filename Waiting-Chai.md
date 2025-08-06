@@ -15,6 +15,156 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+学习了solidity，设计了一款dapp， 并进入了开发阶段， 目前前端页面开发完成， 合约还在开发中
+
+链接在   https://github.com/Waiting-Chai/ChainOath
+
+# ⛓️ 四、智能合约设计（核心逻辑）
+
+## 🧬 ChainOath 智能合约规则文档
+
+## 1. 角色定义
+
+| 角色 | 描述 | 是否需质押 | 是否可获奖 | 是否影响誓约状态 |
+|------|------|------------|------------|------------------|
+| **发起人 Creator** | 创建誓约，设定奖励池、配置规则、分配角色 | ✅（质押全部奖励） | ❌ | ✅（设定规则） |
+| **守约人 Committer** | 接受任务，履行誓约，被监督签名评定 | ✅（履约押金，可配置） | ✅ | ✅（是否守约） |
+| **监督者 Supervisor** | 定期进行 check 并签名，评定守约人行为 | ✅（质押金，可配置） | ✅（按 check 次数） | ✅（监督决定） |
+| **查看者 Viewer** | 仅查看誓约详情与状态 | ❌ | ❌ | ❌ |
+
+---
+
+## 2. 创建誓约所需字段
+
+```solidity
+struct Oath {
+  string title;                     // 誓约标题
+  string description;               // 誓约描述
+  address[] committers;            // 守约人列表
+  address[] supervisors;           // 监督者列表
+  address rewardToken;             // 奖励代币地址
+  uint256 totalReward;             // Creator 总质押奖励金额
+  uint256 committerStake;          // 每位守约人需质押金额
+  uint256 supervisorStake;         // 每位监督者需质押金额
+  uint256 supervisorRewardRatio;   // 监督者奖励比例（如 10 表示 10%）
+  uint256 committerRewardRatio;    // 守约人奖励比例（如 90 表示 90%）
+  uint256 checkInterval;           // check 间隔（单位：秒）
+  uint256 checkWindow;             // check 后签名时间窗口（单位：秒）
+  uint256 checkThresholdPercent;   // 判定守约成功的监督者签名比例
+  uint256 maxSupervisorMisses;     // 监督者最大允许失职次数
+  uint256 maxCommitterFailures;    // 守约人最大允许失约次数
+  uint256 startTime;               // 誓约开始时间
+  uint256 endTime;                 // 誓约结束时间
+}
+```
+
+## 3. 誓约流程说明
+
+**阶段 1：创建**
+
+Creator 创建誓约，配置上述所有参数并质押 totalReward。
+
+守约人和监督者分别调用质押函数，缴纳履约/监督押金。
+
+**阶段 2：监督与履约**
+
+每隔 checkInterval 触发一个监督周期：
+
+监督者需在 checkWindow 内签名表达“守约”或“失约”判断。
+
+若签名未提交 → 判定为失职，本次奖励转入守约人奖励池。
+
+若监督者失职次数超 maxSupervisorMisses → 其质押金被没收，归守约人。
+
+若有效签名中 守约 占比 ≥ checkThresholdPercent → 判定该周期守约成功。
+
+若守约失败次数超出 maxCommitterFailures → 判定整体誓约失败，守约人失去奖励，其质押金被没收，返还给 Creator。
+
+**阶段 3：结算**
+
+守约人成功完成任务：
+
+- 获得奖励池中 committerRewardRatio 对应金额；
+- 获得监督者失职转入的奖励；
+- 取回自己质押金额。
+
+守约人失约（失败次数超限）：
+
+- 奖励池返还给 Creator；
+- 守约人质押金没收。
+
+监督者：
+
+- 每完成一个有效 check 签名，可领取 (supervisorRewardRatio / 总check次数) 的奖励；
+- 若失职次数超限 → 所有质押金被没收。
+
+---
+
+## 4. 奖励计算与惩罚机制
+
+### 奖励分配公式
+
+```sql
+监督者总奖励 = totalReward × (supervisorRewardRatio / 100)
+守约人总奖励 = totalReward × (committerRewardRatio / 100)
+每次 check 奖励 = 监督者总奖励 / 总 check 次数
+```
+
+### 惩罚规则
+
+| 行为 | 惩罚结果 |
+|------|----------|
+| 监督者未 check | 当次奖励归守约人，记录失职一次 |
+| 监督者累计失职超限 | 没收全部质押金，奖励归守约人 |
+| 守约人未完成任务次数超限 | 没收质押金，失去奖励，奖励归 Creator |
+
+---
+
+## 5. 状态管理与签名结构（示例）
+
+```solidity
+enum OathStatus { Pending, Active, Completed, Breached, Cancelled }
+enum CheckResult { Pending, Success, Failed }
+
+struct Check {
+  uint256 slotId;
+  address supervisor;
+  CheckResult result;
+  bytes32 reasonHash;
+  bool rewarded;
+}
+```
+
+---
+
+## 6. 安全建议
+
+- 所有转账使用 pullPayment 模式，防止重入；
+- 签名采用 EIP-712 标准，确保链下交互安全；
+- 支持链下存储 description 和 证明材料 到 IPFS，引用哈希；
+- 未来可引入 仲裁者角色 处理争议情况（如监督者失联等）。
+
+---
+
+## 7. 示例配置参考
+
+| 字段 | 示例值 |
+|------|--------|
+| totalReward | 100 ETH |
+| supervisorRatio | 10% |
+| committerRatio | 90% |
+| committerStake | 2 ETH |
+| supervisorStake | 1 ETH |
+| checkInterval | 每 5 天 |
+| checkWindow | 2 天 |
+| maxSupervisorMisses | 2 次 |
+| maxCommitterFailures | 1 次 |
+
+
+---
+
 # 2025-08-05
 
 # 区块链基础
