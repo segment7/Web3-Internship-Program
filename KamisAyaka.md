@@ -15,6 +15,16 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+今天刷了十道rust的基础题，发现自己基础还是不够牢固，有一些简单的结构和枚举代码都不熟悉，打算先刷完题目熟悉了之后再继续开发借贷协议，目前的计划是看到了学习手册上推荐的一个以太坊学习者开发练习网站 https://speedrunethereum.com/ ，打算把上面的练习都完成了，同时抽时间熟悉rust，完成所有练习之后再开始做rust借贷项目的开发。
+
+  这是今天完成的任务，按照网站的指引把合约部署到了测试网上并铸造了一个nft给自己，然后第一次把前端网页部署出来，可以考虑之后也把我之前写的一些项目的前端也部署上去。
+
+这是合约部署的地址：0x79e9004A0F781d5ed5d4d075E98A1EB53fAd10c8 
+
+这是前端网页的网址：https://vercel.com/fireflys-projects-e4725500/first_deploy_web_page/G3U4VSL32hf7dmfQvszT6Q3QSXSt
+
 # 2025-08-05
 
 今天在https://unphishable.io/ 上完成了所有的初级安全挑战，并在https://www.rustfinity.com/ 网站上完成了19个基础的练习，熟悉了rust的基本语法。看完了实习手册的入门导读和行业知识，在合规上面学到很多，对一些攻击手段和诈骗项目有了一定的认知。
