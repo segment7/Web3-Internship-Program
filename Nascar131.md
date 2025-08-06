@@ -15,6 +15,16 @@ hello，我是Nascar，来自ZUEL，想要学习web3技术以及运营 + 意向�
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+实用工具：Rootdata， Scansniffer
+
+复习Web3安全分享，恶意RPC 用chainlist
+
+提前预习实习资料技术部分，了解智能合约语言Solidity
+
+研究LXDAO，学习邪恶收入理论
+
 # 2025-08-05
 
 学习web3安全常识，测试接受发送Sepolia测试币
