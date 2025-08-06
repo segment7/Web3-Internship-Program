@@ -15,6 +15,17 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+一、Dapp需求分析  
+   - 明确DApp核心场景（如DeFi借贷、NFT交易、DAO治理），拆分用户角色及对应功能模块。
+   - 设计合规框架（如欧盟MiCA、美国MSB牌照），集成KYC/AML系统（如Jumio活体检测+Elliptic链上追踪）。
+二、Dapp 技术架构分层
+   1，区块链层：选择公链平台（以太坊主网、Polygon、Arbitrum等），评估TPS、Gas成本及EVM兼容性。
+   2，智能合约层：采用模块化设计（如Uniswap V4的Hook机制）。
+   3，数据层：链上数据通过The Graph索引，链下数据存储使用IPFS+Filecoin。
+   4，交互层：前端用React/Vue.js +Web3.js/Ethers.js，后端用Node.js处理业务逻辑。
+
 # 2025-08-05
 
 以太坊钱包核心原理笔记
