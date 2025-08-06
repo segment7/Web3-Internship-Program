@@ -15,6 +15,35 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+# 行业赛道全览
+
+## DeFi
+- Dex: Uniswap
+- Lending: Aave, Compound
+- CDP: MakerDao
+  
+## NFT
+- Opensea
+- Blur
+- MAYC, CryptoPunks
+
+## DAO
+- LXDAO
+
+## Meme
+- Doge, Pepe, Trump
+- Pumpfun, GmGn, Bonk
+
+## AI
+- Virtuals
+
+## Modular
+- Celestia
+- EigenDA
+- OP Stack
+
 # 2025-08-05
 
 # Bitcoin
