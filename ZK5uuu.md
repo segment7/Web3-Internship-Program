@@ -15,6 +15,30 @@ kafka 福州，在准备we3项目和技术栈，刚参加完chainlink黑客松�
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+一、以终为始，先来看看岗位职责与招聘需求：
+Ⅰ后端工程师：+终身学习的态度
+1.*后端：
+①设计开发维护Dapp。
+②优化性能：高吞吐低延迟高并发
+2.*前端:支持前端的web3钱包接入
+3.*智能合约:链上交互、合约集成、事务处理部分
+4.API：基于nodejs、py构建restful和graphqlAPI
+要求：+项目经历/开源贡献
+1.开发语言：Node.js、Go、Python 等后端开发语言。
+2.*技术：
+①MySQL、PostgreSQL 或 NoSQL的开发与优化。
+②消息队列和事件驱动架构->处理异步事务。
+③容器化技术：Docker、Kubernetes
+④需要熟悉的工具：Viem、Web3.js、Ethers.js
+3.经验：构建高并发、分布式系统、 CI/CD 
+
+Ⅱ智能合约工程师：
+1.设计开发部署智能合约：
+①使用solidity覆盖 NFT、DeFi、DAO（的DApp）等需求
+②部署合约到区块链网络（如以太坊、Polygon、Arbitrum、Base 等）
+
 # 2025-08-04
 
 0804
