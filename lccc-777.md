@@ -24,6 +24,8 @@ timezone: UTC+8
 学习以太坊技术原理（https://share.note.youdao.com/s/PwqL56CJ）
 ##16：25：
 了解NFT，浏览opensea
+##16：42：
+体验《my first NFT》
 
 # 2025-08-05
 
