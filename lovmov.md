@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+学习web3发展历史、BM和Vitalik的故事，其他同学的提问和Marcus讲解。
+
 # 2025-08-05
 
 今天学习钓鱼、反钓鱼安全相关内容和https://unphishable.io/ 网站的操作。
