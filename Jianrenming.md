@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+今天参加了Web3 故事会了解了web3各个链生态的历史
+
 # 2025-08-05
 
 Web3 安全分享和答疑
