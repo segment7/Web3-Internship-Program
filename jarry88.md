@@ -15,6 +15,12 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+学习了myfirst项目
+初步理解了nft的逻辑
+对挖矿有了认识
+
 # 2025-08-04
 
 了解以太坊概念，尝试智能合约ide
