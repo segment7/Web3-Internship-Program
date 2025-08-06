@@ -15,6 +15,11 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+今天讀了web3職缺 以及技術/非技術 相關職缺所需的技能
+以下是根據網頁所做出的筆記 : https://hackmd.io/@y-RklLqFT2yCB4SeDVI0cQ/SJESm2lueg
+
 # 2025-08-05
 
 今天透過Rory老師分享 接收到各式不同種類的web3詐騙 大多是常見的釣魚方式
