@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+Web3故事会，来自LXDAO的Marcus老师分享了Vitalik和 BM的故事，对比了EOS和ETH，讨论EOS失败原因、区块链治理等问题
+
 
 # 2025.08.01
 
