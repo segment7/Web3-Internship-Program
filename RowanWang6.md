@@ -15,6 +15,51 @@ Web2金融行业转型中，做kyc以及反洗钱，对这方面比较感兴趣
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+# 区块链岗位精简概览
+
+## 技术岗
+
+### 1. 前端工程师
+- **职责**：开发 Web3 前端应用，集成钱包和智能合约，优化 UI 和性能。
+- **要求**：精通 HTML/CSS/JavaScript、React/Vue、Viem，了解以太坊/Solana，熟悉 Git，有 Dapp 经验优先。
+- **技术栈**：HTML5, CSS3, JavaScript (ES6+), React/Vue, TypeScript, Next.js, Viem
+
+### 2. 后端工程师
+- **职责**：开发 Dapp 后端服务，构建 API，集成智能合约，优化性能。
+- **要求**：精通 Node.js/Go/Python、Viem，熟悉 RESTful/GraphQL、数据库，了解 Docker/Kubernetes，有 Web3 经验优先。
+- **技术栈**：Node.js, Go, Python, Viem, RESTful API/GraphQL, MySQL/PostgreSQL, Docker
+
+### 3. 智能合约工程师
+- **职责**：开发/部署 Solidity 智能合约，审计漏洞，优化 Gas 费用。
+- **要求**：3年以上 Solidity 经验，熟悉以太坊/Polygon、Foundry/Hardhat，了解 ERC 标准和 IPFS。
+- **技术栈**：Solidity, Remix, Foundry/Hardhat, Phalcon/Tenderly, Yul
+
+## 非技术岗
+
+### 1. 产品与运营
+- **职责**：协调产品发布，优化用户体验，执行增长策略，分析 KPI。
+- **要求**：熟悉产品上线流程，精通 SQL/Excel，具备跨部门协调能力。
+
+### 2. 社区管理
+- **职责**：管理 Telegram/Twitter/Discord 社区，组织 AMA/活动，分析用户行为。
+- **要求**：了解 Web3/DAO/NFT，具备文案和活动策划能力，熟悉数据分析。
+- **平台**：Telegram, Twitter (X), Discord
+
+### 3. 研究分析
+- **职责**：分析 Web3 市场数据，撰写报告，支持加密经济模型设计。
+- **要求**：熟悉 Excel/SPSS/Python、Glassnode/Token Terminal，了解 DeFi/加密经济学。
+- **工具**：Excel, SPSS, Python, Glassnode, Token Terminal
+
+## 扩展阅读
+- **求职平台**：
+  - [DeJob](https://www.dejob.top/)：中文，Web3 工作机会
+  - [SmartDeer](https://www.smartdeer.com/)：中文，综合招聘
+  - [电鸭社区](https://eleduck.com/)：中文，远程工作
+  - [Web3Career](https://web3.career/)：英文，Web3 招聘
+  - [CryptoJobs](https://crypto.jobs/)：英文，区块链招聘
+
 # 2025-08-05
 
 # 以太坊​
