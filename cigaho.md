@@ -102,6 +102,59 @@ HKU大三Fintech专业在读, 对blockchain 生态有一定了解, 掌握solidit
     4.  **AI驱动的NFT/内容生成:** 使用AI生成独特的艺术、游戏资产或音乐NFT等。
 *   **代表项目:** Fetch.ai (AI代理)，SingularityNET (去中心化AI市场)，Render Network (去中心化GPU算力渲染/通用计算)。
 
+# Section 2: Web3行业知识
+
+## Part1: 区块链岗位全景图
+
+### 1. 技术岗
+
+#### (1) 前端工程师 (Web3 Frontend Engineer)
+*   **核心职责:** 支持去中心化平台开发，构建用户界面并与智能合约交互。
+*   **核心技术栈:**
+    *   **基础技术:** HTML5, CSS3, JavaScript (ES6+), TypeScript
+    *   **框架/库:** React / Vue
+    *   **框架/工具:** Next.js
+    *   **区块链交互:** Ethers.js / Web3.js / **Viem** (作为Web3.js的现代轻量级替代)， Metamask集成
+    *   **知识要求:** 熟悉以太坊、Solana等主流区块链平台原理及其DApp开发模式。
+
+#### (2) 后端工程师 (Web3 Backend Engineer)
+*   **核心职责:** 精通服务器端开发，构建高并发、分布式系统，提供API服务、处理数据库查询、支持链下业务逻辑。
+*   **核心技术栈:**
+    *   **服务端语言:** Node.js / Go / Python
+    *   **区块链交互库:** Viem / Web3.js / Ethers.js (主要用于链上监听、数据索引、交易提交等)
+    *   **API协议:** RESTful API / GraphQL
+    *   **数据库:** MySQL / PostgreSQL
+    *   **部署运维:** Docker / Kubernetes
+
+#### (3) 智能合约工程师 (Smart Contract Engineer)
+*   **核心职责:** 设计、开发、审计、测试、部署安全高效的智能合约，满足各类业务需求（如代币发行、DEX、借贷、NFT等），并持续优化Gas消耗。
+*   **核心技术栈:**
+    *   **合约语言:** Solidity (主流)
+    *   **开发环境/IDE:** Remix (在线IDE)
+    *   **开发框架/测试套件:** Foundry (Rust基础，现代高效) / Hardhat (JavaScript/TypeScript基础，生态丰富)
+    *   **合约分析/调试/监控:** Phalcon (Explorer/Blockchain Bot) / Tenderly (开发调试、监控、模拟环境)
+    *   **底层优化:** Yul (EVM汇编层语言，用于编写高度优化的合约逻辑)
+
+### 2. 非技术岗
+
+#### (1) 产品与运营 (Product & Operations)
+*   **核心职责:**
+    *   协调产品的规划、设计、开发与发布流程。
+    *   收集用户反馈并推动产品迭代改进。
+    *   深入理解客户需求，驱动产品满足市场需求。
+
+#### (2) 社区管理 (Community Management)
+*   **核心职责:**
+    *   在Telegram, Twitter (X), Discord, Reddit等社交平台上建立、维护和活跃项目社区。
+    *   发布项目信息、解答疑问、组织活动。
+    *   核心目标是进行项目宣传推广、提升品牌知名度与用户忠诚度。
+
+#### (3) 研究分析 (Research & Analysis)
+*   **核心职责:**
+    *   收集、整理、分析Web3行业动态、市场趋势、竞品信息。
+    *   编写可行性研究报告、市场分析报告。
+    *   为产品决策、战略规划和运营策略提供数据与理论支持。
+
 # 2025-08-05
 
 ## Part 2: 以太坊概览
