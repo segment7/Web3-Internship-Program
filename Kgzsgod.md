@@ -15,6 +15,19 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+依旧ether.js
+依旧wtf的ethers101
+- 合约交互
+- 部署合约
+- 检索事件
+- 监听合约事件
+- 事件过滤
+
+
+之前在没有学ethers.js的情况下，直接跟着chainlink的frank老师学hardhat框架，发现学起来有点困难，所以打算从0开始学一学
+
 # 2025-08-05
 
 # ethers.js
