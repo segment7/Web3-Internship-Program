@@ -15,6 +15,21 @@ web2转型web3,希望学习测试与开发
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+Foundry学习
+
+Foundry的四个工具包及其作用
+forge:       Build, test, debug, deploy and verify smart contracts
+anvilRun: a local Ethereum development node with forking capabilities
+cast:        Interact with contracts, send transactions, and retrieve chain data
+chisel:      Fast Solidity REPL for rapid prototyping and debugging
+
+创建一个项目，了解项目结构
+
+参加Bruce组破冰
+参加 Web3 故事会
+
 # 2025-08-05
 
 静态数组和动态数组
