@@ -71,5 +71,7 @@ LP 可选择仅在 1000-2000 USDC/ETH 区间提供 1 ETH + 1000 USDC。若价格
 2. 做了明天故事会分享的 PPT，再次阅读了 DPOS 制度所带来的寻租卡特尔弊端
 https://docs.google.com/presentation/d/1dXkhUXQZG8BBFr8-_3GvKvlYIS3SIl7PP9eE-hWDPME/edit?slide=id.g375bec490fd_0_497#slide=id.g375bec490fd_0_497
 
-
+# 2025.08.06
+1. 整理了一下 BM 和 Vitalik 的往事
+https://docs.google.com/presentation/d/1dXkhUXQZG8BBFr8-_3GvKvlYIS3SIl7PP9eE-hWDPME/edit?usp=sharing
 <!-- Content_END -->
