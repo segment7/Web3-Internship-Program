@@ -15,6 +15,13 @@ web2游戏大厂工作两年
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+deploy myFirstNft
+完成前端项目
+复习react
+https://cmu-ruoyan-lgl.github.io/Web3_Internship_Program_Notes/StudyNotes/day6
+
 # 2025-08-06
 
 - [ ] 参加会议
