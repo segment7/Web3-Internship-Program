@@ -18,6 +18,10 @@ h. 大家好，我是hha0，居 住在佛山南海， 本身专业是设计 类�
 # 2025-08-06
 
 今天参与了钓鱼攻防挑战
+也学习了区块链的基础概念
+[![IMG-20250806-215145.jpg](https://i.postimg.cc/CM3vFfJr/IMG-20250806-215145.jpg)](https://postimg.cc/K457fj6t)
+[![IMG-20250806-215155.jpg](https://i.postimg.cc/FFd2P8D6/IMG-20250806-215155.jpg)](https://postimg.cc/yWKQxQqh)
+[![IMG-20250806-215201.jpg](https://i.postimg.cc/Jn99VYGP/IMG-20250806-215201.jpg)](https://postimg.cc/N9kNR48H)
 
 # 2025-08-05
 
