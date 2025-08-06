@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+下午自习。晚上身体不适仅参会
+
 # 2025-08-05
 
 昨日学习了区块链基础概念和eth概览。今天看行业赛道和工作方式，了解calendly，discord和figma。背英语单词。完成了钓鱼攻防。学习笔记登记在notion上。
