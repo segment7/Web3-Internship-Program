@@ -20,6 +20,8 @@ timezone: UTC+8
 ##10：04：
 学习比特币技术原理（https://www.bilibili.com/video/BV1154y1t7Jd/?spm_id_from=333.337.search-card.all.click&vd_source=836310038d31cf472f25e1bb0b23ca25）
 北大肖臻老师《区块链技术与应用》公开课
+##14：58：
+学习以太坊技术原理（https://share.note.youdao.com/s/PwqL56CJ）
 
 # 2025-08-05
 
