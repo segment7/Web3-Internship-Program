@@ -15,6 +15,42 @@ Bloackchian Full-stack dev
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+```jsx
+forge create Counter \
+  --rpc-url http://127.0.0.1:8545 \
+  --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 \
+  --broadcast
+```
+
+如果加上—boadcast，会将交易实际发送到区块链网络
+
+- **不使用 `-broadcast`**：
+    - Forge 只会模拟交易执行
+    - 显示预估的 gas 费用和执行结果
+    - 不会在区块链上创建任何实际状态变更
+    - 用于测试和验证合约部署是否会成功
+- **使用 `-broadcast`**：
+    - 将交易真实发送到指定的 RPC 节点
+    - 消耗真实的 ETH 作为 gas 费
+    - 在区块链上创建合约实例
+    - 返回实际的交易哈希和合约地址
+
+但http://127.0.0.1:8545设置的是本地的anvil测试网，所以不消耗真实的代币。
+
+以及如果不指定rpc-url的话，默认指向本地的anvil
+
+Remmix对新手的一大好处就是把原本要在终端查询的交易状态和变量都可视化，所以对新手很友好，但鼠标点点点后期来说就很低效。
+
+### 生产环境下密钥的存储
+
+开发环境中可以存到.env，生产环境不推荐这么做
+
+But for real money, I won't do that. I will use -- interactive or a keystore file with a password once foundry adds that.
+
+上面这句话已经给出了两个方案了，实操可以问ai的建议来一步步做。
+
 # 2025-08-05
 
 耗時：1h45min
