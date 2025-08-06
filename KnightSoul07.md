@@ -15,6 +15,10 @@ An unanchored soul that has seen (some of) the world but still believe the best 
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+马老师结合现下crypto world的发展分享以太坊历史趣闻的分享会非常精彩。同时结合我所在的行业的特性继续思考decentralization, security 和scalability这个不可能三角的取舍。
+
 # 2025-08-05
 
 参加DefiHackLabs的web3安全宣讲演示
