@@ -15,6 +15,107 @@ web3初学者，做过一些学习项目，涉及defi，zkp，web3+ai，希望�
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+# 今日学习笔记：Web3智能合约测试与模糊测试
+
+**日期**：2025年8月6日  
+**主题**：基于transcript的Web3安全审计课程，聚焦智能合约测试，特别是集成测试和模糊测试（fuzz testing），以Pool Sharks协议为例。
+
+---
+
+## 1. 核心概念：智能合约测试的重要性
+- **为什么重要**：Web3中，bug可能导致数亿资产损失（如误发交易到零地址）。测试比Web2更关键，是防止漏洞的第一道防线。
+- **测试类型**：
+  - **单元测试**：测试单一函数（如算术逻辑），早期捕获bug，易调试。
+  - **集成测试**：验证用户交互流程和跨合约逻辑，捕获复杂bug（如状态不一致）。
+  - **模糊测试**：用随机输入覆盖边缘场景，高效发现关键漏洞。
+- **代码覆盖率局限性**：
+  - 100%覆盖率 ≠ 无漏洞。示例：票务合约覆盖100%，但因缺少`onlyOwner`修饰符，任何人可提取资金。
+  - 需测试路径依赖场景（path-dependent），如用户操作顺序、价格波动。
+
+---
+
+## 2. Pool Sharks协议简介
+- **功能**：一个在Fuel Network上的自动化做市商（AMM），支持单向流动性（Directional Liquidity）和价格-时间优先级队列，优化交易效率，减少无常损失。
+  - **单向流动性**：仅在价格上升时执行交易（如买入ETH），下降时订单保留（不取消）。
+  - **场景**：代币交换、期权交易、网格交易。
+- **测试重点**：
+  - 验证“全局流动性不溢出”（`totalLiquidity >= 0`）。
+  - 测试路径依赖场景（如价格上升执行、下降不取消）。
+
+---
+
+## 3. 集成测试与路径依赖
+- **定义**：集成测试模拟用户交互和跨合约逻辑，验证协议整体行为。
+- **路径依赖**：
+  - **路径无关**：如ERC20转账，顺序不影响结果。
+  - **路径依赖**：如AMM中，Alice先买推高价格，Bob后买得更少代币；反序结果不同。
+  - Pool Sharks例子：价格上升时执行买入，下降时保留订单，需测试不同顺序（如Alice先提供流动性 vs Bob先交易）。
+- **设计方法**：
+  - 模拟多用户（用`vm.prank`切换用户）。
+  - 测试不同顺序和边缘场景（如零输入、最大杠杆）。
+  - 用`assert`验证状态（如`totalLiquidity`）。
+- **Solidity示例**：
+  ```solidity
+  function testPathDependentLiquidity() public {
+      vm.prank(alice);
+      pool.provideLiquidity(alice, 100, 1900);
+      assertEq(pool.totalLiquidity(), 100);
+
+      vm.prank(bob);
+      pool.executeTrade(bob, 50, 2500); // 价格上升
+      assertEq(pool.totalLiquidity(), 50);
+  }
+  ```
+
+---
+
+## 4. 模糊测试与Forge Test
+- **模糊测试**：用随机输入（如`uint256 amount`）测试边缘场景，高效发现漏洞（如溢出）。
+- **Pool Sharks测试优秀之处**：
+  - **路径依赖测试**：覆盖价格上升/下降场景，验证单向流动性逻辑。
+  - **不变性验证**：用Echidna或Forge检查`totalLiquidity >= 0`，300次随机输入（`fuzz.runs = 300`）。
+  - **自动化反例**：失败时自动保存调用序列，方便修复。
+- **Forge Test行为**：
+  - 命令：`forge test --match-contract CalcTest -Vv`
+    - `--match-contract CalcTest`：只运行`CalcTest`合约。
+    - `-Vv`：详细日志，显示模糊测试输入和反例。
+    - `fuzz.runs = 300`（在`foundry.toml`）自动触发模糊测试，运行300次随机输入。
+  - 函数需接受随机参数（如`test_Fuzz_Liquidity(uint256 amount)`）。
+  - 用`vm.assume`限制输入范围（如`amount <= type(uint256).max`）。
+- **Solidity示例**：
+  ```solidity
+  function test_Fuzz_Liquidity(uint256 amount, uint256 minPrice) public {
+      vm.assume(amount > 0 && amount <= type(uint256).max - pool.totalLiquidity());
+      vm.assume(minPrice <= pool.currentPrice());
+      pool.provideLiquidity(address(this), amount, minPrice);
+      assertGe(pool.totalLiquidity(), amount);
+  }
+  ```
+
+---
+
+## 5. 审计视角
+- **检查点**：
+  - 测试套件是否覆盖路径依赖场景（如多用户顺序、价格波动）。
+  - 模糊测试是否用`vm.assume`限制输入，验证不变性（如流动性不溢出）。
+  - 日志（`-Vv`）是否输出清晰反例，方便调试。
+- **建议**：
+  - 运行`forge coverage`检查覆盖率，关注未测分支。
+  - 验证`foundry.toml`的`fuzz.runs`（如300次）是否足够。
+  - 模拟攻击场景（如sandwich攻击）测试协议鲁棒性。
+
+---
+
+## 6. 总结
+今日学习了Web3智能合约测试的核心：单元测试打基础，集成测试验证用户流程，模糊测试覆盖边缘场景。Pool Sharks的测试通过路径依赖（价格上升执行、下降不取消）和不变性（流动性不溢出）高效发现漏洞。`forge test`结合`fuzz.runs = 300`自动运行模糊测试，`-Vv`提供详细调试信息。理解这些对Web3安全审计至关重要。
+
+**后续计划**：
+- 练习用Foundry写模糊测试，模拟Pool Sharks场景。
+- 学习Echidna配置，结合Forge运行不变性测试。
+- 审计时重点检查路径依赖和反例生成。
+
 # 2025-08-05
 
 # Resupply Protocol 攻击事件深度分析
