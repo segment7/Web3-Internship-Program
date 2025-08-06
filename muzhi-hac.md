@@ -15,6 +15,11 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+solidity learing:
+Function, Return, Datastorage, ArrayAndStruct,Mapping, InitialValue, Constant, InsertionSort, Modifier, Event.
+
 # 2025-08-05
 
 今日通过wtf学习solidily基本内容。
