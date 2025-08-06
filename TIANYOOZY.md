@@ -15,6 +15,10 @@ I am Yoozy, a graduate from the New National University. Currently, I am working
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+今天学了岗位概览和安全须知。嘶......合规那一块 好多法律条文，其实还是没有清楚的get到平时哪些不注意的行为可能会有合规风险，但是有基本了解了。
+
 # 2025-08-05
 
 学的有点慢，但总算是把入门导读看完了。
