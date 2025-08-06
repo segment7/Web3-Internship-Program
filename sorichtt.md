@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+today i mint my first nft
+
 # 2025-08-05
 
 安全知识分享（钓鱼方向） 总结：慢即是快
