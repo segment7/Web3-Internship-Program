@@ -17,7 +17,7 @@ timezone: UTC+8
 <!-- Content_START -->
 # 2025-08-06
 
-学习web3发展历史、BM和Vitalik的故事，其他同学的提问和Marcus讲解。
+学习web3发展历史、BM和Vitalik的故事，其他同学的提问和Marcus老师的讲解。
 
 # 2025-08-05
 
