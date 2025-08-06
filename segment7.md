@@ -15,6 +15,22 @@ segment7，成都，前北师大学生，现cs在读，目前使用lens protocol
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+## 1. ETH签名数据库
+由于哈希算法 `keccak256` 是不可逆的，无法反向解码，可用 公开数据库 查询常见函数选择器名称
+
+**常用公开数据库：**  
+- Ethereum Signature Database - [4byte.directory](https://www.4byte.directory/)  
+- [openchain.xyz](https://openchain.xyz/)
+- [Universal Calldata Decoder](https://calldata.swiss-knife.xyz/decoder)
+## 2. 警惕代币精度设置
+![0806-1](https://github.com/segment7/Web3-Internship-Program/blob/82e8e7413a8fb63944eb4dc19caaf6f0cafa3584/segment7/0806-1.png)
+
+## 3. 警惕 `aggregate` & `multicall` 函数
+始终仔细核实签名请求，特别是捆绑交易  
+对像 aggregate 或 multicall 的函数保持警惕，因为它们可能隐藏恶意操作
+
 # 2025-08-05
 
 ## 1. 警惕Permit2代币授权
