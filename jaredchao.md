@@ -15,6 +15,22 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- React / Vue
+- TypeScript
+- Next.js
+- Ethers.js / Web3.js / Viem / 
+
+web3 前端开发技术栈  与 web2 前端  多了 Ethers.js / Web3.js / Viem/ Wagmi 库的使用。
+
+包含钱包调用，合约调用。
+
+缺乏前置知识， 看 api 比较懵。
+
 # 2025-08-05
 
 以太坊是什么？
