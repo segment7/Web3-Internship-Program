@@ -15,6 +15,46 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+@ all people 
+8 月 6 日（今晚） 20:00 - 21:00（UTC+8），Web3 故事会有邀请到来自 LXDAO 的 Marcus 老师作为嘉宾分享相关，大家记得参会呢～
+
+会议直达：
+https://us06web.zoom.us/j/87056140964?pwd=xG2z2H48yvlRYvOMxf85dKUkhoryxb.1
+
+Meeting ID: 870 5614 0964
+Passcode: 704411
+
+
+今晚的 Web3 故事会 PPT
+https://docs.google.com/presentation/d/1dXkhUXQZG8BBFr8-_3GvKvlYIS3SIl7PP9eE-hWDPME/edit?usp=sharing
+
+
+2016年牛市
+
+EOS募集了40亿美金，最大的ICO
+
+
+2018年Dapp爆发，但是很多博彩相关的
+
+defi是所有区块链的基石，比如gamefi等
+
+xrp背后的公司实力雄厚
+
+solona的开发者很活跃
+
+pos是股权制
+
+
+
+区块链相关课程
+https://m.bilibili.com/video/BV1Ca411n7ta?buvid=XU826028FDD98051B278CB2A7856C686D1179&from_spmid=main.space-contribution.0.0&is_story_h5=false&mid=J35Mq6CAmqfnFudSgn%2FdSQ%3D%3D&p=1&plat_id=116&share_from=ugc&share_medium=android&share_plat=android&share_session_id=7da47a0d-c9b7-43de-af7f-17f4d327fe70&share_source=WEIXIN&share_tag=s_i&spmid=united.player-video-detail.0.0&timestamp=1754486127&unique_k=fcpmwUv&up_id=482973600
+
+https://m.bilibili.com/video/BV1RFsfe5Ek5?buvid=XU826028FDD98051B278CB2A7856C686D1179&from_spmid=main.space-contribution.0&is_story_h5=false&mid=J35Mq6CAmqfnFudSgn%2FdSQ%3D%3D&p=1&plat_id=116&share_from=ugc&share_medium=android&share_plat=android&share_session_id=800f8e9e-6c4e-40fb-9271-4bd31bd85933&share_source=WEIXIN&share_tag=s_i&spmid=united.player-video-detail.0&timestamp=1754486079&unique_k=UPCuh7p&up_id=482973600
+
+https://m.bilibili.com/video/BV1Vt411X7JF?buvid=XU7510A7207C3FA9A54171525D511853760FA&from_spmid=search.search-result.0.0&is_story_h5=false&mid=3o9%2BgG7Wjqx0ZlXzZpf2QQ%3D%3D&p=1&plat_id=116&share_from=ugc&share_medium=android&share_plat=android&share_session_id=c4e44530-5450-40de-a2b7-27687e27a7fe&share_source=WEIXIN&share_tag=s_i&spmid=united.player-video-detail.0.0&timestamp=1754485715&unique_k=08MZw8i&up_id=12370885
+
 # 2025-08-05
 
 # 任务
