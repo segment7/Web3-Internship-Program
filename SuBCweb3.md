@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+做设计
+
 # 2025-08-05
 
 参加AMA和分享会
