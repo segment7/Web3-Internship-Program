@@ -15,6 +15,15 @@ rust solana
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+https://x.com/jessiewang0914/status/1952980918219751870
+Uniswap v3 core
+Uniswap v3 是为以太坊虚拟机实现的非托管自动化做市商，相较于早期版本，它在资本效率、流动性提供者的控制程度、价格预言机的准确性和便利性以及费用结构灵活性等方面都有提升。核心：Concentrated Liquidity，Flexible Fees:Protocol Fee Governance:Improved Price OracleLiquidity Oracle。集中流动性（Concentrated Liquidity）：允许流动性提供者（LPs）将流动性限制在任意价格范围内（称为 “头寸”），仅需维持该范围内交易所需的储备，相当于在该范围内拥有更大的 “虚拟储备”，大幅提升资本效率。当价格超出范围时，头寸流动性不再活跃且不产生费用，仅由单一资产构成；若价格重回范围，流动性恢复活跃。LPs 可创建多个不同价格范围的头寸，灵活分配流动性。
+灵活费用结构：不再固定 0.30% 的交易费率，每个资产对可对应多个池，每个池的费率在初始化时设定，初始支持 0.05%、0.30%、1% 三个等级，UNI 治理可添加更多等级。协议费用治理：UNI 治理可灵活设定协议收取的交易费用比例，且可按池单独设置。
+改进的价格预言机：无需用户在计算时间加权平均价格（TWAP）时，精确记录时间段起始和结束时的累加器值，通过内置累加器 checkpoint 实现链上直接计算；同时改用对数价格累加，计算几何平均 TWAP，提升精度并减少存储需求。
+流动性预言机：新增时间加权平均流动性预言机，追踪 的累加值，助力外部合约实现流动性挖矿等功能。
+
 # 2025-08-05
 
 https://intensivecolearn.ing/programs/Web3_Internship_Program
