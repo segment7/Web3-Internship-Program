@@ -15,6 +15,64 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+一、区块链/Web3 岗位全景速览
+1. 技术岗主要分类
+前端工程师
+负责 Dapp（去中心化应用）的界面和链上数据展示、钱包连接、合约交互等，技术栈常用 React/Vue、TypeScript、Viem（替代 ethers/web3）、钱包集成等。基本上和web2的框架一样，区别是web3用ethers，（web3.js看网上说比较老）就可以实现和链上区块（也可以理解为web3分布式中的点）的通信。ethers是一个封装RPC的js 库，底层走的是JSON-RPC的协议或者websocket。不同于传统的分布式的的通信方式grpc，消息队列等。所以next.js 做前端的话根据项目需求和业务需求有些可以采取轻后端或者没有后端的方式，直接用ethers来和链上通信。但是涉及并发，复杂的链下计算等就需要考虑重后端来维护业务逻辑的稳定。
+后端工程师
+负责后端 API、链上数据检索、交易逻辑、和智能合约的集成。主流用 Node.js/Python/Go，常见数据库 MySQL/PostgreSQL，熟悉链上数据操作和多钱包集成。（正在研究...）
+智能合约工程师
+负责 Solidity 智能合约的设计、开发、部署和安全审计。熟练主流链（Ethereum/Polygon 等），要懂典型漏洞、审计流程、事件机制等，常用工具 Foundry/Hardhat/Remix。
+2. 非技术岗
+产品/运营
+负责项目需求、产品迭代、用户增长和数据分析，要求懂 Web3 基本逻辑、会用数据工具和社区运营方式。
+社区管理
+管理 Telegram/Discord/Twitter 等社群，活动策划和品牌维护，懂社交平台玩法。
+行业研究
+做行业竞品分析、写白皮书/深度报告，要懂 DeFi/经济模型、会用数据分析工具（Python、Glassnode 等）。
+3. 常用技术栈
+HTML/CSS/JS，React/Vue，TypeScript，Next.js，Viem，Solidity，Foundry/Hardhat，Docker/K8s，Git 等。
+
+二、安全与合规
+中国大陆监管极为严格，禁止一切 Token 融资/交易/挖矿，参与即有刑事风险。
+合同关系模糊，境外项目普遍无正式劳动合同、无社保公积金，薪资结构多为 USDT/Token，需警惕出金风险（洗钱/冻结）。
+入行一定要看清项目白皮书、合规材料，别踩雷。
+Token/USDT 直接参与“换汇”很容易卷进非法经营和洗钱案，案例很多。
+强调安全意识：不要随便连接钱包、泄露私钥、信群内“官方”消息，资产分离管理，注意各类社交/钓鱼攻击和插件、依赖风险。
+昨天的安全分享会是个很好的学习视频，今天又看了一次。并且结合unphishable.io的练习，确实学到了很多防钓鱼的点。特别是授权等操作的时候一定要认真检查相关的信息。这个也需要补充一些基础知识，理解操作的流程信息内容，以防被修改信息却也不清楚正确信息的格式和内容。
+
+三、智能合约开发/Dapp 基本流程
+1. Dapp 典型架构
+前端：主要负责 UI/钱包连接/与合约交互（JS/TS + React/Vue + Viem/Wagmi + 钱包插件）。
+智能合约：用 Solidity 编写核心业务，链上自动执行，不可篡改。
+数据检索器（Indexer）：用于同步链上事件，写入数据库，方便前端查数据（常用 subgraph、ponder）。
+去中心化存储：用 IPFS/Arweave 保存链外大文件。
+2. 智能合约开发流程
+需求分析→合约设计/编写→测试（单测+审计）→前端集成→测试网部署→主网部署
+主流开发工具：Foundry（Rust，快）、Hardhat（JS，生态好）、Remix（网页版，适合入门测试）
+3. Solidity 合约基本范式
+版本声明
+状态变量（链上永久存储）
+函数/修饰符（权限、payable、view/pure）
+事件机制（链上触发，前端监听）
+常用安全点：重入（Checks-Effects-Interactions，ReentrancyGuard）、整数溢出（Solidity 0.8+ 自动检测）、访问控制（onlyOwner/AccessControl）
+Gas 优化：减少存储操作、使用 memory、合理循环、external/public 区分
+4. 合约部署和前端集成
+测试流程：
+本地节点 or 测试网（Sepolia 等）部署
+前端用 Viem/Wagmi 绑定合约 ABI 和地址
+钱包连接（MetaMask）发起交易签名
+前端交互流程：
+connectWallet → 实例化合约 → 发送交易/读取数据
+5. 合约审计要点
+常用工具：Slither、MythX、Foundry 测试
+检查点：重入/整数溢出/权限/未初始化代理/预言机/三明治攻击等
+6. 团队协作规范
+分支管理（main/develop/feature/fix）
+PR 审查/代码风格/单元测试/Issue 标签
+
 # 2025-08-05
 
 一、区块链黑暗森林自救手册-前半部分
