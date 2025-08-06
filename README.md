@@ -127,7 +127,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [Splashingturtle](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Splashingturtle.md) | ✅ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | |
 | [awaqawaqawaq](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/awaqawaqawaq.md) | ⭕️ | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | |
 | [flora2030](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/flora2030.md) | ✅ | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | |
-| [Azhan1431](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Azhan1431.md) | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | |
+| [Azhan1431](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Azhan1431.md) | ✅ | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | |
 | [hahaslighthouse](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/hahaslighthouse.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | |
 | [serenwei](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/serenwei.md) | ⭕️ | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | |
 | [ZRainbow1275](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ZRainbow1275.md) | ⭕️ | ⭕️ | ✅ | | | | | | | | | | | | | | | | | | | | | | | |
@@ -304,7 +304,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [bedtimeSoul](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/bedtimeSoul.md) | ✅ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | |
 | [Lukeeeeeeeeee](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Lukeeeeeeeeee.md) | ✅ | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | |
 | [Unjourclair](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Unjourclair.md) | ✅ | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | |
-| [john-zhaoyuanzhen](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/john-zhaoyuanzhen.md) | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | |
+| [john-zhaoyuanzhen](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/john-zhaoyuanzhen.md) | ✅ | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | |
 | [Linnea0425](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/Linnea0425.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | |
 | [henryhello](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/henryhello.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | |
 | [hthia](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/hthia.md) | ✅ | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | |
@@ -546,6 +546,7 @@ Web3 实习计划免责声明及入营协议: https://www.notion.so/ethpanda/Web
 | [ssaaaaaaaaaaaaaaaaaaaaaaaaaaa](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/ssaaaaaaaaaaaaaaaaaaaaaaaaaaa.md) | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | |
 | [KamisAyaka](https://github.com/IntensiveCoLearning/Web3_Internship_Program/blob/main/KamisAyaka.md) | ✅ | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
