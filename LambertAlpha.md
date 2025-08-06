@@ -17,6 +17,7 @@ Bloackchian Full-stack dev
 <!-- Content_START -->
 # 2025-08-06
 
+耗時：30min
 ```jsx
 forge create Counter \
   --rpc-url http://127.0.0.1:8545 \
