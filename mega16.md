@@ -15,6 +15,104 @@ Web3 纯小白
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-06
+
+# 以太坊
+开源的去中心化区块链平台，通过原生加密货币以太币（Ether，ETH）提供去中心化的以太虚拟机（EVM）处理点对点合约。
+
+以太坊的核心创新：智能合约（Smart Contracts）。存储在区块链上的可执行代码，能够满足预设条件时自动执行操作，无需人工干预。
+
+## 以太坊的定位与演进
+基于区块链的去中心化计算平台，目标是成为全球计算机，无须依赖第三方即可进行交易，管理数据或运行应用。
+
+### 1.以太坊1.0 （PoW 阶段 工作量证明）
+- 能耗高
+- 扩展性差
+
+### 2.以太坊2.0与The Merge：从双链并行到完美合并
+- 2020年12月：信标链启动 运行PoS共识机制
+- 2022年9月：历史性合并
+- 合并后的新架构： 执行层：处理交易，智能合约（原主网） 共识层：管理验证者、确定区块顺序（信标链）
+
+### 3.PoS机制
+验证者如何工作：
+- 准入门槛：质押32ETH成为验证者
+- 工作方式：系统随机选择验证者提议和验证区块
+- 奖励机制：验证者获得新发行的ETH + 交易费用
+- 惩罚机制：作恶者质押的ETH被销毁
+
+### 4.未来升级线路
+- 分片技术演进 --- 从执行分片到数据分片
+- EIP-4844（Cancun升级） --- 省钱神器
+- ZK-Rollup 技术 --- 批量验证，一步到位
+
+## 以太坊生态概览：L1、L2、Sidechains
+
+###  Layer1 (L1)
+- 以太坊：核心区块链，负责最终安全性与共识
+- EVM：以太坊虚拟机，执行智能合约代码
+- 账户系统：外部账户（EOA）与合约账户（CA）共同构成网络基础
+
+### Layer2 （L2）
+- Rollup：通过将交易批量处理后提交至L1，降低Gas费
+
+### 侧链（Sidechains）:独立运行的链，通过桥接与主网交互
+
+## 分层架构
+### 1.应用层（Application Layer）
+- DeFi 应用：Uniswap（去中心化交易所）、Aave（借贷协议）、Compound（借贷协议）
+- NFT 平台：OpenSea、Foundation、SuperRare
+- 钱包应用：MetaMask、Coinbase Wallet、Rainbow
+- DAO 工具：Snapshot、Aragon、Colony
+
+### 2.协议层（Protocol Layer）
+- 共识层客户端：Prysm、Lighthouse、Nimbus、Teku
+- 执行层客户端：Geth、Nethermind、Erigon、Besu
+- 核心协议：EVM、状态管理、Gas 机制
+
+### 3.扩展层（Scaling Layer）
+- Layer 2 Rollups：Arbitrum、Optimism、Polygon zkEVM、zkSync Era
+- 侧链：Polygon PoS、xDAI（Gnosis Chain）
+- 状态通道：Lightning Network for Ethereum
+
+## 以太坊核心机制
+**账户系统**、 **Gas模型** 、**以太坊虚拟机（EVM）**
+
+### 1.账户系统：数字身份
+
+账户系统：包含由私钥控制的 外部账户（EOA） 和由智能合约代码控制的 合约账户（CA）
+
+每个账户都包含四个关键字段：
+
+- Nonce：防止重复交易的计数器（EOA 记录发送次数，CA 记录创建合约次数）。
+- 余额：账户持有的 ETH 数量（单位为 Wei）。
+- CodeHash：EOA 为空哈希，CA 存储合约字节码的哈希值。
+- StorageRoot：记录账户数据的 Merkle 树根哈希（如 NFT 归属关系）
+
+### 2.Gas模型：交易的燃料费
+Gas 费用 = 用多少 × 每单位多少钱
+- Gas Limit（限额）：你最多愿意“烧”多少燃料
+- Gas Price（单价）：每单位燃料多少钱，用 Gwei 表示（1 Gwei = 0.000000001 ETH）
+
+**总费用 = Gas Limit × Gas Price**
+
+Gas模型存在的目的：
+- 激励矿工/验证者：你给得越多（Gas Price 越高），他们越愿意优先处理你的交易
+- 防止资源滥用：如果有人想让合约死循环，Gas 会用光，交易失败，系统不会被拖垮。
+
+### 3. 以太坊虚拟机（EVM）：代码的执行引擎
+EVM（Ethereum Virtual Machine）是 以太坊的“大脑”，是专门用来运行智能合约的虚拟计算机。它运行在每个节点上，确保整个网络在处理代码时，结果都一致、可信任。
+
+
+## 一般流程
+1.用户通过 EOA 发起交易（如调用合约与 CA 交互，或者转账与其他用户的 EOA 交互）。
+
+2.交易附带 Gas 参数，矿工 / 验证者选择打包。
+
+3.EVM 执行合约代码，修改存储（如更新 NFT 归属）。
+
+4.Gas 费用按 Gas Limit × Gas Price 扣除，保障资源合理使用。
+
 # 2025-08-05
 
 ## 一、Web2 vs Web3.0 vs Web3
