@@ -22,6 +22,8 @@ timezone: UTC+8
 北大肖臻老师《区块链技术与应用》公开课
 ##14：58：
 学习以太坊技术原理（https://share.note.youdao.com/s/PwqL56CJ）
+##16：25：
+了解NFT，浏览opensea
 
 # 2025-08-05
 
