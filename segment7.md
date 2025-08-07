@@ -15,6 +15,16 @@ segment7，成都，前北师大学生，现cs在读，目前使用lens protocol
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+`今日普法大讲堂`  
+诸如避税受贿贩毒犯罪等黑灰产所得的💰猛烈流入加密币的蓄水池，我称之为走资派乐土，洗钱天堂。
+
+这可是口味正宗的金融化资本主义或者新自由主义实践，毕竟，在资本主义的世界就算是反抗资本主义这种行为本身也是可以拿来卖的，不管是被动还是主动我就不说了。
+# 亲亲，我们家子涵说要全面制裁！🥰
+![1](https://github.com/segment7/Web3-Internship-Program/blob/a00dc941bccb188f40776fd9c368dc26aa885c21/segment7/0807-1.jpg)
+![2](https://github.com/segment7/Web3-Internship-Program/blob/a00dc941bccb188f40776fd9c368dc26aa885c21/segment7/0807-2.jpg)
+
 # 2025-08-06
 
 ## 1. ETH签名数据库
