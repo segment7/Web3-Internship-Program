@@ -15,6 +15,10 @@ Web3初学者，咱研究RWA，在IT公司和云计算公司从事过开发，�
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+完成Remix第一个Demo，Sepolia PoW获取激励
+
 # 2025-08-06
 
 昨天安装了ETH开发环境，以及Metamask，并且用测试完收到测试币
