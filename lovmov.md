@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+Web3 法律知识学习
+
 # 2025-08-06
 
 学习web3发展历史、BM和Vitalik的故事，其他同学的提问和Marcus老师的讲解。
