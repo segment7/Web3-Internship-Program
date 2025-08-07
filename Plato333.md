@@ -19,7 +19,7 @@ timezone: UTC+8
 
 ### 两个函数sfStore()和sfGet():
 
-### sfStore()**关键点**
+# sfStore()**关键点**
 
 1. **合约选择**：
     - `_SimpleStorageIndex` 参数指定要操作的合约索引（如 `0` 对应第一个部署的合约）。(_SimpleStorageIndex代指索引数字)
@@ -27,7 +27,7 @@ timezone: UTC+8
     - `mySimpleStorage.store(...)` 相当于向目标合约发送一条消息，触发其 `store()` 函数。
     - 类似现实中 “通过楼号找到某栋楼，并在该楼的登记簿上写入数据”。
 
-### sfGet()**关键点**
+# sfGet()**关键点**
 
 1. **只读操作**：
     - `view` 修饰符表示该函数不修改区块链状态，仅读取数据。
