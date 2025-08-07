@@ -15,6 +15,12 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+通用——Gather Town自习
+第1周——完成几乎全部钓鱼攻防挑战
+第1周——领取Sepolia测试币并转发给同学
+
 # 2025-08-06
 
 通用-Gather town自习，看实习手册
