@@ -15,6 +15,69 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+## **NFT Mint Demo 流程概念版**
+
+---
+
+### **1. 初始化开发环境**
+
+* 选择 **Hardhat** 作为开发框架，用于编译、部署和测试智能合约。
+* 安装 **OpenZeppelin** 合约库，避免从零写标准 ERC-721 逻辑。
+
+---
+
+### **2. 编写 NFT 智能合约**
+
+* 使用 Solidity 创建合约，继承 **ERC721URIStorage**（用于支持 NFT 元数据 URI）。
+* 添加一个 `mintNFT` 函数，允许合约所有者铸造新的 NFT。
+* 每个 NFT 绑定一个 `tokenURI`（通常指向 IPFS 上的 JSON 文件，描述图片和属性）。
+
+---
+
+### **3. 上传 NFT 资源**
+
+* NFT 图片和元数据不能直接放链上（成本高），通常上传到 **IPFS**。
+* **IPFS 文件结构**：
+
+  * 图片文件 → 生成 IPFS 哈希。
+  * JSON 元数据文件（包含图片链接） → 生成 IPFS 哈希。
+
+---
+
+### **4. 部署合约到测试网**
+
+* 使用 **Hardhat 脚本**调用部署逻辑，将合约部署到测试网（如 Sepolia）。
+* 需要配置测试网 RPC（Alchemy/Infura）+ 部署者钱包私钥。
+
+---
+
+### **5. 前端交互（DApp）**
+
+* 用 **React + Wagmi + RainbowKit** 搭建前端。
+* 功能：
+
+  * 连接钱包（MetaMask）。
+  * 点击按钮 → 调用合约的 `mintNFT` 函数 → 发送交易。
+
+---
+
+### **6. 验证结果**
+
+* 在 **Etherscan 测试网**查看交易成功。
+* 在 **OpenSea Testnet**（或类似平台）查看 NFT 是否显示。
+
+---
+
+## **核心知识点**
+
+* **Hardhat**：智能合约开发框架（编译、部署、测试）。
+* **OpenZeppelin**：安全、标准的合约库（ERC-20、ERC-721、ERC-1155）。
+* **ERC-721**：NFT 标准（每个 token 独一无二）。
+* **IPFS**：分布式文件存储，NFT 元数据常用方案。
+* **前端交互**：通过 wagmi（Web3 Hooks）+ RainbowKit（钱包 UI）连接以太坊。
+
 # 2025-08-06
 
 ## 使用 Scaffold-ETH 2 部署 NFT 项目
