@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+查看安全攻击的新闻；回顾行业发展史
+
 # 2025-08-06
 
 - 学习岗位全景图 → https://web3intern.xyz/zh/position-introduction/
