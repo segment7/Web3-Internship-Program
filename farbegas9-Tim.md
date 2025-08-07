@@ -15,6 +15,14 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+# 今日学习内容
+
+## 自己找资料学习了Uni、Curve相关的内容，了解了AMM、流动性挖矿等。
+
+## 完成https://unphishable.io/安全调整项目的 中级难度部分。
+
 # 2025-08-06
 
 # 8月6日 学习内容
