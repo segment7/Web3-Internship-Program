@@ -15,6 +15,15 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+今天继续刷了十道rust的基础题，并根据speedrunethereum.com上的教程完成了Staking App和Token Vendor的部署。这两个合约的逻辑比较简单，Staking App的逻辑就是设置一个截至日期，在截止日期之前向用户筹集到足够的资金之后将资金转入质押池子获取收益，如果筹集的资金不足则允许用户取回自己存入合约的钱。Token Vendor这个合约是向用户出售自己的token，设置了一个比例，用户按比例存入eth之后获取token，比如100枚token等于一枚eth，token的数量是有上限的。还允许所有者可以提取用户存入合约中的eth，用户也可以向合约卖出自己持有的token来取回自己存入合约的eth，但是如果合约的部署者将资金池取走的话会出现用户无法兑换自己之前存入eth的情况。
+
+  这两个案例都很像链上常见的rug pull，比如谎称有高额质押的利息引诱你转钱进入合约，之后就再也取不出来了，或者是项目方承诺能按比例兑换出原有的资金，结果自己留了一个后门将合约中的资金全部抽走了。所以以后涉及转账的操作一定要谨慎，最好能先确认一下对方所说的合约逻辑是否正确，有没有后门能将资金从池子中抽走的方法。
+
+Staking的网址：https://mysecondprojectstaking-3li28f2sl-fireflys-projects-e4725500.vercel.app/
+Vendor的网址：https://sellmytoken-ccu6cd5jk-fireflys-projects-e4725500.vercel.app/
+
 # 2025-08-06
 
 今天刷了十道rust的基础题，发现自己基础还是不够牢固，有一些简单的结构和枚举代码都不熟悉，打算先刷完题目熟悉了之后再继续开发借贷协议，目前的计划是看到了学习手册上推荐的一个以太坊学习者开发练习网站 https://speedrunethereum.com/ ，打算把上面的练习都完成了，同时抽时间熟悉rust，完成所有练习之后再开始做rust借贷项目的开发。
