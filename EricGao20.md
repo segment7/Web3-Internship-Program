@@ -15,6 +15,23 @@ Hi我来啦，INFP，在上海念金融专业
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+安全：强调智能合约漏洞防范（如重入攻击），推荐使用 OpenZeppelin 库和审计工具；介绍私钥管理、节点安全等去中心化系统挑战。
+合规：涵盖 KYC、AML 和 GDPR 等法规，分析 SEC、MiCA 等监管差异，建议定期法律咨询。
+风险管理：提供技术与法律风险识别方法，建议建立应急响应机制。
+
+实用建议：
+
+学习 Solidity 安全编码，参与漏洞赏金计划。
+熟悉 DeFi 和 NFT 法规，使用 Truffle、Hardhat 测试合约，借助 Chainalysis 监控交易。
+
+行动计划：
+
+研读 OpenZeppelin 文档，练习智能合约开发。
+跟踪 SEC、MiCA 监管动态。
+加入 ETHPanda 或 LXDAO 社区，获取前沿资讯。
+
 # 2025-08-06
 
 Vitalik & BM
