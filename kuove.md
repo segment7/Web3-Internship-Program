@@ -15,6 +15,22 @@ web2转型web3,希望学习测试与开发
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+- 继续forge的学习
+
+&emsp;forge test 运行后会生成两个新的目录，产生了两个新目录：out 和 cache
+&emsp;out 目录包含你的合约工件(artifact，例如 ABI，而 cache 目录被 forge 使用来（记录），以便仅仅去重新编译那些必要编译的内容。
+
+- 了解Forge依赖项
+&emsp;使用 git submodules 管理，意味着它可以与任何包含智能合约的 GitHub 代码库一起使用
+
+- Soldeer 是forge的包管理器
+
+- 注意到了openzeppelin
+
+&emsp;OpenZeppelin 是构建在 EVM 之上的开源智能合约开发工具，让开发者者可以安全地开发和管理智能合约和 Dapp。OpenZeppelin 使用以太坊智能合约语言 Solidity 进行构建，并支持所有 EVM 和 eWASM 的跨平台移植。
+
 # 2025-08-06
 
 Foundry学习
