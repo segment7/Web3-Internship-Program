@@ -15,6 +15,43 @@ Web2开发转型
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+## 区块链/Web3 岗位全景总结笔记
+### 一、技术岗
+1. 前端工程师
+
+负责区块链前端应用开发，钱包连接、交易签名等交互。
+技术栈：HTML/CSS/JS、React/Vue、TypeScript、Next.js、Viem。
+要求：熟悉 Web3 技术、Dapp 开发经验、代码规范、团队协作。
+2. 后端工程师
+
+负责 Dapp 后端服务、链上数据交互、API 构建与优化。
+技术栈：Node.js/Go/Python、Viem、RESTful/GraphQL、MySQL/PostgreSQL、Docker/K8s。
+要求：高并发系统经验、智能合约集成、数据库优化、分布式架构。
+3. 智能合约工程师
+
+设计、开发、部署智能合约，关注安全与性能。
+技术栈：Solidity、Remix、Foundry/Hardhat、Phalcon/Tenderly、Yul。
+要求：智能合约开发与审计经验，熟悉主流链平台，安全意识强。
+### 二、非技术岗
+1. 产品与运营
+
+负责产品发布、用户反馈、增长策略、数据分析。
+要求：产品流程熟悉、跨部门协调、数据分析能力（SQL/Excel）。
+2. 社区管理
+
+管理 Telegram、Twitter、Discord 社区，策划活动，提升用户活跃度。
+要求：Web3 社区经验、文案与沟通能力、数据分析、活动策划。
+3. 研究分析
+
+行业数据收集与分析，撰写报告，支持产品与战略决策。
+技能：Excel、SPSS、Python、链上数据工具（Glassnode、Token Terminal）。
+要求：区块链生态理解、定量/定性分析、报告撰写能力。
+三、扩展阅读/求职平台
+DeJob、SmartDeer、电鸭社区（中文）
+Web3Career、CryptoJobs（英文）
+
 # 2025-08-06
 
 ## 区块链/Web3 合规与安全风险总结笔记
