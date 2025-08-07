@@ -15,6 +15,10 @@ I‘m a postgraduate student from Univeristy of Southampton, my major is Risk an
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+实时观看了今晚的法律分享会。
+
 # 2025-08-06
 
 今日把过去两天的中文周会以及安全专题会的回放看了。以及Youtube上一位比较火的访谈Jeff Park，讲了对于传统金融市场的看法以及对加密货币市场以及发展的观点。其中比较收益的几个观点：
