@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+先水个打卡，晚点写学习内容
+
 # 2025-08-06
 
 完整听了Marcus老师的分享会：
