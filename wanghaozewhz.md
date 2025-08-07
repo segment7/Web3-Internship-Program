@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+https://x.com/ZTAOETH/status/1952416191261397124
+
 # 2025-08-04
 
 基础工具答疑会（Gather Town）以太坊中文周会（了解最新行业动态） 跟布老师入群介绍
