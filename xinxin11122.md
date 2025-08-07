@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+学习了web3法律相关的一些案例，特别要注意黑钱
+
 # 2025-08-06
 
 @ all people 
