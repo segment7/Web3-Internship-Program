@@ -15,6 +15,27 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+# 安全与合规
+
+## 中国法律禁止
+- ICO、IEO、IDO
+- OTC
+- 交易所
+  
+## 监管框架
+- 美国监管框架: Genius Act, Clarity Act
+- 欧盟监管框架: MiCA
+- 香港监管框架: VASP
+
+## 常见网络安全风险与攻击方式
+- 钓鱼攻击（Phishing）
+- 恶意软件/木马（Malware & Trojan）
+- 社交工程攻击（Social Engineering）
+- 供应链/第三方依赖攻击
+- 地址污染与扫描木马（Clipper/Scanning Bots）
+
 # 2025-08-06
 
 # 行业赛道全览
