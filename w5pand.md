@@ -15,6 +15,11 @@ web2->web3
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+参加web3法律知识分享会
+继续学习solidity
+
 # 2025-08-06
 
 参加web3故事会，对EOS印象深刻
