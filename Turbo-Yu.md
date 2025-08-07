@@ -15,6 +15,11 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+## 18:00
+今天按照文档了解了一下Web 3.0 的各个岗位，并参考教程，搭建了一个留言的DApp网页，部署了合约 https://sepolia.etherscan.io/tx/0x01a465d953612e0e7aa12e4ba78899311b51090655213e91bd795ad09ddf477f
+
 # 2025-08-06
 
 ## 10:00
