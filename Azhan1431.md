@@ -15,6 +15,173 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+### 一 技术岗
+
+#### 1 前端工程师
+
+主要职责：
+
+- 开发基于区块链技术的前端应用 支持去中心化平台的交互
+- 使用 React Vue 等框架实现高效的用户界面
+- 集成并优化智能合约的前端交互 确保链上数据与用户界面的无缝连接
+- 通过 GraphQL 或 RESTful API 获取链上和链下数据
+- 持续优化前端性能 提升用户体验
+- 参与技术评审与分享 不断优化产品架构与代码质量
+
+职位要求：
+
+- 本科及以上学历 计算机科学或相关专业
+- 精通 HTML CSS JavaScript 熟悉 React Vue 等前端框架
+- 熟悉 Web3js Viem Metamask 等 Web3 技术栈 能够与智能合约进行交互
+- 具备 Dapp 开发经验者优先
+- 熟悉 Git 版本管理
+- 良好的沟通能力和团队协作精神
+
+常用技术栈：
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- React / Vue
+- TypeScript
+- Nextjs
+- Viem
+
+#### 2 后端工程师
+
+主要职责：
+
+- 开发和维护去中心化应用（Dapp）的后端服务
+- 确保前后端数据交互的高效性和稳定性
+- 基于 Nodejs Python 等技术栈构建高性能的 RESTful 或 GraphQL API
+- 确保智能合约与后端服务的无缝连接
+- 优化后端性能 确保系统的高可用性
+- 参与 Web3 技术的前沿研究 推动技术迭代
+
+职位要求：
+
+- 本科及以上学历 计算机科学或相关专业
+- 精通 Nodejs Go Python 等后端开发语言
+- 熟悉 Viem Web3js Ethersjs 等 Web3 工具
+- 具备 RESTful API 或 GraphQL 开发经验
+- 熟悉数据库技术
+- 对智能合约有一定了解
+- 熟悉容器化技术（如 Docker Kubernetes）
+- 良好的代码编写规范与文档写作能力
+
+常用技术栈：
+
+- Nodejs / Go / Python
+- Viem / Web3js / Ethersjs
+- RESTful API / GraphQL
+- MySQL / PostgreSQL
+- Docker / Kubernetes
+
+#### 3 智能合约工程师
+
+主要职责：
+
+- 设计、开发和部署智能合约
+- 使用 Solidity 编写智能合约 涵盖 NFT DeFi DAO 等需求
+- 部署智能合约至区块链网络
+- 编写智能合约的单元测试 进行代码审计与安全性测试
+- 优化智能合约性能 减少 Gas 费用
+- 研究和应用最新的区块链技术和智能合约最佳实践
+- 与前后端团队协作 确保系统顺畅集成
+- 为团队成员提供技术支持和指导
+
+职位要求：
+
+- 本科及以上学历 计算机科学或相关专业
+- 3 年以上智能合约开发经验
+- 熟悉主流区块链平台如 Ethereum Polygon 等
+- 具备智能合约审计和漏洞修复经验 熟悉常见攻击模式
+- 熟悉区块链的基本原理
+- 熟练使用 Foundry Hardhat 等开发框架
+- 熟悉 IPFS NFT Token 标准（ERC-20 ERC-721 ERC-1155 等）
+
+常用技术栈：
+
+- Solidity
+- Remix
+- Foundry / Hardhat
+- Phalcon / Tenderly
+- Yul
+
+### 二 非技术岗
+
+#### 1 产品与运营
+
+职位描述：
+
+- 协调产品发布、用户反馈收集和持续改进流程
+- 执行以用户获取、留存和参与度提升为目标的增长战略
+- 与产品、技术、市场及合规团队紧密合作
+- 持续分析运营数据 跟踪关键绩效指标（KPIs）
+
+职位要求：
+
+- 熟悉产品上线（Go-to-market）全流程
+- 具备扎实的数据分析能力 熟练使用 SQL Excel 或其他数据工具
+
+#### 2 社区管理
+
+职位描述：
+
+- 构建并管理 Telegram Twitter（X）Discord 等社交平台的社区
+- 组织线上 AMA、活动、竞赛等互动 提升用户活跃度
+- 跟踪社区健康度指标和情感分析
+- 与营销团队协作 制定并执行内容日历
+
+职位要求：
+
+- Web3 DAO 或 NFT 社区管理经验
+- 出色的文案撰写与沟通能力
+- 熟练使用社区数据分析工具
+- 具备活动策划与执行能力
+
+常用平台：
+
+- Telegram
+- Twitter (X)
+- Discord
+
+#### 3 研究分析
+
+职位描述：
+
+- 收集、整理并分析 Web3 行业市场与用户数据
+- 跟踪区块链协议技术演进及生态动态
+- 进行竞争对手分析 评估市场趋势与用户行为模式
+- 支持项目的加密经济模型设计与博弈论分析
+
+职位要求：
+
+- 熟练使用 Excel SPSS 或 Python 等数据分析工具
+- 深入了解区块链生态 DeFi 协议及加密经济学原理
+- 优秀的报告撰写与演示能力
+- 精通链上数据分析工具（Glassnode Token Terminal）
+
+常用工具：
+
+- Excel
+- SPSS
+- Python
+- Glassnode
+- Token Terminal
+
+### 扩展阅读
+
+求职平台推荐：
+
+- DeJob - 中文
+- SmartDeer - 中文
+- 电鸭社区 - 中文
+- Web3Career - 英文
+- CryptoJobs - 英文
+
 # 2025-08-06
 
 ### Web3 法律与安全风险笔记
