@@ -15,6 +15,60 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+### 两个函数sfStore()和sfGet():
+
+### sfStore()**关键点**
+
+1. **合约选择**：
+    - `_SimpleStorageIndex` 参数指定要操作的合约索引（如 `0` 对应第一个部署的合约）。(_SimpleStorageIndex代指索引数字)
+2. **跨合约调用**：
+    - `mySimpleStorage.store(...)` 相当于向目标合约发送一条消息，触发其 `store()` 函数。
+    - 类似现实中 “通过楼号找到某栋楼，并在该楼的登记簿上写入数据”。
+
+### sfGet()**关键点**
+
+1. **只读操作**：
+    - `view` 修饰符表示该函数不修改区块链状态，仅读取数据。
+2. **数据返回**：
+    - 返回值来自目标合约的 `retrieve()` 函数，即 `SimpleStorage` 中存储的 `myFavoriteNumber`。
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.18;
+
+import {SimpleStorage} from "./SimpleStorage.sol";
+
+contract StorageFactory{
+    //listOfSimpleStorageContracts 数组存储所有已创建的合约地址
+    SimpleStorage[] public listOfSimpleStorageContracts;
+
+    function createSimpleStorageContract() public {
+            SimpleStorage newSimpleStorageContract = new SimpleStorage();//new关键字会创建一个新的合约，在 Solidity 中，创建合约实例必须使用括号
+            listOfSimpleStorageContracts.push(newSimpleStorageContract);//将新合约的地址添加到数组中
+    }
+
+		//通过索引选择一个 SimpleStorage 合约，并调用其 store() 函数更新数据。
+    function sfStore(uint256 _SimpleStorageIndex, uint256 _newSimpleStorageNumber) public {//sf代表StorageFactory
+				     // 1. 从数组中获取指定索引的合约地址
+            SimpleStorage mySimpleStorage = listOfSimpleStorageContracts[_SimpleStorageIndex];
+             // 2. 调用该合约的 store() 函数，更新其内部数据
+            mySimpleStorage.store(_newSimpleStorageNumber);
+    }
+
+    //通过索引选择一个 SimpleStorage 合约，并调用其 retrieve() 函数读取数据。
+    function sfGet(uint256 _SimpleStorageIndex) public view returns(uint256){
+				 // 1. 从数组中获取指定索引的合约地址    
+        SimpleStorage mySimpleStorage = listOfSimpleStorageContracts[_SimpleStorageIndex];
+        // 2. 调用该合约的 retrieve() 函数，读取其内部数据
+        return mySimpleStorage.retrieve();
+
+    }
+
+}
+```
+
 # 2025-08-06
 
 ### D.零知识证明
