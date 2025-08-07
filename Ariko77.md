@@ -15,6 +15,79 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+EIP4626
+英文原词
+Vault
+金库 / Vault
+shares
+份额（share）
+value
+实际资产数量
+baseUnit
+精度单位（如 1e18）
+exchangeRate
+份额兑换率
+holdings
+金库当前总资产
+methods
+deposit 存钱,给股
+将_value代币存入保险库并将其所有权授予_to。
+_shares可以返回相应的按比例所有权值_value，如果不是，则必须返回0
+redeem 给股,分钱
+赎回指定数量的份额（_shares要赎回的份额数量），Vault 将根据当前兑换率把相应数量的原始资产（_value实际收到的资产数量）转给 _to
+如果不能精确计算资产金额，也必须返回0表示无效  
+withdraw 给钱,退股
+_value从保险库中取出代币并将其转移到_to。
+_shares可以返回对应于的按比例所有权值_value，如果不是，则必须返回0
+_value: 想取出的资产数量,单位是LING/DAI等代币
+_shares :  为了取出 _value 资产，你销毁的份额数量
+totalHoldings
+返回保险库持有/管理的底层代币总量
+balanceOfUnderlying
+返回保险库中持有的底层代币总量_owner
+underlying
+返回保险库用于记账、存款和取款的代币地址
+totalSupply
+ 返回 Vault 中所有尚未赎回的总份额数量
+balanceOf
+ 返回某个用户拥有的份额数量
+exchangeRate 
+获取当前每份 share 对应的资产数量（即兑换率), 也就是1 份 share 对应多少资产  
+换算公式为：
+资产数量 = shares × exchangeRate() ÷ baseUnit()
+并且应满足：
+exchangeRate() × 总份额（totalSupply） = Vault 总资产（totalHoldings
+这是核心比率函数,通胀攻击就会影响这个数值
+baseUnit
+Solidity
+复制代码
+1
+function baseUnit() public view returns(uint256)
+返回 Vault 份额（shares）使用的单位基准值，通常是 10 ** decimals()。
+用来统一换算中涉及的精度。例如：
+Solidity
+复制代码
+1
+assets = shares × exchangeRate / baseUnit
+注意不是资产单位,而是用于兑换计算的单位比例
+Events
+Deposit 
+当用户向 Vault 存入资产时触发该事件
+event Deposit(address indexed _from, addres indexed _to, uint256 _value)
+_from：触发存入操作、批准资产的地址
+_to：获得份额的地址（可能与 _from 相同）
+_vaule: 表示存入的资产数量
+Withdraw
+当用户从 Vault 中提取资产时触发该事件  
+event Withdraw(address indexed _owner, addres indexed _to, uint256 _value)
+_owner：份额的拥有者（用来换资产的）
+_to：接收资产的一方（通常是用户自己）
+_vaule: 表示赎回的资产数量
+通货膨胀
+简单来说就是攻击者先铸造极少份额,然后绕过share逻辑直接转入资产,让每个份额的价值暴涨,让后来的用户几乎买不到份额或者只能买到极少的份额,而攻击者能赎回整个vault的资产,白嫖别人钱
+
 # 2025-08-06
 
 # 重入漏洞
