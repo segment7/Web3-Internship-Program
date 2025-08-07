@@ -15,6 +15,11 @@ web2前端开发，对web3感兴趣，想加入web3.
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+#
+1.在My First NFT mint 第一个NFT
+
 # 2025-08-06
 
 #
