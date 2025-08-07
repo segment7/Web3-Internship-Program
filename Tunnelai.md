@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+今天学习了web3的工作方式，其中的职场软技能真的很实用
+
 # 2025-08-06
 
 今天学习了Web3的行业赛道,交由DeFi。 DeFi中主要包含了Uniswap, Compound, and MakerDAO, 然后其他的还有NFT, Mimi, DAO组织。 再其他就是这些行业赛道的交叉混合型。
