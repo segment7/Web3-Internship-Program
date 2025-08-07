@@ -15,6 +15,11 @@ AI全栈 什么都会一点
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+昨天写好的笔记竟然忘记提交了，没事还有机会。今天浏览了一些web3的工作岗位，好像技术岗招的确实不多。难搞。
+晚上是曼昆的分享，介绍了交易所的合规性问题，以及如何判断违法违规，说实话法律这块不是很懂，后续可以多学一学
+
 # 2025-08-05
 
 听了web3安全分享：unphishable.io中提到了seed phrase attempting, fake trasaction approval, fake zoom meeting, clipboard virus
