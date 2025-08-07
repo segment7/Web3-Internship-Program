@@ -15,6 +15,14 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+笔记链接 ：
+学习了技术岗位分布、以及相应的技术栈。学习了web3相关的法律规定和案例。
+https://www.notion.so/2025-8-7-248dc3c7d6cb80d7b84fd0a94f084c80?source=copy_link
+学习了Layer2的功能、以及如何实现扩容的技术发展。
+https://www.notion.so/247dc3c7d6cb80088a87d3297d75e54c?source=copy_link
+
 # 2025-08-06
 
 概览：参会web3故事会，了解比特币和主流生态以太坊的一些基础概念。以及以太坊发展的前世今生。同时讨论了ethereum和solana链的不同。前者是开源、去中心化的链，后者是偏中心化的链，所以有融资后更快的发展和扩大影响力。但目前ethereum还是生态最大的、用户最多的、更受欢迎、更稳定的链。
