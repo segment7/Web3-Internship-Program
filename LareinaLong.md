@@ -15,6 +15,10 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+1. 参加Web3 法律知识分享会
+
 # 2025-08-06
 
 1. 参加Web3 故事会
