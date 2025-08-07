@@ -15,6 +15,18 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2025-08-07
+
+# 8.7
+
+ethers.js 依旧/.
+
+- StaticCall
+- 识别ERC721合约
+- calldata
+- 批量生成钱包
+- 批量转账
+
 # 2025-08-06
 
 依旧ether.js
